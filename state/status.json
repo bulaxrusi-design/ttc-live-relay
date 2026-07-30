@@ -2,13 +2,18 @@
   "version": 2,
   "session_id": "b745e8bf-11bb-4129-929b-946baf556c22",
   "running": true,
-  "updated_at": "2026-07-30T11:11:26.165Z",
+  "updated_at": "2026-07-30T11:11:29.014Z",
   "foreground_package": "unknown",
   "allowed_package": "com.easybrain.number.puzzle.game",
   "screenshot_redacted": true,
   "screen_width": 1080,
   "screen_height": 2198,
-  "last_seq": 0,
+  "last_seq": 1,
   "last_error": null,
-  "ack": null
+  "ack": {
+    "seq": 1,
+    "session_id": "b745e8bf-11bb-4129-929b-946baf556c22",
+    "ok": true,
+    "message": "completed"
+  }
 }
