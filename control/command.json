@@ -1,6 +1,6 @@
 {
-  "seq": 2,
-  "session_id": "bc7e2fd6-db3c-4a00-a83e-62eb71cfcb23",
-  "action": "panic",
-  "expires_at": "2026-07-30T09:55:00Z"
+  "seq": 0,
+  "session_id": "b745e8bf-11bb-4129-929b-946baf556c22",
+  "action": "observe",
+  "note": "New foreground session initialized by ChatGPT Device Lab v2"
 }
