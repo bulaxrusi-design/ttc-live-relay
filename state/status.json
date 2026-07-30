@@ -3,7 +3,7 @@
   "app_version": "2.2.0",
   "session_id": "6e106959-0bbd-4eed-b2f8-bc700344a2b9",
   "running": true,
-  "updated_at": "2026-07-30T15:12:09.904Z",
+  "updated_at": "2026-07-30T15:12:13.203Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "foreground_source": "accessibility_window",
   "foreground_age_ms": 0,
@@ -11,11 +11,11 @@
   "screenshot_redacted": false,
   "screen_width": 1080,
   "screen_height": 2198,
-  "last_seq": 4,
+  "last_seq": 5,
   "last_error": null,
   "capture_error": null,
   "ack": {
-    "seq": 4,
+    "seq": 5,
     "session_id": "6e106959-0bbd-4eed-b2f8-bc700344a2b9",
     "ok": true,
     "message": "completed"
