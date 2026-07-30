@@ -1,6 +1,7 @@
 {
-  "seq": 1,
+  "seq": 2,
   "session_id": "b745e8bf-11bb-4129-929b-946baf556c22",
-  "action": "observe",
-  "note": "Connectivity test from ChatGPT"
+  "action": "launch",
+  "package": "com.easybrain.number.puzzle.game",
+  "note": "Launch allowlisted game from ChatGPT"
 }
