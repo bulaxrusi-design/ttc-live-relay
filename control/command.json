@@ -1,7 +1,6 @@
 {
-  "seq": 3,
-  "session_id": "b745e8bf-11bb-4129-929b-946baf556c22",
-  "action": "launch",
-  "package": "com.easybrain.number.puzzle.game",
-  "note": "Retry allowlisted game launch after accessibility enable"
+  "seq": 0,
+  "session_id": "9abeab97-27e5-45aa-841b-c1afb1616797",
+  "action": "observe",
+  "note": "New foreground session initialized by ChatGPT Device Lab v2"
 }
