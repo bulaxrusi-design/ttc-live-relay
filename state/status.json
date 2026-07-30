@@ -2,12 +2,12 @@
   "connected": true,
   "bridge_version": "0.2.0",
   "session_id": "bc7e2fd6-db3c-4a00-a83e-62eb71cfcb23",
-  "message": "Bridge connected; waiting for a session-bound command",
-  "sequence_ack": -1,
-  "command_result": "idle",
+  "message": "Command 0 completed",
+  "sequence_ack": 0,
+  "command_result": "ok",
   "screen_width": 1080,
   "screen_height": 2198,
-  "foreground_package": "com.ttclab.bridge",
+  "foreground_package": "com.android.systemui",
   "capture_redacted": true,
   "allowed_packages": [
     "com.easybrain.number.puzzle.game"
@@ -15,6 +15,6 @@
   "ttc": {
     "active": false
   },
-  "screenshot_sha": "81cab2602c2c72dd32116c65fa3af5504995a518",
-  "updated_at": "2026-07-30T09:32:48.727Z"
+  "screenshot_sha": "e51f05ecc132758493445582b54b358dcaffb572",
+  "updated_at": "2026-07-30T09:34:36.555Z"
 }
