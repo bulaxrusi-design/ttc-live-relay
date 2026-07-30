@@ -1,7 +1,9 @@
 {
-  "seq": 5,
+  "seq": 6,
   "session_id": "6e106959-0bbd-4eed-b2f8-bc700344a2b9",
-  "action": "back",
-  "expires_at": "2026-07-30T15:20:00Z",
-  "note": "Return to game menu to reset stale selection"
+  "action": "tap",
+  "x": 540,
+  "y": 1810,
+  "expires_at": "2026-07-30T15:25:00Z",
+  "note": "Tap Continue Game from main menu"
 }
