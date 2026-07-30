@@ -1,6 +1,7 @@
 {
-  "seq": 0,
+  "seq": 1,
   "session_id": "bc7e2fd6-db3c-4a00-a83e-62eb71cfcb23",
-  "action": "observe",
-  "expires_at": "2026-07-30T09:35:30Z"
+  "action": "launch",
+  "package": "com.easybrain.number.puzzle.game",
+  "expires_at": "2026-07-30T09:45:00Z"
 }
