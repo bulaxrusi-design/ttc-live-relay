@@ -1,34 +1,35 @@
 {
-  "protocol_version": 3,
-  "app_version": "2.2.0",
-  "session_id": "6e106959-0bbd-4eed-b2f8-bc700344a2b9",
+  "protocol_version": 4,
+  "app_version": "2.3.0",
+  "session_id": "7a52f321-edb0-42cb-bab5-870272d7fb91",
   "running": true,
-  "updated_at": "2026-07-30T15:21:05.700Z",
-  "foreground_package": "com.easybrain.number.puzzle.game",
+  "updated_at": "2026-07-30T16:01:14.901Z",
+  "foreground_package": "com.ttclab.chatbridge",
   "foreground_source": "accessibility_window",
   "foreground_age_ms": 0,
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "screenshot_redacted": false,
+  "screenshot_redacted": true,
   "screen_width": 1080,
   "screen_height": 2198,
-  "last_seq": 7,
+  "frame_id": 0,
+  "frame_path": "state\/current_frame.json",
+  "control_branch": "device-control",
+  "state_branch": "device-state",
+  "frame_branch": "device-frames",
+  "command_poll_ms": 1100,
+  "last_seq": 0,
   "last_error": null,
   "capture_error": null,
-  "ack": {
-    "seq": 7,
-    "session_id": "6e106959-0bbd-4eed-b2f8-bc700344a2b9",
-    "ok": true,
-    "message": "completed"
-  },
+  "ack": null,
   "self_test": {
     "target_installed": true,
     "accessibility_connected": true,
     "usage_access_granted": true,
     "projection_active": true,
     "foreground_known": true,
-    "target_in_foreground": true,
-    "capture_ok": true,
-    "gesture_ready": true
+    "target_in_foreground": false,
+    "capture_ok": false,
+    "gesture_ready": false
   },
   "capabilities": [
     "observe",
@@ -39,6 +40,8 @@
     "back",
     "wait",
     "batch",
-    "panic"
+    "panic",
+    "readable_frame_json",
+    "split_relay_branches"
   ]
 }
