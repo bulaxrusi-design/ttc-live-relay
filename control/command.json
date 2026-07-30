@@ -1,10 +1,10 @@
 {
-  "seq": 1,
+  "seq": 2,
   "session_id": "6e106959-0bbd-4eed-b2f8-bc700344a2b9",
   "action": "tap",
   "x": 0.5,
   "y": 0.75,
   "normalized": true,
-  "expires_at": "2026-07-30T14:50:30Z",
+  "expires_at": "2026-07-30T15:10:00Z",
   "note": "Tap Continue Game"
 }
