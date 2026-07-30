@@ -1,32 +1,8 @@
 {
-  "seq": 9,
+  "seq": 10,
   "session_id": "6e106959-0bbd-4eed-b2f8-bc700344a2b9",
-  "action": "batch",
-  "expires_at": "2026-07-30T15:36:30Z",
-  "actions": [
-    {"action": "tap", "x": 128, "y": 1146},
-    {"action": "tap", "x": 232, "y": 1146},
-    {"action": "wait", "seconds": 0.30},
-
-    {"action": "tap", "x": 336, "y": 1352},
-    {"action": "tap", "x": 336, "y": 1456},
-    {"action": "wait", "seconds": 0.30},
-
-    {"action": "tap", "x": 438, "y": 1044},
-    {"action": "tap", "x": 438, "y": 1146},
-    {"action": "wait", "seconds": 0.30},
-
-    {"action": "tap", "x": 438, "y": 1456},
-    {"action": "tap", "x": 438, "y": 1560},
-    {"action": "wait", "seconds": 0.30},
-
-    {"action": "tap", "x": 540, "y": 1250},
-    {"action": "tap", "x": 540, "y": 1352},
-    {"action": "wait", "seconds": 0.30},
-
-    {"action": "tap", "x": 540, "y": 1456},
-    {"action": "tap", "x": 540, "y": 1560},
-    {"action": "wait", "seconds": 0.80}
-  ],
-  "note": "Remove six visible safe pairs: 3+7, 5=5, 3=3, 6+4, 1=1, 2=2"
+  "action": "launch",
+  "package": "com.easybrain.number.puzzle.game",
+  "expires_at": "2026-07-30T15:37:00Z",
+  "note": "Return game to foreground before continuing play"
 }
