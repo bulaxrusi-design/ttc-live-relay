@@ -1,11 +1,11 @@
 {
-  "seq": 2,
+  "seq": 3,
   "session_id": "7a52f321-edb0-42cb-bab5-870272d7fb91",
   "action": "tap",
   "x": 540,
-  "y": 1700,
+  "y": 1860,
   "normalized": false,
-  "settle_ms": 1500,
-  "expires_at": "2026-07-30T16:25:00Z",
-  "note": "Tap exact center of Continue Game"
+  "settle_ms": 1800,
+  "expires_at": "2026-07-30T16:30:00Z",
+  "note": "Tap Continue Game with Samsung full-display Y correction"
 }
