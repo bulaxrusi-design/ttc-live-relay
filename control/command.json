@@ -1,9 +1,11 @@
 {
-  "seq": 7,
-  "session_id": "6e106959-0bbd-4eed-b2f8-bc700344a2b9",
+  "seq": 1,
+  "session_id": "7a52f321-edb0-42cb-bab5-870272d7fb91",
   "action": "tap",
-  "x": 540,
-  "y": 1840,
-  "expires_at": "2026-07-30T15:30:00Z",
-  "note": "No visible pairs remain; tap plus to add numbers"
+  "x": 0.5,
+  "y": 0.78,
+  "normalized": true,
+  "settle_ms": 900,
+  "expires_at": "2026-07-30T16:20:00Z",
+  "note": "Tap Continue Game"
 }
