@@ -1,11 +1,38 @@
 {
-  "seq": 11,
+  "seq": 12,
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
-  "action": "tap",
-  "x": 540,
-  "y": 1868,
-  "normalized": false,
-  "settle_ms": 2200,
-  "expires_at": "2026-08-03T08:21:51.614Z",
-  "note": "Resume preserved current Sudoku using corrected physical coordinates"
+  "action": "batch",
+  "actions": [
+    {
+      "action": "tap",
+      "x": 437,
+      "y": 767,
+      "normalized": false,
+      "after_ms": 180
+    },
+    {
+      "action": "tap",
+      "x": 437,
+      "y": 878,
+      "normalized": false,
+      "after_ms": 450
+    },
+    {
+      "action": "tap",
+      "x": 129,
+      "y": 878,
+      "normalized": false,
+      "after_ms": 180
+    },
+    {
+      "action": "tap",
+      "x": 232,
+      "y": 878,
+      "normalized": false,
+      "after_ms": 500
+    }
+  ],
+  "settle_ms": 1300,
+  "expires_at": "2026-08-03T08:23:55.536Z",
+  "note": "Number Match safe opening pairs: 7+3 and 5+5"
 }
