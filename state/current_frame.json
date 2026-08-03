@@ -1,1 +1,21 @@
-{"protocol_version":4,"app_version":"2.3.0","session_id":"7a52f321-edb0-42cb-bab5-870272d7fb91","frame_id":84,"captured_at":"2026-07-30T16:11:44.279Z","foreground_package":"com.sec.android.app.launcher","foreground_source":"accessibility_window","allowed_package":"com.easybrain.number.puzzle.game","redacted":true,"screen_width":1080,"screen_height":2198,"image_width":null,"image_height":null,"mime_type":null,"jpeg_sha256":null,"jpeg_base64":null}
+{
+  "protocol_version": 5,
+  "app_version": "2.4.1",
+  "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
+  "frame_id": 1,
+  "captured_at": "2026-08-03T08:06:47.573Z",
+  "foreground_package": "com.ttclab.chatbridge",
+  "foreground_source": "accessibility_event_8",
+  "allowed_package": "com.easybrain.number.puzzle.game",
+  "redacted": true,
+  "screen_width": 1080,
+  "screen_height": 2198,
+  "image_width": null,
+  "image_height": null,
+  "mime_type": null,
+  "jpeg_sha256": null,
+  "jpeg_byte_count": 0,
+  "chunk_count": 0,
+  "vision_path": "state\/vision.json",
+  "jpeg_base64_chunks": []
+}
