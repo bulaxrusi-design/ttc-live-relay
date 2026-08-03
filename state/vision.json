@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 47,
-  "captured_at": "2026-08-03T08:11:28.957Z",
+  "frame_id": 48,
+  "captured_at": "2026-08-03T08:11:32.630Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -104,8 +104,8 @@
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 226,
-  "full_text": "12:11 ).\nMain\nDAILY CHALLENGE\nAugust 3\nJourney\nComplete 1 game to unlock\nO of 1\nContinue Game\nNew Game\nDaily Challenges\nl 78%\nMe",
+  "ocr_latency_ms": 200,
+  "full_text": "12:11 ).\nMain\nDAILY CHALLENGE\nAugust 3\nJourney\nComplete 1 game to unlock\nO of 1\nContinue Game\nNew Game\nDaily Challenges\nl 79%\nMe",
   "block_count": 12,
   "line_count": 12,
   "element_count": 25,
@@ -382,7 +382,7 @@
       }
     },
     {
-      "text": "l 78%",
+      "text": "l 79%",
       "image_box": {
         "left": 505,
         "top": 11,
@@ -708,7 +708,7 @@
       }
     },
     {
-      "text": "l 78%",
+      "text": "l 79%",
       "image_box": {
         "left": 505,
         "top": 11,
@@ -1385,29 +1385,29 @@
       }
     },
     {
-      "text": "78%",
+      "text": "79%",
       "image_box": {
-        "left": 519,
+        "left": 520,
         "top": 11,
         "right": 551,
         "bottom": 31,
-        "width": 32,
+        "width": 31,
         "height": 20
       },
       "screen_box": {
-        "left": 876,
+        "left": 878,
         "top": 19,
         "right": 930,
         "bottom": 52,
-        "width": 54,
+        "width": 52,
         "height": 33
       },
       "center": {
-        "x": 903,
+        "x": 904,
         "y": 36
       },
       "normalized_center": {
-        "x": 0.8361111111111111,
+        "x": 0.837037037037037,
         "y": 0.01637852593266606
       }
     },
@@ -1555,6 +1555,6 @@
   ],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "4943a9185dd1956ff07ff1ef8c5b74fdf911695fa0b563c2d7e0551f5be6f2cb",
+  "jpeg_sha256": "a90e45b1a54cdbac144b78a65baafb2b1b5a5ffde2ceb1273b3a0f1e0ab5b5ac",
   "redacted": false
 }
