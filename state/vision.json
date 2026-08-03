@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 70,
-  "captured_at": "2026-08-03T08:14:33.650Z",
+  "frame_id": 71,
+  "captured_at": "2026-08-03T08:14:37.222Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -104,8 +104,8 @@
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 218,
-  "full_text": "12:14 .\nMain\nDAILY CHALLENGE\nAugust 3\nJourney\nComplete 1 game to unlock\nO of 1\nContinue Game\nNew Game\nDaily Challenges\nll 80%E\nMe",
+  "ocr_latency_ms": 203,
+  "full_text": "12:14 .\nMain\nDAILY CHALLENGE\nAugust 3\nJourney\nComplete 1 game to unlock\nO of 1\nContinue Game\nNew Game\nal 81%\nDaily Challenges\nMe",
   "block_count": 12,
   "line_count": 12,
   "element_count": 25,
@@ -355,6 +355,33 @@
       }
     },
     {
+      "text": "al 81%",
+      "image_box": {
+        "left": 464,
+        "top": 10,
+        "right": 556,
+        "bottom": 30,
+        "width": 92,
+        "height": 20
+      },
+      "screen_box": {
+        "left": 783,
+        "top": 17,
+        "right": 938,
+        "bottom": 51,
+        "width": 155,
+        "height": 34
+      },
+      "center": {
+        "x": 861,
+        "y": 34
+      },
+      "normalized_center": {
+        "x": 0.7972222222222223,
+        "y": 0.015468607825295723
+      }
+    },
+    {
       "text": "Daily Challenges",
       "image_box": {
         "left": 245,
@@ -379,33 +406,6 @@
       "normalized_center": {
         "x": 0.49907407407407406,
         "y": 0.9699727024567789
-      }
-    },
-    {
-      "text": "ll 80%E",
-      "image_box": {
-        "left": 500,
-        "top": 11,
-        "right": 568,
-        "bottom": 31,
-        "width": 68,
-        "height": 20
-      },
-      "screen_box": {
-        "left": 844,
-        "top": 19,
-        "right": 959,
-        "bottom": 52,
-        "width": 115,
-        "height": 33
-      },
-      "center": {
-        "x": 902,
-        "y": 36
-      },
-      "normalized_center": {
-        "x": 0.8351851851851851,
-        "y": 0.01637852593266606
       }
     },
     {
@@ -681,6 +681,33 @@
       }
     },
     {
+      "text": "al 81%",
+      "image_box": {
+        "left": 464,
+        "top": 10,
+        "right": 556,
+        "bottom": 30,
+        "width": 92,
+        "height": 20
+      },
+      "screen_box": {
+        "left": 783,
+        "top": 17,
+        "right": 938,
+        "bottom": 51,
+        "width": 155,
+        "height": 34
+      },
+      "center": {
+        "x": 861,
+        "y": 34
+      },
+      "normalized_center": {
+        "x": 0.7972222222222223,
+        "y": 0.015468607825295723
+      }
+    },
+    {
       "text": "Daily Challenges",
       "image_box": {
         "left": 245,
@@ -705,33 +732,6 @@
       "normalized_center": {
         "x": 0.49907407407407406,
         "y": 0.9699727024567789
-      }
-    },
-    {
-      "text": "ll 80%E",
-      "image_box": {
-        "left": 500,
-        "top": 11,
-        "right": 568,
-        "bottom": 31,
-        "width": 68,
-        "height": 20
-      },
-      "screen_box": {
-        "left": 844,
-        "top": 19,
-        "right": 959,
-        "bottom": 52,
-        "width": 115,
-        "height": 33
-      },
-      "center": {
-        "x": 902,
-        "y": 36
-      },
-      "normalized_center": {
-        "x": 0.8351851851851851,
-        "y": 0.01637852593266606
       }
     },
     {
@@ -1304,6 +1304,60 @@
       }
     },
     {
+      "text": "al",
+      "image_box": {
+        "left": 464,
+        "top": 11,
+        "right": 506,
+        "bottom": 29,
+        "width": 42,
+        "height": 18
+      },
+      "screen_box": {
+        "left": 783,
+        "top": 19,
+        "right": 854,
+        "bottom": 49,
+        "width": 71,
+        "height": 30
+      },
+      "center": {
+        "x": 819,
+        "y": 34
+      },
+      "normalized_center": {
+        "x": 0.7583333333333333,
+        "y": 0.015468607825295723
+      }
+    },
+    {
+      "text": "81%",
+      "image_box": {
+        "left": 523,
+        "top": 11,
+        "right": 556,
+        "bottom": 30,
+        "width": 33,
+        "height": 19
+      },
+      "screen_box": {
+        "left": 883,
+        "top": 19,
+        "right": 938,
+        "bottom": 51,
+        "width": 55,
+        "height": 32
+      },
+      "center": {
+        "x": 911,
+        "y": 35
+      },
+      "normalized_center": {
+        "x": 0.8435185185185186,
+        "y": 0.01592356687898089
+      }
+    },
+    {
       "text": "Daily",
       "image_box": {
         "left": 245,
@@ -1355,60 +1409,6 @@
       "normalized_center": {
         "x": 0.537962962962963,
         "y": 0.9704276615104641
-      }
-    },
-    {
-      "text": "ll",
-      "image_box": {
-        "left": 500,
-        "top": 11,
-        "right": 513,
-        "bottom": 31,
-        "width": 13,
-        "height": 20
-      },
-      "screen_box": {
-        "left": 844,
-        "top": 19,
-        "right": 866,
-        "bottom": 52,
-        "width": 22,
-        "height": 33
-      },
-      "center": {
-        "x": 855,
-        "y": 36
-      },
-      "normalized_center": {
-        "x": 0.7916666666666666,
-        "y": 0.01637852593266606
-      }
-    },
-    {
-      "text": "80%E",
-      "image_box": {
-        "left": 516,
-        "top": 11,
-        "right": 568,
-        "bottom": 31,
-        "width": 52,
-        "height": 20
-      },
-      "screen_box": {
-        "left": 871,
-        "top": 19,
-        "right": 959,
-        "bottom": 52,
-        "width": 88,
-        "height": 33
-      },
-      "center": {
-        "x": 915,
-        "y": 36
-      },
-      "normalized_center": {
-        "x": 0.8472222222222222,
-        "y": 0.01637852593266606
       }
     },
     {
@@ -1555,6 +1555,6 @@
   ],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "d649a690f82742943ea419e7cde5e787221595a097bdb1e35ac28ce0f3caa4d1",
+  "jpeg_sha256": "7220c58ad87d0ae82ea855ca5002dd7641a9ffd25306fe0d2c7c51c437bf03bd",
   "redacted": false
 }
