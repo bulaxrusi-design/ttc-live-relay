@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 86,
-  "captured_at": "2026-08-03T08:15:43.660Z",
+  "frame_id": 87,
+  "captured_at": "2026-08-03T08:15:47.398Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -12,8 +12,8 @@
     "available": true,
     "package": "com.easybrain.number.puzzle.game",
     "class": "android.widget.FrameLayout",
-    "visited_count": 29,
-    "node_count": 3,
+    "visited_count": 39,
+    "node_count": 5,
     "truncated": false,
     "nodes": [
       {
@@ -42,6 +42,62 @@
         "normalized_center": {
           "x": 0.375,
           "y": 0.4094631483166515
+        }
+      },
+      {
+        "depth": 7,
+        "class": "android.widget.TextView",
+        "view_id": null,
+        "text": "Numpuz: Number Puzzle Games - Apps on Google Play",
+        "content_description": "",
+        "clickable": false,
+        "checkable": false,
+        "checked": false,
+        "editable": false,
+        "enabled": true,
+        "focusable": false,
+        "focused": false,
+        "scrollable": false,
+        "selected": false,
+        "screen_box": {
+          "left": 175,
+          "top": 926,
+          "right": 634,
+          "bottom": 1010,
+          "width": 459,
+          "height": 84
+        },
+        "normalized_center": {
+          "x": 0.37407407407407406,
+          "y": 0.44040036396724297
+        }
+      },
+      {
+        "depth": 7,
+        "class": "android.widget.TextView",
+        "view_id": null,
+        "text": "Install",
+        "content_description": "",
+        "clickable": false,
+        "checkable": false,
+        "checked": false,
+        "editable": false,
+        "enabled": true,
+        "focusable": false,
+        "focused": false,
+        "scrollable": false,
+        "selected": false,
+        "screen_box": {
+          "left": 301,
+          "top": 1063,
+          "right": 507,
+          "bottom": 1158,
+          "width": 206,
+          "height": 95
+        },
+        "normalized_center": {
+          "x": 0.37407407407407406,
+          "y": 0.5050045495905369
         }
       },
       {
@@ -104,146 +160,92 @@
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 235,
-  "full_text": "Open store >\n1234\n5612\n1015 7\n9111314\nInstall >\nAD",
-  "block_count": 6,
+  "ocr_latency_ms": 96,
+  "full_text": "123\n456\n78\nNumpuz: Number Puzzle\nGames - Apps on Google P..\nInstall\nAD",
+  "block_count": 4,
   "line_count": 7,
-  "element_count": 11,
-  "number_count": 1,
+  "element_count": 14,
+  "number_count": 3,
   "blocks": [
     {
-      "text": "Open store >",
+      "text": "123\n456\n78",
       "image_box": {
-        "left": 55,
-        "top": 89,
-        "right": 178,
-        "bottom": 112,
+        "left": 255,
+        "top": 483,
+        "right": 378,
+        "bottom": 617,
         "width": 123,
-        "height": 23
+        "height": 134
       },
       "screen_box": {
-        "left": 93,
-        "top": 150,
-        "right": 300,
-        "bottom": 189,
-        "width": 207,
-        "height": 39
+        "left": 430,
+        "top": 815,
+        "right": 638,
+        "bottom": 1042,
+        "width": 208,
+        "height": 227
       },
       "center": {
-        "x": 197,
-        "y": 170
+        "x": 534,
+        "y": 929
       },
       "normalized_center": {
-        "x": 0.1824074074074074,
-        "y": 0.07734303912647862
+        "x": 0.49444444444444446,
+        "y": 0.4226569608735214
       }
     },
     {
-      "text": "1234",
+      "text": "Numpuz: Number Puzzle\nGames - Apps on Google P..",
       "image_box": {
-        "left": 144,
-        "top": 453,
-        "right": 508,
-        "bottom": 542,
-        "width": 364,
-        "height": 89
+        "left": 160,
+        "top": 672,
+        "right": 477,
+        "bottom": 730,
+        "width": 317,
+        "height": 58
       },
       "screen_box": {
-        "left": 243,
-        "top": 765,
-        "right": 857,
-        "bottom": 915,
-        "width": 614,
-        "height": 150
+        "left": 270,
+        "top": 1134,
+        "right": 805,
+        "bottom": 1232,
+        "width": 535,
+        "height": 98
       },
       "center": {
-        "x": 550,
-        "y": 840
+        "x": 538,
+        "y": 1183
       },
       "normalized_center": {
-        "x": 0.5092592592592593,
-        "y": 0.3821656050955414
+        "x": 0.4981481481481482,
+        "y": 0.5382165605095541
       }
     },
     {
-      "text": "5612\n1015 7",
+      "text": "Install",
       "image_box": {
-        "left": 132,
-        "top": 573,
-        "right": 411,
-        "bottom": 753,
-        "width": 279,
-        "height": 180
+        "left": 271,
+        "top": 788,
+        "right": 368,
+        "bottom": 816,
+        "width": 97,
+        "height": 28
       },
       "screen_box": {
-        "left": 223,
-        "top": 967,
-        "right": 694,
-        "bottom": 1271,
-        "width": 471,
-        "height": 304
+        "left": 457,
+        "top": 1330,
+        "right": 621,
+        "bottom": 1378,
+        "width": 164,
+        "height": 48
       },
       "center": {
-        "x": 459,
-        "y": 1119
+        "x": 539,
+        "y": 1354
       },
       "normalized_center": {
-        "x": 0.425,
-        "y": 0.5090991810737033
-      }
-    },
-    {
-      "text": "9111314",
-      "image_box": {
-        "left": 136,
-        "top": 779,
-        "right": 552,
-        "bottom": 878,
-        "width": 416,
-        "height": 99
-      },
-      "screen_box": {
-        "left": 230,
-        "top": 1315,
-        "right": 932,
-        "bottom": 1482,
-        "width": 702,
-        "height": 167
-      },
-      "center": {
-        "x": 581,
-        "y": 1399
-      },
-      "normalized_center": {
-        "x": 0.537962962962963,
-        "y": 0.6364877161055505
-      }
-    },
-    {
-      "text": "Install >",
-      "image_box": {
-        "left": 479,
-        "top": 1208,
-        "right": 571,
-        "bottom": 1233,
-        "width": 92,
-        "height": 25
-      },
-      "screen_box": {
-        "left": 808,
-        "top": 2039,
-        "right": 964,
-        "bottom": 2082,
-        "width": 156,
-        "height": 43
-      },
-      "center": {
-        "x": 886,
-        "y": 2061
-      },
-      "normalized_center": {
-        "x": 0.8203703703703704,
-        "y": 0.9376706096451319
+        "x": 0.49907407407407406,
+        "y": 0.6160145586897179
       }
     },
     {
@@ -251,190 +253,190 @@
       "image_box": {
         "left": 572,
         "top": 1268,
-        "right": 592,
+        "right": 593,
         "bottom": 1279,
-        "width": 20,
+        "width": 21,
         "height": 11
       },
       "screen_box": {
         "left": 965,
         "top": 2141,
-        "right": 999,
+        "right": 1001,
         "bottom": 2159,
-        "width": 34,
+        "width": 36,
         "height": 18
       },
       "center": {
-        "x": 982,
+        "x": 983,
         "y": 2150
       },
       "normalized_center": {
-        "x": 0.9092592592592592,
+        "x": 0.9101851851851852,
         "y": 0.978161965423112
       }
     }
   ],
   "lines": [
     {
-      "text": "Open store >",
+      "text": "123",
       "image_box": {
-        "left": 55,
-        "top": 89,
-        "right": 178,
-        "bottom": 112,
-        "width": 123,
-        "height": 23
+        "left": 266,
+        "top": 483,
+        "right": 377,
+        "bottom": 519,
+        "width": 111,
+        "height": 36
       },
       "screen_box": {
-        "left": 93,
-        "top": 150,
-        "right": 300,
-        "bottom": 189,
-        "width": 207,
-        "height": 39
+        "left": 449,
+        "top": 815,
+        "right": 636,
+        "bottom": 876,
+        "width": 187,
+        "height": 61
       },
       "center": {
-        "x": 197,
-        "y": 170
+        "x": 543,
+        "y": 846
       },
       "normalized_center": {
-        "x": 0.1824074074074074,
-        "y": 0.07734303912647862
+        "x": 0.5027777777777778,
+        "y": 0.3848953594176524
       }
     },
     {
-      "text": "1234",
+      "text": "456",
       "image_box": {
-        "left": 144,
-        "top": 453,
-        "right": 508,
-        "bottom": 542,
-        "width": 364,
-        "height": 89
+        "left": 258,
+        "top": 535,
+        "right": 377,
+        "bottom": 564,
+        "width": 119,
+        "height": 29
       },
       "screen_box": {
-        "left": 243,
-        "top": 765,
-        "right": 857,
-        "bottom": 915,
-        "width": 614,
-        "height": 150
+        "left": 435,
+        "top": 903,
+        "right": 636,
+        "bottom": 952,
+        "width": 201,
+        "height": 49
       },
       "center": {
-        "x": 550,
-        "y": 840
+        "x": 536,
+        "y": 928
       },
       "normalized_center": {
-        "x": 0.5092592592592593,
-        "y": 0.3821656050955414
+        "x": 0.4962962962962963,
+        "y": 0.4222020018198362
       }
     },
     {
-      "text": "5612",
+      "text": "78",
       "image_box": {
-        "left": 136,
-        "top": 576,
-        "right": 411,
-        "bottom": 640,
-        "width": 275,
-        "height": 64
+        "left": 256,
+        "top": 580,
+        "right": 330,
+        "bottom": 617,
+        "width": 74,
+        "height": 37
       },
       "screen_box": {
-        "left": 230,
-        "top": 972,
-        "right": 694,
-        "bottom": 1080,
-        "width": 464,
-        "height": 108
+        "left": 432,
+        "top": 979,
+        "right": 557,
+        "bottom": 1042,
+        "width": 125,
+        "height": 63
       },
       "center": {
-        "x": 462,
-        "y": 1026
+        "x": 495,
+        "y": 1011
       },
       "normalized_center": {
-        "x": 0.42777777777777776,
-        "y": 0.46678798908098273
+        "x": 0.4583333333333333,
+        "y": 0.4599636032757052
       }
     },
     {
-      "text": "1015 7",
+      "text": "Numpuz: Number Puzzle",
       "image_box": {
-        "left": 133,
-        "top": 684,
-        "right": 394,
-        "bottom": 753,
-        "width": 261,
-        "height": 69
+        "left": 178,
+        "top": 672,
+        "right": 460,
+        "bottom": 698,
+        "width": 282,
+        "height": 26
       },
       "screen_box": {
-        "left": 224,
-        "top": 1155,
-        "right": 665,
-        "bottom": 1271,
-        "width": 441,
-        "height": 116
+        "left": 300,
+        "top": 1134,
+        "right": 776,
+        "bottom": 1178,
+        "width": 476,
+        "height": 44
       },
       "center": {
-        "x": 445,
-        "y": 1213
+        "x": 538,
+        "y": 1156
       },
       "normalized_center": {
-        "x": 0.41203703703703703,
-        "y": 0.5518653321201092
+        "x": 0.4981481481481482,
+        "y": 0.5259326660600546
       }
     },
     {
-      "text": "9111314",
+      "text": "Games - Apps on Google P..",
       "image_box": {
-        "left": 136,
-        "top": 779,
-        "right": 552,
-        "bottom": 878,
-        "width": 416,
-        "height": 99
+        "left": 160,
+        "top": 705,
+        "right": 478,
+        "bottom": 729,
+        "width": 318,
+        "height": 24
       },
       "screen_box": {
-        "left": 230,
-        "top": 1315,
-        "right": 932,
-        "bottom": 1482,
-        "width": 702,
-        "height": 167
+        "left": 270,
+        "top": 1190,
+        "right": 807,
+        "bottom": 1231,
+        "width": 537,
+        "height": 41
       },
       "center": {
-        "x": 581,
-        "y": 1399
+        "x": 539,
+        "y": 1211
       },
       "normalized_center": {
-        "x": 0.537962962962963,
-        "y": 0.6364877161055505
+        "x": 0.49907407407407406,
+        "y": 0.5509554140127388
       }
     },
     {
-      "text": "Install >",
+      "text": "Install",
       "image_box": {
-        "left": 479,
-        "top": 1208,
-        "right": 571,
-        "bottom": 1233,
-        "width": 92,
-        "height": 25
+        "left": 271,
+        "top": 788,
+        "right": 368,
+        "bottom": 816,
+        "width": 97,
+        "height": 28
       },
       "screen_box": {
-        "left": 808,
-        "top": 2039,
-        "right": 964,
-        "bottom": 2082,
-        "width": 156,
-        "height": 43
+        "left": 457,
+        "top": 1330,
+        "right": 621,
+        "bottom": 1378,
+        "width": 164,
+        "height": 48
       },
       "center": {
-        "x": 886,
-        "y": 2061
+        "x": 539,
+        "y": 1354
       },
       "normalized_center": {
-        "x": 0.8203703703703704,
-        "y": 0.9376706096451319
+        "x": 0.49907407407407406,
+        "y": 0.6160145586897179
       }
     },
     {
@@ -442,298 +444,379 @@
       "image_box": {
         "left": 572,
         "top": 1268,
-        "right": 592,
+        "right": 593,
         "bottom": 1279,
-        "width": 20,
+        "width": 21,
         "height": 11
       },
       "screen_box": {
         "left": 965,
         "top": 2141,
-        "right": 999,
+        "right": 1001,
         "bottom": 2159,
-        "width": 34,
+        "width": 36,
         "height": 18
       },
       "center": {
-        "x": 982,
+        "x": 983,
         "y": 2150
       },
       "normalized_center": {
-        "x": 0.9092592592592592,
+        "x": 0.9101851851851852,
         "y": 0.978161965423112
       }
     }
   ],
   "elements": [
     {
-      "text": "Open",
+      "text": "123",
       "image_box": {
-        "left": 55,
-        "top": 90,
-        "right": 102,
-        "bottom": 112,
-        "width": 47,
-        "height": 22
-      },
-      "screen_box": {
-        "left": 93,
-        "top": 152,
-        "right": 172,
-        "bottom": 189,
-        "width": 79,
-        "height": 37
-      },
-      "center": {
-        "x": 133,
-        "y": 171
-      },
-      "normalized_center": {
-        "x": 0.12314814814814815,
-        "y": 0.07779799818016378
-      }
-    },
-    {
-      "text": "store",
-      "image_box": {
-        "left": 111,
-        "top": 90,
-        "right": 159,
-        "bottom": 111,
-        "width": 48,
-        "height": 21
-      },
-      "screen_box": {
-        "left": 187,
-        "top": 152,
-        "right": 268,
-        "bottom": 187,
-        "width": 81,
-        "height": 35
-      },
-      "center": {
-        "x": 228,
-        "y": 170
-      },
-      "normalized_center": {
-        "x": 0.2111111111111111,
-        "y": 0.07734303912647862
-      }
-    },
-    {
-      "text": ">",
-      "image_box": {
-        "left": 171,
-        "top": 89,
-        "right": 178,
-        "bottom": 110,
-        "width": 7,
-        "height": 21
-      },
-      "screen_box": {
-        "left": 289,
-        "top": 150,
-        "right": 300,
-        "bottom": 186,
-        "width": 11,
+        "left": 266,
+        "top": 483,
+        "right": 377,
+        "bottom": 519,
+        "width": 111,
         "height": 36
       },
+      "screen_box": {
+        "left": 449,
+        "top": 815,
+        "right": 636,
+        "bottom": 876,
+        "width": 187,
+        "height": 61
+      },
       "center": {
-        "x": 295,
-        "y": 168
+        "x": 543,
+        "y": 846
       },
       "normalized_center": {
-        "x": 0.27314814814814814,
-        "y": 0.07643312101910828
+        "x": 0.5027777777777778,
+        "y": 0.3848953594176524
       }
     },
     {
-      "text": "1234",
+      "text": "456",
       "image_box": {
-        "left": 144,
-        "top": 453,
-        "right": 508,
-        "bottom": 542,
-        "width": 364,
-        "height": 89
+        "left": 258,
+        "top": 535,
+        "right": 377,
+        "bottom": 564,
+        "width": 119,
+        "height": 29
       },
       "screen_box": {
-        "left": 243,
-        "top": 765,
-        "right": 857,
-        "bottom": 915,
-        "width": 614,
-        "height": 150
+        "left": 435,
+        "top": 903,
+        "right": 636,
+        "bottom": 952,
+        "width": 201,
+        "height": 49
       },
       "center": {
-        "x": 550,
-        "y": 840
+        "x": 536,
+        "y": 928
       },
       "normalized_center": {
-        "x": 0.5092592592592593,
-        "y": 0.3821656050955414
+        "x": 0.4962962962962963,
+        "y": 0.4222020018198362
       }
     },
     {
-      "text": "5612",
+      "text": "78",
       "image_box": {
-        "left": 136,
-        "top": 576,
-        "right": 411,
-        "bottom": 640,
-        "width": 275,
-        "height": 64
+        "left": 256,
+        "top": 580,
+        "right": 330,
+        "bottom": 617,
+        "width": 74,
+        "height": 37
       },
       "screen_box": {
-        "left": 230,
-        "top": 972,
-        "right": 694,
-        "bottom": 1080,
-        "width": 464,
-        "height": 108
+        "left": 432,
+        "top": 979,
+        "right": 557,
+        "bottom": 1042,
+        "width": 125,
+        "height": 63
       },
       "center": {
-        "x": 462,
-        "y": 1026
+        "x": 495,
+        "y": 1011
       },
       "normalized_center": {
-        "x": 0.42777777777777776,
-        "y": 0.46678798908098273
+        "x": 0.4583333333333333,
+        "y": 0.4599636032757052
       }
     },
     {
-      "text": "1015",
+      "text": "Numpuz:",
       "image_box": {
-        "left": 133,
-        "top": 685,
-        "right": 307,
-        "bottom": 753,
-        "width": 174,
-        "height": 68
+        "left": 178,
+        "top": 674,
+        "right": 276,
+        "bottom": 698,
+        "width": 98,
+        "height": 24
       },
       "screen_box": {
-        "left": 224,
-        "top": 1156,
-        "right": 518,
-        "bottom": 1271,
-        "width": 294,
-        "height": 115
+        "left": 300,
+        "top": 1138,
+        "right": 466,
+        "bottom": 1178,
+        "width": 166,
+        "height": 40
       },
       "center": {
-        "x": 371,
-        "y": 1214
+        "x": 383,
+        "y": 1158
       },
       "normalized_center": {
-        "x": 0.3435185185185185,
-        "y": 0.5523202911737943
+        "x": 0.35462962962962963,
+        "y": 0.5268425841674249
       }
     },
     {
-      "text": "7",
+      "text": "Number",
+      "image_box": {
+        "left": 287,
+        "top": 673,
+        "right": 376,
+        "bottom": 697,
+        "width": 89,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 484,
+        "top": 1136,
+        "right": 635,
+        "bottom": 1177,
+        "width": 151,
+        "height": 41
+      },
+      "center": {
+        "x": 560,
+        "y": 1157
+      },
+      "normalized_center": {
+        "x": 0.5185185185185185,
+        "y": 0.5263876251137397
+      }
+    },
+    {
+      "text": "Puzzle",
+      "image_box": {
+        "left": 386,
+        "top": 672,
+        "right": 460,
+        "bottom": 696,
+        "width": 74,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 651,
+        "top": 1134,
+        "right": 776,
+        "bottom": 1175,
+        "width": 125,
+        "height": 41
+      },
+      "center": {
+        "x": 714,
+        "y": 1155
+      },
+      "normalized_center": {
+        "x": 0.6611111111111111,
+        "y": 0.5254777070063694
+      }
+    },
+    {
+      "text": "Games",
+      "image_box": {
+        "left": 160,
+        "top": 705,
+        "right": 237,
+        "bottom": 729,
+        "width": 77,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 270,
+        "top": 1190,
+        "right": 400,
+        "bottom": 1231,
+        "width": 130,
+        "height": 41
+      },
+      "center": {
+        "x": 335,
+        "y": 1211
+      },
+      "normalized_center": {
+        "x": 0.3101851851851852,
+        "y": 0.5509554140127388
+      }
+    },
+    {
+      "text": "-",
+      "image_box": {
+        "left": 246,
+        "top": 705,
+        "right": 253,
+        "bottom": 729,
+        "width": 7,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 415,
+        "top": 1190,
+        "right": 427,
+        "bottom": 1231,
+        "width": 12,
+        "height": 41
+      },
+      "center": {
+        "x": 421,
+        "y": 1211
+      },
+      "normalized_center": {
+        "x": 0.38981481481481484,
+        "y": 0.5509554140127388
+      }
+    },
+    {
+      "text": "Apps",
+      "image_box": {
+        "left": 262,
+        "top": 705,
+        "right": 319,
+        "bottom": 729,
+        "width": 57,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 442,
+        "top": 1190,
+        "right": 538,
+        "bottom": 1231,
+        "width": 96,
+        "height": 41
+      },
+      "center": {
+        "x": 490,
+        "y": 1211
+      },
+      "normalized_center": {
+        "x": 0.4537037037037037,
+        "y": 0.5509554140127388
+      }
+    },
+    {
+      "text": "on",
+      "image_box": {
+        "left": 327,
+        "top": 705,
+        "right": 354,
+        "bottom": 729,
+        "width": 27,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 552,
+        "top": 1190,
+        "right": 597,
+        "bottom": 1231,
+        "width": 45,
+        "height": 41
+      },
+      "center": {
+        "x": 575,
+        "y": 1211
+      },
+      "normalized_center": {
+        "x": 0.5324074074074074,
+        "y": 0.5509554140127388
+      }
+    },
+    {
+      "text": "Google",
       "image_box": {
         "left": 363,
-        "top": 684,
-        "right": 394,
-        "bottom": 749,
-        "width": 31,
-        "height": 65
+        "top": 705,
+        "right": 442,
+        "bottom": 729,
+        "width": 79,
+        "height": 24
       },
       "screen_box": {
         "left": 613,
-        "top": 1155,
-        "right": 665,
-        "bottom": 1264,
-        "width": 52,
-        "height": 109
+        "top": 1190,
+        "right": 746,
+        "bottom": 1231,
+        "width": 133,
+        "height": 41
       },
       "center": {
-        "x": 639,
-        "y": 1210
+        "x": 680,
+        "y": 1211
       },
       "normalized_center": {
-        "x": 0.5916666666666667,
-        "y": 0.5505004549590536
+        "x": 0.6296296296296297,
+        "y": 0.5509554140127388
       }
     },
     {
-      "text": "9111314",
+      "text": "P..",
       "image_box": {
-        "left": 136,
-        "top": 779,
-        "right": 552,
-        "bottom": 878,
-        "width": 416,
-        "height": 99
+        "left": 451,
+        "top": 705,
+        "right": 478,
+        "bottom": 729,
+        "width": 27,
+        "height": 24
       },
       "screen_box": {
-        "left": 230,
-        "top": 1315,
-        "right": 932,
-        "bottom": 1482,
-        "width": 702,
-        "height": 167
+        "left": 761,
+        "top": 1190,
+        "right": 807,
+        "bottom": 1231,
+        "width": 46,
+        "height": 41
       },
       "center": {
-        "x": 581,
-        "y": 1399
+        "x": 784,
+        "y": 1211
       },
       "normalized_center": {
-        "x": 0.537962962962963,
-        "y": 0.6364877161055505
+        "x": 0.725925925925926,
+        "y": 0.5509554140127388
       }
     },
     {
       "text": "Install",
       "image_box": {
-        "left": 479,
-        "top": 1208,
-        "right": 552,
-        "bottom": 1233,
-        "width": 73,
-        "height": 25
+        "left": 271,
+        "top": 788,
+        "right": 368,
+        "bottom": 816,
+        "width": 97,
+        "height": 28
       },
       "screen_box": {
-        "left": 808,
-        "top": 2039,
-        "right": 932,
-        "bottom": 2082,
-        "width": 124,
-        "height": 43
+        "left": 457,
+        "top": 1330,
+        "right": 621,
+        "bottom": 1378,
+        "width": 164,
+        "height": 48
       },
       "center": {
-        "x": 870,
-        "y": 2061
+        "x": 539,
+        "y": 1354
       },
       "normalized_center": {
-        "x": 0.8055555555555556,
-        "y": 0.9376706096451319
-      }
-    },
-    {
-      "text": ">",
-      "image_box": {
-        "left": 565,
-        "top": 1208,
-        "right": 571,
-        "bottom": 1230,
-        "width": 6,
-        "height": 22
-      },
-      "screen_box": {
-        "left": 953,
-        "top": 2039,
-        "right": 964,
-        "bottom": 2076,
-        "width": 11,
-        "height": 37
-      },
-      "center": {
-        "x": 959,
-        "y": 2058
-      },
-      "normalized_center": {
-        "x": 0.887962962962963,
-        "y": 0.9363057324840764
+        "x": 0.49907407407407406,
+        "y": 0.6160145586897179
       }
     },
     {
@@ -741,61 +824,117 @@
       "image_box": {
         "left": 572,
         "top": 1268,
-        "right": 592,
+        "right": 593,
         "bottom": 1279,
-        "width": 20,
+        "width": 21,
         "height": 11
       },
       "screen_box": {
         "left": 965,
         "top": 2141,
-        "right": 999,
+        "right": 1001,
         "bottom": 2159,
-        "width": 34,
+        "width": 36,
         "height": 18
       },
       "center": {
-        "x": 982,
+        "x": 983,
         "y": 2150
       },
       "normalized_center": {
-        "x": 0.9092592592592592,
+        "x": 0.9101851851851852,
         "y": 0.978161965423112
       }
     }
   ],
   "numbers": [
     {
-      "text": "7",
+      "text": "123",
       "image_box": {
-        "left": 363,
-        "top": 684,
-        "right": 394,
-        "bottom": 749,
-        "width": 31,
-        "height": 65
+        "left": 266,
+        "top": 483,
+        "right": 377,
+        "bottom": 519,
+        "width": 111,
+        "height": 36
       },
       "screen_box": {
-        "left": 613,
-        "top": 1155,
-        "right": 665,
-        "bottom": 1264,
-        "width": 52,
-        "height": 109
+        "left": 449,
+        "top": 815,
+        "right": 636,
+        "bottom": 876,
+        "width": 187,
+        "height": 61
       },
       "center": {
-        "x": 639,
-        "y": 1210
+        "x": 543,
+        "y": 846
       },
       "normalized_center": {
-        "x": 0.5916666666666667,
-        "y": 0.5505004549590536
+        "x": 0.5027777777777778,
+        "y": 0.3848953594176524
       },
-      "value": 7
+      "value": 123
+    },
+    {
+      "text": "456",
+      "image_box": {
+        "left": 258,
+        "top": 535,
+        "right": 377,
+        "bottom": 564,
+        "width": 119,
+        "height": 29
+      },
+      "screen_box": {
+        "left": 435,
+        "top": 903,
+        "right": 636,
+        "bottom": 952,
+        "width": 201,
+        "height": 49
+      },
+      "center": {
+        "x": 536,
+        "y": 928
+      },
+      "normalized_center": {
+        "x": 0.4962962962962963,
+        "y": 0.4222020018198362
+      },
+      "value": 456
+    },
+    {
+      "text": "78",
+      "image_box": {
+        "left": 256,
+        "top": 580,
+        "right": 330,
+        "bottom": 617,
+        "width": 74,
+        "height": 37
+      },
+      "screen_box": {
+        "left": 432,
+        "top": 979,
+        "right": 557,
+        "bottom": 1042,
+        "width": 125,
+        "height": 63
+      },
+      "center": {
+        "x": 495,
+        "y": 1011
+      },
+      "normalized_center": {
+        "x": 0.4583333333333333,
+        "y": 0.4599636032757052
+      },
+      "value": 78
     }
   ],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "750a068f8e981651b9cbe41df667d34bccd19d8c24abb67a790ff656cd11b7d2",
+  "jpeg_sha256": "fc57871da832c8639478431042b852853ba9577f6bd5b6b871e1b9e6e4a4c6bb",
   "redacted": false
 }
