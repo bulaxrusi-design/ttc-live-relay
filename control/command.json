@@ -1,38 +1,31 @@
 {
-  "seq": 12,
+  "seq": 13,
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "action": "batch",
   "actions": [
     {
       "action": "tap",
-      "x": 437,
+      "x": 951,
       "y": 767,
       "normalized": false,
       "after_ms": 180
     },
     {
       "action": "tap",
-      "x": 437,
+      "x": 334,
       "y": 878,
       "normalized": false,
-      "after_ms": 450
+      "after_ms": 800
     },
     {
       "action": "tap",
-      "x": 129,
-      "y": 878,
+      "x": 540,
+      "y": 2000,
       "normalized": false,
-      "after_ms": 180
-    },
-    {
-      "action": "tap",
-      "x": 232,
-      "y": 878,
-      "normalized": false,
-      "after_ms": 500
+      "after_ms": 1200
     }
   ],
-  "settle_ms": 1300,
-  "expires_at": "2026-08-03T08:23:55.536Z",
-  "note": "Number Match safe opening pairs: 7+3 and 5+5"
+  "settle_ms": 1700,
+  "expires_at": "2026-08-03T08:30:47.047Z",
+  "note": "Remove wraparound 5+5 then use first of two planned adds"
 }
