@@ -1,18 +1,884 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
-  "frame_id": 205,
-  "captured_at": "2026-08-03T08:29:09.211Z",
-  "foreground_package": "com.android.vending",
-  "allowed_package": "com.easybrain.number.puzzle.game",
-  "redacted": true,
-  "ocr_ok": false,
-  "ocr_error": null,
-  "numbers": [],
-  "elements": [],
+  "frame_id": 206,
+  "captured_at": "2026-08-03T08:29:11.929Z",
+  "foreground_package": "com.easybrain.number.puzzle.game",
+  "screen_width": 1080,
+  "screen_height": 2198,
+  "image_width": 640,
+  "image_height": 1302,
   "accessibility": {
-    "available": false,
-    "nodes": []
-  }
+    "available": true,
+    "package": "com.easybrain.number.puzzle.game",
+    "class": "android.widget.FrameLayout",
+    "visited_count": 41,
+    "node_count": 5,
+    "truncated": false,
+    "nodes": [
+      {
+        "depth": 2,
+        "class": "android.widget.FrameLayout",
+        "view_id": "android:id\/content",
+        "text": "",
+        "content_description": "",
+        "clickable": false,
+        "checkable": false,
+        "checked": false,
+        "editable": false,
+        "enabled": true,
+        "focusable": false,
+        "focused": false,
+        "scrollable": false,
+        "selected": false,
+        "screen_box": {
+          "left": 0,
+          "top": 0,
+          "right": 810,
+          "bottom": 1800,
+          "width": 810,
+          "height": 1800
+        },
+        "normalized_center": {
+          "x": 0.375,
+          "y": 0.4094631483166515
+        }
+      },
+      {
+        "depth": 7,
+        "class": "android.widget.TextView",
+        "view_id": null,
+        "text": "Numpuz: Number Puzzle Games - Apps on Google Play",
+        "content_description": "",
+        "clickable": false,
+        "checkable": false,
+        "checked": false,
+        "editable": false,
+        "enabled": true,
+        "focusable": false,
+        "focused": false,
+        "scrollable": false,
+        "selected": false,
+        "screen_box": {
+          "left": 175,
+          "top": 926,
+          "right": 634,
+          "bottom": 1010,
+          "width": 459,
+          "height": 84
+        },
+        "normalized_center": {
+          "x": 0.37407407407407406,
+          "y": 0.44040036396724297
+        }
+      },
+      {
+        "depth": 7,
+        "class": "android.widget.TextView",
+        "view_id": null,
+        "text": "Install",
+        "content_description": "",
+        "clickable": false,
+        "checkable": false,
+        "checked": false,
+        "editable": false,
+        "enabled": true,
+        "focusable": false,
+        "focused": false,
+        "scrollable": false,
+        "selected": false,
+        "screen_box": {
+          "left": 301,
+          "top": 1063,
+          "right": 507,
+          "bottom": 1158,
+          "width": 206,
+          "height": 95
+        },
+        "normalized_center": {
+          "x": 0.37407407407407406,
+          "y": 0.5050045495905369
+        }
+      },
+      {
+        "depth": 8,
+        "class": "android.widget.TextView",
+        "view_id": null,
+        "text": "Open store",
+        "content_description": "",
+        "clickable": false,
+        "checkable": false,
+        "checked": false,
+        "editable": false,
+        "enabled": true,
+        "focusable": false,
+        "focused": false,
+        "scrollable": false,
+        "selected": false,
+        "screen_box": {
+          "left": 36,
+          "top": 121,
+          "right": 186,
+          "bottom": 158,
+          "width": 150,
+          "height": 37
+        },
+        "normalized_center": {
+          "x": 0.10277777777777777,
+          "y": 0.0632393084622384
+        }
+      },
+      {
+        "depth": 9,
+        "class": "android.widget.TextView",
+        "view_id": null,
+        "text": "Install",
+        "content_description": "",
+        "clickable": false,
+        "checkable": false,
+        "checked": false,
+        "editable": false,
+        "enabled": true,
+        "focusable": false,
+        "focused": false,
+        "scrollable": false,
+        "selected": false,
+        "screen_box": {
+          "left": 623,
+          "top": 1666,
+          "right": 730,
+          "bottom": 1713,
+          "width": 107,
+          "height": 47
+        },
+        "normalized_center": {
+          "x": 0.6259259259259259,
+          "y": 0.7684258416742493
+        }
+      }
+    ]
+  },
+  "ocr_ok": true,
+  "ocr_error": null,
+  "ocr_latency_ms": 653,
+  "full_text": "123\n4516\n7|8\nNumpuz: Number Puzzle\nGames - Apps on Google P..\nInstall\nAD",
+  "block_count": 4,
+  "line_count": 7,
+  "element_count": 14,
+  "number_count": 1,
+  "blocks": [
+    {
+      "text": "123\n4516\n7|8",
+      "image_box": {
+        "left": 254,
+        "top": 483,
+        "right": 378,
+        "bottom": 618,
+        "width": 124,
+        "height": 135
+      },
+      "screen_box": {
+        "left": 429,
+        "top": 815,
+        "right": 638,
+        "bottom": 1043,
+        "width": 209,
+        "height": 228
+      },
+      "center": {
+        "x": 534,
+        "y": 929
+      },
+      "normalized_center": {
+        "x": 0.49444444444444446,
+        "y": 0.4226569608735214
+      }
+    },
+    {
+      "text": "Numpuz: Number Puzzle\nGames - Apps on Google P..",
+      "image_box": {
+        "left": 160,
+        "top": 672,
+        "right": 477,
+        "bottom": 730,
+        "width": 317,
+        "height": 58
+      },
+      "screen_box": {
+        "left": 270,
+        "top": 1134,
+        "right": 805,
+        "bottom": 1232,
+        "width": 535,
+        "height": 98
+      },
+      "center": {
+        "x": 538,
+        "y": 1183
+      },
+      "normalized_center": {
+        "x": 0.4981481481481482,
+        "y": 0.5382165605095541
+      }
+    },
+    {
+      "text": "Install",
+      "image_box": {
+        "left": 271,
+        "top": 788,
+        "right": 368,
+        "bottom": 816,
+        "width": 97,
+        "height": 28
+      },
+      "screen_box": {
+        "left": 457,
+        "top": 1330,
+        "right": 621,
+        "bottom": 1378,
+        "width": 164,
+        "height": 48
+      },
+      "center": {
+        "x": 539,
+        "y": 1354
+      },
+      "normalized_center": {
+        "x": 0.49907407407407406,
+        "y": 0.6160145586897179
+      }
+    },
+    {
+      "text": "AD",
+      "image_box": {
+        "left": 572,
+        "top": 1268,
+        "right": 592,
+        "bottom": 1279,
+        "width": 20,
+        "height": 11
+      },
+      "screen_box": {
+        "left": 965,
+        "top": 2141,
+        "right": 999,
+        "bottom": 2159,
+        "width": 34,
+        "height": 18
+      },
+      "center": {
+        "x": 982,
+        "y": 2150
+      },
+      "normalized_center": {
+        "x": 0.9092592592592592,
+        "y": 0.978161965423112
+      }
+    }
+  ],
+  "lines": [
+    {
+      "text": "123",
+      "image_box": {
+        "left": 266,
+        "top": 483,
+        "right": 376,
+        "bottom": 518,
+        "width": 110,
+        "height": 35
+      },
+      "screen_box": {
+        "left": 449,
+        "top": 815,
+        "right": 635,
+        "bottom": 874,
+        "width": 186,
+        "height": 59
+      },
+      "center": {
+        "x": 542,
+        "y": 845
+      },
+      "normalized_center": {
+        "x": 0.5018518518518519,
+        "y": 0.38444040036396726
+      }
+    },
+    {
+      "text": "4516",
+      "image_box": {
+        "left": 258,
+        "top": 534,
+        "right": 377,
+        "bottom": 566,
+        "width": 119,
+        "height": 32
+      },
+      "screen_box": {
+        "left": 435,
+        "top": 901,
+        "right": 636,
+        "bottom": 956,
+        "width": 201,
+        "height": 55
+      },
+      "center": {
+        "x": 536,
+        "y": 929
+      },
+      "normalized_center": {
+        "x": 0.4962962962962963,
+        "y": 0.4226569608735214
+      }
+    },
+    {
+      "text": "7|8",
+      "image_box": {
+        "left": 255,
+        "top": 580,
+        "right": 330,
+        "bottom": 618,
+        "width": 75,
+        "height": 38
+      },
+      "screen_box": {
+        "left": 430,
+        "top": 979,
+        "right": 557,
+        "bottom": 1043,
+        "width": 127,
+        "height": 64
+      },
+      "center": {
+        "x": 494,
+        "y": 1011
+      },
+      "normalized_center": {
+        "x": 0.45740740740740743,
+        "y": 0.4599636032757052
+      }
+    },
+    {
+      "text": "Numpuz: Number Puzzle",
+      "image_box": {
+        "left": 178,
+        "top": 672,
+        "right": 460,
+        "bottom": 698,
+        "width": 282,
+        "height": 26
+      },
+      "screen_box": {
+        "left": 300,
+        "top": 1134,
+        "right": 776,
+        "bottom": 1178,
+        "width": 476,
+        "height": 44
+      },
+      "center": {
+        "x": 538,
+        "y": 1156
+      },
+      "normalized_center": {
+        "x": 0.4981481481481482,
+        "y": 0.5259326660600546
+      }
+    },
+    {
+      "text": "Games - Apps on Google P..",
+      "image_box": {
+        "left": 160,
+        "top": 705,
+        "right": 478,
+        "bottom": 729,
+        "width": 318,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 270,
+        "top": 1190,
+        "right": 807,
+        "bottom": 1231,
+        "width": 537,
+        "height": 41
+      },
+      "center": {
+        "x": 539,
+        "y": 1211
+      },
+      "normalized_center": {
+        "x": 0.49907407407407406,
+        "y": 0.5509554140127388
+      }
+    },
+    {
+      "text": "Install",
+      "image_box": {
+        "left": 271,
+        "top": 788,
+        "right": 368,
+        "bottom": 816,
+        "width": 97,
+        "height": 28
+      },
+      "screen_box": {
+        "left": 457,
+        "top": 1330,
+        "right": 621,
+        "bottom": 1378,
+        "width": 164,
+        "height": 48
+      },
+      "center": {
+        "x": 539,
+        "y": 1354
+      },
+      "normalized_center": {
+        "x": 0.49907407407407406,
+        "y": 0.6160145586897179
+      }
+    },
+    {
+      "text": "AD",
+      "image_box": {
+        "left": 572,
+        "top": 1268,
+        "right": 592,
+        "bottom": 1279,
+        "width": 20,
+        "height": 11
+      },
+      "screen_box": {
+        "left": 965,
+        "top": 2141,
+        "right": 999,
+        "bottom": 2159,
+        "width": 34,
+        "height": 18
+      },
+      "center": {
+        "x": 982,
+        "y": 2150
+      },
+      "normalized_center": {
+        "x": 0.9092592592592592,
+        "y": 0.978161965423112
+      }
+    }
+  ],
+  "elements": [
+    {
+      "text": "123",
+      "image_box": {
+        "left": 266,
+        "top": 483,
+        "right": 376,
+        "bottom": 518,
+        "width": 110,
+        "height": 35
+      },
+      "screen_box": {
+        "left": 449,
+        "top": 815,
+        "right": 635,
+        "bottom": 874,
+        "width": 186,
+        "height": 59
+      },
+      "center": {
+        "x": 542,
+        "y": 845
+      },
+      "normalized_center": {
+        "x": 0.5018518518518519,
+        "y": 0.38444040036396726
+      }
+    },
+    {
+      "text": "4516",
+      "image_box": {
+        "left": 258,
+        "top": 534,
+        "right": 377,
+        "bottom": 566,
+        "width": 119,
+        "height": 32
+      },
+      "screen_box": {
+        "left": 435,
+        "top": 901,
+        "right": 636,
+        "bottom": 956,
+        "width": 201,
+        "height": 55
+      },
+      "center": {
+        "x": 536,
+        "y": 929
+      },
+      "normalized_center": {
+        "x": 0.4962962962962963,
+        "y": 0.4226569608735214
+      }
+    },
+    {
+      "text": "7|8",
+      "image_box": {
+        "left": 255,
+        "top": 580,
+        "right": 330,
+        "bottom": 618,
+        "width": 75,
+        "height": 38
+      },
+      "screen_box": {
+        "left": 430,
+        "top": 979,
+        "right": 557,
+        "bottom": 1043,
+        "width": 127,
+        "height": 64
+      },
+      "center": {
+        "x": 494,
+        "y": 1011
+      },
+      "normalized_center": {
+        "x": 0.45740740740740743,
+        "y": 0.4599636032757052
+      }
+    },
+    {
+      "text": "Numpuz:",
+      "image_box": {
+        "left": 178,
+        "top": 673,
+        "right": 276,
+        "bottom": 698,
+        "width": 98,
+        "height": 25
+      },
+      "screen_box": {
+        "left": 300,
+        "top": 1136,
+        "right": 466,
+        "bottom": 1178,
+        "width": 166,
+        "height": 42
+      },
+      "center": {
+        "x": 383,
+        "y": 1157
+      },
+      "normalized_center": {
+        "x": 0.35462962962962963,
+        "y": 0.5263876251137397
+      }
+    },
+    {
+      "text": "Number",
+      "image_box": {
+        "left": 287,
+        "top": 673,
+        "right": 376,
+        "bottom": 697,
+        "width": 89,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 484,
+        "top": 1136,
+        "right": 635,
+        "bottom": 1177,
+        "width": 151,
+        "height": 41
+      },
+      "center": {
+        "x": 560,
+        "y": 1157
+      },
+      "normalized_center": {
+        "x": 0.5185185185185185,
+        "y": 0.5263876251137397
+      }
+    },
+    {
+      "text": "Puzzle",
+      "image_box": {
+        "left": 386,
+        "top": 672,
+        "right": 460,
+        "bottom": 696,
+        "width": 74,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 651,
+        "top": 1134,
+        "right": 776,
+        "bottom": 1175,
+        "width": 125,
+        "height": 41
+      },
+      "center": {
+        "x": 714,
+        "y": 1155
+      },
+      "normalized_center": {
+        "x": 0.6611111111111111,
+        "y": 0.5254777070063694
+      }
+    },
+    {
+      "text": "Games",
+      "image_box": {
+        "left": 160,
+        "top": 705,
+        "right": 237,
+        "bottom": 729,
+        "width": 77,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 270,
+        "top": 1190,
+        "right": 400,
+        "bottom": 1231,
+        "width": 130,
+        "height": 41
+      },
+      "center": {
+        "x": 335,
+        "y": 1211
+      },
+      "normalized_center": {
+        "x": 0.3101851851851852,
+        "y": 0.5509554140127388
+      }
+    },
+    {
+      "text": "-",
+      "image_box": {
+        "left": 246,
+        "top": 705,
+        "right": 253,
+        "bottom": 729,
+        "width": 7,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 415,
+        "top": 1190,
+        "right": 427,
+        "bottom": 1231,
+        "width": 12,
+        "height": 41
+      },
+      "center": {
+        "x": 421,
+        "y": 1211
+      },
+      "normalized_center": {
+        "x": 0.38981481481481484,
+        "y": 0.5509554140127388
+      }
+    },
+    {
+      "text": "Apps",
+      "image_box": {
+        "left": 262,
+        "top": 705,
+        "right": 319,
+        "bottom": 729,
+        "width": 57,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 442,
+        "top": 1190,
+        "right": 538,
+        "bottom": 1231,
+        "width": 96,
+        "height": 41
+      },
+      "center": {
+        "x": 490,
+        "y": 1211
+      },
+      "normalized_center": {
+        "x": 0.4537037037037037,
+        "y": 0.5509554140127388
+      }
+    },
+    {
+      "text": "on",
+      "image_box": {
+        "left": 327,
+        "top": 705,
+        "right": 354,
+        "bottom": 729,
+        "width": 27,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 552,
+        "top": 1190,
+        "right": 597,
+        "bottom": 1231,
+        "width": 45,
+        "height": 41
+      },
+      "center": {
+        "x": 575,
+        "y": 1211
+      },
+      "normalized_center": {
+        "x": 0.5324074074074074,
+        "y": 0.5509554140127388
+      }
+    },
+    {
+      "text": "Google",
+      "image_box": {
+        "left": 363,
+        "top": 705,
+        "right": 442,
+        "bottom": 729,
+        "width": 79,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 613,
+        "top": 1190,
+        "right": 746,
+        "bottom": 1231,
+        "width": 133,
+        "height": 41
+      },
+      "center": {
+        "x": 680,
+        "y": 1211
+      },
+      "normalized_center": {
+        "x": 0.6296296296296297,
+        "y": 0.5509554140127388
+      }
+    },
+    {
+      "text": "P..",
+      "image_box": {
+        "left": 451,
+        "top": 705,
+        "right": 478,
+        "bottom": 729,
+        "width": 27,
+        "height": 24
+      },
+      "screen_box": {
+        "left": 761,
+        "top": 1190,
+        "right": 807,
+        "bottom": 1231,
+        "width": 46,
+        "height": 41
+      },
+      "center": {
+        "x": 784,
+        "y": 1211
+      },
+      "normalized_center": {
+        "x": 0.725925925925926,
+        "y": 0.5509554140127388
+      }
+    },
+    {
+      "text": "Install",
+      "image_box": {
+        "left": 271,
+        "top": 788,
+        "right": 368,
+        "bottom": 816,
+        "width": 97,
+        "height": 28
+      },
+      "screen_box": {
+        "left": 457,
+        "top": 1330,
+        "right": 621,
+        "bottom": 1378,
+        "width": 164,
+        "height": 48
+      },
+      "center": {
+        "x": 539,
+        "y": 1354
+      },
+      "normalized_center": {
+        "x": 0.49907407407407406,
+        "y": 0.6160145586897179
+      }
+    },
+    {
+      "text": "AD",
+      "image_box": {
+        "left": 572,
+        "top": 1268,
+        "right": 592,
+        "bottom": 1279,
+        "width": 20,
+        "height": 11
+      },
+      "screen_box": {
+        "left": 965,
+        "top": 2141,
+        "right": 999,
+        "bottom": 2159,
+        "width": 34,
+        "height": 18
+      },
+      "center": {
+        "x": 982,
+        "y": 2150
+      },
+      "normalized_center": {
+        "x": 0.9092592592592592,
+        "y": 0.978161965423112
+      }
+    }
+  ],
+  "numbers": [
+    {
+      "text": "123",
+      "image_box": {
+        "left": 266,
+        "top": 483,
+        "right": 376,
+        "bottom": 518,
+        "width": 110,
+        "height": 35
+      },
+      "screen_box": {
+        "left": 449,
+        "top": 815,
+        "right": 635,
+        "bottom": 874,
+        "width": 186,
+        "height": 59
+      },
+      "center": {
+        "x": 542,
+        "y": 845
+      },
+      "normalized_center": {
+        "x": 0.5018518518518519,
+        "y": 0.38444040036396726
+      },
+      "value": 123
+    }
+  ],
+  "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
+  "allowed_package": "com.easybrain.number.puzzle.game",
+  "jpeg_sha256": "9ac7b10a86e6b09da7d6c50169c0415eb5d86b067a775bb7d7bfcd5f7b6d5c1f",
+  "redacted": false
 }
