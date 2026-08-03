@@ -18,11 +18,16 @@ import kotlin.coroutines.resume
 class GameAccessibilityService : AccessibilityService() {
     override fun onServiceConnected() {
         instance = this
+        refreshActiveWindowPackage()
     }
 
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {
         val root = rootInActiveWindow
-        val packageName = (event?.packageName ?: root?.packageName)?.toString()
+        // Status-bar and Samsung Game Tools content events can arrive while the
+        // game remains the actual active window. Prefer the active root and use
+        // the event package only when Android cannot provide one.
+        val packageName = root?.packageName?.toString()?.takeIf(String::isNotBlank)
+            ?: event?.packageName?.toString()?.takeIf(String::isNotBlank)
         if (!packageName.isNullOrBlank()) foreground = packageName
         val text = root?.let(::boundedText).orEmpty()
         latestText = text
@@ -152,9 +157,15 @@ class GameAccessibilityService : AccessibilityService() {
     }
 
     private fun requireSafeForeground(expectedPackage: String) {
-        val current = foreground
+        val current = foregroundPackage()
         require(current == expectedPackage) { "Safe foreground check failed: $current" }
         require(SafetyPolicy.isAllowed(this, current)) { "Foreground package is blocked" }
+    }
+
+    private fun refreshActiveWindowPackage(): String? {
+        val active = rootInActiveWindow?.packageName?.toString()?.takeIf(String::isNotBlank)
+        if (active != null) foreground = active
+        return active
     }
 
     private fun boundedText(root: AccessibilityNodeInfo): String {
@@ -183,8 +194,14 @@ class GameAccessibilityService : AccessibilityService() {
         @Volatile private var latestTextPackage: String? = null
 
         fun isConnected(): Boolean = instance != null
-        fun foregroundPackage(): String? = foreground
-        fun accessibilityText(): String = if (latestTextPackage == foreground) latestText else ""
+        fun foregroundPackage(): String? {
+            val active = runCatching { instance?.refreshActiveWindowPackage() }.getOrNull()
+            return active ?: foreground
+        }
+        fun accessibilityText(): String {
+            val current = foregroundPackage()
+            return if (latestTextPackage == current) latestText else ""
+        }
         fun connectedService(): GameAccessibilityService? = instance
     }
 }
