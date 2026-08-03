@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 107,
-  "captured_at": "2026-08-03T08:17:56.381Z",
+  "frame_id": 108,
+  "captured_at": "2026-08-03T08:18:00.269Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -104,38 +104,38 @@
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 218,
-  "full_text": "12:17 )•\nMain\n7\nDAILY CHALLENGE\nAugust 3\nAre You Sure?\nIf you start a newW game,\nthe current game will be lost\nStart New Game\nCancel\nContinue Game\nNew Game\nall 82%9\nDaily Challenges\nMe",
+  "ocr_latency_ms": 201,
+  "full_text": "12:18 )\nMain\n7\nDAILY CHALLENGE\nAugust 3\nAre You Sure?\nIf you start a newW game,\nthe current game will be lost\nStart New Game\nCancel\nContinue Game\nNew Game\nall 82%9\nDaily Challenges\nMe",
   "block_count": 14,
   "line_count": 15,
   "element_count": 36,
   "number_count": 2,
   "blocks": [
     {
-      "text": "12:17 )•",
+      "text": "12:18 )",
       "image_box": {
-        "left": 79,
+        "left": 77,
         "top": 11,
-        "right": 227,
-        "bottom": 31,
-        "width": 148,
-        "height": 20
+        "right": 195,
+        "bottom": 30,
+        "width": 118,
+        "height": 19
       },
       "screen_box": {
-        "left": 133,
+        "left": 130,
         "top": 19,
-        "right": 383,
-        "bottom": 52,
-        "width": 250,
-        "height": 33
+        "right": 329,
+        "bottom": 51,
+        "width": 199,
+        "height": 32
       },
       "center": {
-        "x": 258,
-        "y": 36
+        "x": 230,
+        "y": 35
       },
       "normalized_center": {
-        "x": 0.2388888888888889,
-        "y": 0.01637852593266606
+        "x": 0.21296296296296297,
+        "y": 0.01592356687898089
       }
     },
     {
@@ -492,30 +492,30 @@
   ],
   "lines": [
     {
-      "text": "12:17 )•",
+      "text": "12:18 )",
       "image_box": {
-        "left": 79,
+        "left": 77,
         "top": 11,
-        "right": 227,
-        "bottom": 31,
-        "width": 148,
-        "height": 20
+        "right": 195,
+        "bottom": 30,
+        "width": 118,
+        "height": 19
       },
       "screen_box": {
-        "left": 133,
+        "left": 130,
         "top": 19,
-        "right": 383,
-        "bottom": 52,
-        "width": 250,
-        "height": 33
+        "right": 329,
+        "bottom": 51,
+        "width": 199,
+        "height": 32
       },
       "center": {
-        "x": 258,
-        "y": 36
+        "x": 230,
+        "y": 35
       },
       "normalized_center": {
-        "x": 0.2388888888888889,
-        "y": 0.01637852593266606
+        "x": 0.21296296296296297,
+        "y": 0.01592356687898089
       }
     },
     {
@@ -899,57 +899,57 @@
   ],
   "elements": [
     {
-      "text": "12:17",
+      "text": "12:18",
       "image_box": {
-        "left": 79,
+        "left": 77,
         "top": 11,
-        "right": 128,
-        "bottom": 31,
-        "width": 49,
-        "height": 20
+        "right": 127,
+        "bottom": 30,
+        "width": 50,
+        "height": 19
       },
       "screen_box": {
-        "left": 133,
+        "left": 130,
         "top": 19,
-        "right": 216,
-        "bottom": 52,
-        "width": 83,
-        "height": 33
+        "right": 214,
+        "bottom": 51,
+        "width": 84,
+        "height": 32
       },
       "center": {
-        "x": 175,
-        "y": 36
+        "x": 172,
+        "y": 35
       },
       "normalized_center": {
-        "x": 0.16203703703703703,
-        "y": 0.01637852593266606
+        "x": 0.15925925925925927,
+        "y": 0.01592356687898089
       }
     },
     {
-      "text": ")•",
+      "text": ")",
       "image_box": {
-        "left": 181,
+        "left": 190,
         "top": 11,
-        "right": 227,
-        "bottom": 31,
-        "width": 46,
-        "height": 20
+        "right": 195,
+        "bottom": 30,
+        "width": 5,
+        "height": 19
       },
       "screen_box": {
-        "left": 305,
+        "left": 321,
         "top": 19,
-        "right": 383,
-        "bottom": 52,
-        "width": 78,
-        "height": 33
+        "right": 329,
+        "bottom": 51,
+        "width": 8,
+        "height": 32
       },
       "center": {
-        "x": 344,
-        "y": 36
+        "x": 325,
+        "y": 35
       },
       "normalized_center": {
-        "x": 0.31851851851851853,
-        "y": 0.01637852593266606
+        "x": 0.30092592592592593,
+        "y": 0.01592356687898089
       }
     },
     {
@@ -1931,6 +1931,6 @@
   ],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "8ac7e6b9ef00f58525bc5a54761e5367d6f571a9bcc583cbf18a554d6ff8d277",
+  "jpeg_sha256": "8adec92691360d7889283ab271a07a52816b88d8ec81843cae5404e18c858a92",
   "redacted": false
 }
