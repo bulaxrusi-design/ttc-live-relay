@@ -1,9 +1,9 @@
 {
-  "seq": 1,
+  "seq": 2,
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "action": "launch",
   "package": "com.easybrain.number.puzzle.game",
-  "settle_ms": 1800,
-  "expires_at": "2026-08-03T08:10:30.085Z",
-  "note": "Launch the exact allowlisted game for the user-authorized TTC play session"
+  "settle_ms": 2200,
+  "expires_at": "2026-08-03T08:13:06.090Z",
+  "note": "Relaunch exact allowlisted Sudoku and keep it foreground for observation"
 }
