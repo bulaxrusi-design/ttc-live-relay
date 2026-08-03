@@ -1,9 +1,11 @@
 {
-  "seq": 2,
+  "seq": 3,
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
-  "action": "launch",
-  "package": "com.easybrain.number.puzzle.game",
-  "settle_ms": 2200,
-  "expires_at": "2026-08-03T08:13:06.090Z",
-  "note": "Relaunch exact allowlisted Sudoku and keep it foreground for observation"
+  "action": "tap_text",
+  "text": "Continue Game",
+  "match": "exact",
+  "occurrence": 0,
+  "settle_ms": 1200,
+  "expires_at": "2026-08-03T08:14:05.481Z",
+  "note": "Open the existing Sudoku puzzle for the authorized TTC session"
 }
