@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 59,
-  "captured_at": "2026-08-03T08:12:59.230Z",
+  "frame_id": 60,
+  "captured_at": "2026-08-03T08:13:03.268Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -104,37 +104,37 @@
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 198,
-  "full_text": "12:12 >\nMain\nDAILY CHALLENGE\nAugust 3\nJourney\nComplete 1 game to unlock\nO of 1\nContinue Game\nNew Game\nDaily Challenges\n79%\nMe",
+  "ocr_latency_ms": 216,
+  "full_text": "12:13 )•\nMain\nDAILY CHALLENGE\nAugust 3\nJourney\nComplete 1 game to unlock\nO of 1\nContinue Game\nNew Game\nDaily Challenges\n79%\nMe",
   "block_count": 12,
   "line_count": 12,
   "element_count": 24,
   "number_count": 4,
   "blocks": [
     {
-      "text": "12:12 >",
+      "text": "12:13 )•",
       "image_box": {
-        "left": 73,
-        "top": 13,
-        "right": 149,
-        "bottom": 29,
-        "width": 76,
-        "height": 16
+        "left": 78,
+        "top": 11,
+        "right": 226,
+        "bottom": 31,
+        "width": 148,
+        "height": 20
       },
       "screen_box": {
-        "left": 123,
-        "top": 22,
-        "right": 251,
-        "bottom": 49,
-        "width": 128,
-        "height": 27
+        "left": 132,
+        "top": 19,
+        "right": 381,
+        "bottom": 52,
+        "width": 249,
+        "height": 33
       },
       "center": {
-        "x": 187,
+        "x": 257,
         "y": 36
       },
       "normalized_center": {
-        "x": 0.17314814814814813,
+        "x": 0.23796296296296296,
         "y": 0.01637852593266606
       }
     },
@@ -438,29 +438,29 @@
   ],
   "lines": [
     {
-      "text": "12:12 >",
+      "text": "12:13 )•",
       "image_box": {
-        "left": 73,
-        "top": 13,
-        "right": 149,
-        "bottom": 29,
-        "width": 76,
-        "height": 16
+        "left": 78,
+        "top": 11,
+        "right": 226,
+        "bottom": 31,
+        "width": 148,
+        "height": 20
       },
       "screen_box": {
-        "left": 123,
-        "top": 22,
-        "right": 251,
-        "bottom": 49,
-        "width": 128,
-        "height": 27
+        "left": 132,
+        "top": 19,
+        "right": 381,
+        "bottom": 52,
+        "width": 249,
+        "height": 33
       },
       "center": {
-        "x": 187,
+        "x": 257,
         "y": 36
       },
       "normalized_center": {
-        "x": 0.17314814814814813,
+        "x": 0.23796296296296296,
         "y": 0.01637852593266606
       }
     },
@@ -764,56 +764,56 @@
   ],
   "elements": [
     {
-      "text": "12:12",
+      "text": "12:13",
       "image_box": {
-        "left": 73,
-        "top": 13,
-        "right": 124,
-        "bottom": 29,
-        "width": 51,
-        "height": 16
+        "left": 78,
+        "top": 11,
+        "right": 125,
+        "bottom": 31,
+        "width": 47,
+        "height": 20
       },
       "screen_box": {
-        "left": 123,
-        "top": 22,
-        "right": 209,
-        "bottom": 49,
-        "width": 86,
-        "height": 27
+        "left": 132,
+        "top": 19,
+        "right": 211,
+        "bottom": 52,
+        "width": 79,
+        "height": 33
       },
       "center": {
-        "x": 166,
+        "x": 172,
         "y": 36
       },
       "normalized_center": {
-        "x": 0.1537037037037037,
+        "x": 0.15925925925925927,
         "y": 0.01637852593266606
       }
     },
     {
-      "text": ">",
+      "text": ")•",
       "image_box": {
-        "left": 134,
-        "top": 13,
-        "right": 149,
-        "bottom": 29,
-        "width": 15,
-        "height": 16
+        "left": 180,
+        "top": 11,
+        "right": 226,
+        "bottom": 31,
+        "width": 46,
+        "height": 20
       },
       "screen_box": {
-        "left": 226,
-        "top": 22,
-        "right": 251,
-        "bottom": 49,
-        "width": 25,
-        "height": 27
+        "left": 304,
+        "top": 19,
+        "right": 381,
+        "bottom": 52,
+        "width": 77,
+        "height": 33
       },
       "center": {
-        "x": 239,
+        "x": 343,
         "y": 36
       },
       "normalized_center": {
-        "x": 0.2212962962962963,
+        "x": 0.3175925925925926,
         "y": 0.01637852593266606
       }
     },
@@ -1528,6 +1528,6 @@
   ],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "606a483d3cc04dd742217c7341685fdd447ef5ffcb030c06d58f5f130fbdaa30",
+  "jpeg_sha256": "b5bdbf7a8f6cf92118859e924c0f6bfdec6266abbaa66d347c14e8b4a0f6d225",
   "redacted": false
 }
