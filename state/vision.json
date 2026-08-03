@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 87,
-  "captured_at": "2026-08-03T08:15:47.398Z",
+  "frame_id": 88,
+  "captured_at": "2026-08-03T08:15:50.882Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -12,7 +12,7 @@
     "available": true,
     "package": "com.easybrain.number.puzzle.game",
     "class": "android.widget.FrameLayout",
-    "visited_count": 39,
+    "visited_count": 41,
     "node_count": 5,
     "truncated": false,
     "nodes": [
@@ -160,11 +160,11 @@
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 96,
-  "full_text": "123\n456\n78\nNumpuz: Number Puzzle\nGames - Apps on Google P..\nInstall\nAD",
-  "block_count": 4,
-  "line_count": 7,
-  "element_count": 14,
+  "ocr_latency_ms": 76,
+  "full_text": "123\n456\n78\nNumpuz: Number Puzzle\nGames - Apps on Google P..\nInstall\nX X\nAD",
+  "block_count": 5,
+  "line_count": 8,
+  "element_count": 16,
   "number_count": 3,
   "blocks": [
     {
@@ -246,6 +246,33 @@
       "normalized_center": {
         "x": 0.49907407407407406,
         "y": 0.6160145586897179
+      }
+    },
+    {
+      "text": "X X",
+      "image_box": {
+        "left": 565,
+        "top": 87,
+        "right": 581,
+        "bottom": 103,
+        "width": 16,
+        "height": 16
+      },
+      "screen_box": {
+        "left": 953,
+        "top": 147,
+        "right": 980,
+        "bottom": 174,
+        "width": 27,
+        "height": 27
+      },
+      "center": {
+        "x": 967,
+        "y": 161
+      },
+      "normalized_center": {
+        "x": 0.8953703703703704,
+        "y": 0.0732484076433121
       }
     },
     {
@@ -440,6 +467,33 @@
       }
     },
     {
+      "text": "X X",
+      "image_box": {
+        "left": 565,
+        "top": 87,
+        "right": 581,
+        "bottom": 103,
+        "width": 16,
+        "height": 16
+      },
+      "screen_box": {
+        "left": 953,
+        "top": 147,
+        "right": 980,
+        "bottom": 174,
+        "width": 27,
+        "height": 27
+      },
+      "center": {
+        "x": 967,
+        "y": 161
+      },
+      "normalized_center": {
+        "x": 0.8953703703703704,
+        "y": 0.0732484076433121
+      }
+    },
+    {
       "text": "AD",
       "image_box": {
         "left": 572,
@@ -553,27 +607,27 @@
       "text": "Numpuz:",
       "image_box": {
         "left": 178,
-        "top": 674,
+        "top": 673,
         "right": 276,
         "bottom": 698,
         "width": 98,
-        "height": 24
+        "height": 25
       },
       "screen_box": {
         "left": 300,
-        "top": 1138,
+        "top": 1136,
         "right": 466,
         "bottom": 1178,
         "width": 166,
-        "height": 40
+        "height": 42
       },
       "center": {
         "x": 383,
-        "y": 1158
+        "y": 1157
       },
       "normalized_center": {
         "x": 0.35462962962962963,
-        "y": 0.5268425841674249
+        "y": 0.5263876251137397
       }
     },
     {
@@ -820,6 +874,60 @@
       }
     },
     {
+      "text": "X",
+      "image_box": {
+        "left": 565,
+        "top": 87,
+        "right": 581,
+        "bottom": 103,
+        "width": 16,
+        "height": 16
+      },
+      "screen_box": {
+        "left": 953,
+        "top": 147,
+        "right": 980,
+        "bottom": 174,
+        "width": 27,
+        "height": 27
+      },
+      "center": {
+        "x": 967,
+        "y": 161
+      },
+      "normalized_center": {
+        "x": 0.8953703703703704,
+        "y": 0.0732484076433121
+      }
+    },
+    {
+      "text": "X",
+      "image_box": {
+        "left": 566,
+        "top": 88,
+        "right": 580,
+        "bottom": 102,
+        "width": 14,
+        "height": 14
+      },
+      "screen_box": {
+        "left": 955,
+        "top": 149,
+        "right": 979,
+        "bottom": 172,
+        "width": 24,
+        "height": 23
+      },
+      "center": {
+        "x": 967,
+        "y": 161
+      },
+      "normalized_center": {
+        "x": 0.8953703703703704,
+        "y": 0.0732484076433121
+      }
+    },
+    {
       "text": "AD",
       "image_box": {
         "left": 572,
@@ -935,6 +1043,6 @@
   ],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "fc57871da832c8639478431042b852853ba9577f6bd5b6b871e1b9e6e4a4c6bb",
+  "jpeg_sha256": "5678d655b2bf4e461af0a9324059e7e01fd7fa0ddb064414a365318ec374cba6",
   "redacted": false
 }
