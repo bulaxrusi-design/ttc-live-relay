@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 105,
-  "captured_at": "2026-08-03T08:17:40.105Z",
+  "frame_id": 106,
+  "captured_at": "2026-08-03T08:17:45.406Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -104,11 +104,11 @@
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 217,
-  "full_text": "12:17 )•\nMain\n7\nDAILY CHALLENGE\nAugust 3\nAre You Sure?\nIf you start a newW game,\nthe current game will be lost\nStart New Game\nCancel\nContinue Game\nNew Game\nDaily Challenges\nl81%9\nMe",
+  "ocr_latency_ms": 226,
+  "full_text": "12:17 )•\nMain\n7\nDAILY CHALLENGE\nAugust 3\nAre You Sure?\nIf you start a newW game,\nthe current game will be lost\nStart New Game\nCancel\nContinue Game\nNew Game\nall 82%9\nDaily Challenges\nMe",
   "block_count": 14,
   "line_count": 15,
-  "element_count": 35,
+  "element_count": 36,
   "number_count": 2,
   "blocks": [
     {
@@ -409,6 +409,33 @@
       }
     },
     {
+      "text": "all 82%9",
+      "image_box": {
+        "left": 465,
+        "top": 11,
+        "right": 567,
+        "bottom": 28,
+        "width": 102,
+        "height": 17
+      },
+      "screen_box": {
+        "left": 785,
+        "top": 19,
+        "right": 957,
+        "bottom": 47,
+        "width": 172,
+        "height": 28
+      },
+      "center": {
+        "x": 871,
+        "y": 33
+      },
+      "normalized_center": {
+        "x": 0.8064814814814815,
+        "y": 0.015013648771610554
+      }
+    },
+    {
       "text": "Daily Challenges",
       "image_box": {
         "left": 245,
@@ -433,33 +460,6 @@
       "normalized_center": {
         "x": 0.49907407407407406,
         "y": 0.9699727024567789
-      }
-    },
-    {
-      "text": "l81%9",
-      "image_box": {
-        "left": 493,
-        "top": 13,
-        "right": 568,
-        "bottom": 29,
-        "width": 75,
-        "height": 16
-      },
-      "screen_box": {
-        "left": 832,
-        "top": 22,
-        "right": 959,
-        "bottom": 49,
-        "width": 127,
-        "height": 27
-      },
-      "center": {
-        "x": 896,
-        "y": 36
-      },
-      "normalized_center": {
-        "x": 0.8296296296296296,
-        "y": 0.01637852593266606
       }
     },
     {
@@ -816,6 +816,33 @@
       }
     },
     {
+      "text": "all 82%9",
+      "image_box": {
+        "left": 465,
+        "top": 11,
+        "right": 567,
+        "bottom": 28,
+        "width": 102,
+        "height": 17
+      },
+      "screen_box": {
+        "left": 785,
+        "top": 19,
+        "right": 957,
+        "bottom": 47,
+        "width": 172,
+        "height": 28
+      },
+      "center": {
+        "x": 871,
+        "y": 33
+      },
+      "normalized_center": {
+        "x": 0.8064814814814815,
+        "y": 0.015013648771610554
+      }
+    },
+    {
       "text": "Daily Challenges",
       "image_box": {
         "left": 245,
@@ -840,33 +867,6 @@
       "normalized_center": {
         "x": 0.49907407407407406,
         "y": 0.9699727024567789
-      }
-    },
-    {
-      "text": "l81%9",
-      "image_box": {
-        "left": 493,
-        "top": 13,
-        "right": 568,
-        "bottom": 29,
-        "width": 75,
-        "height": 16
-      },
-      "screen_box": {
-        "left": 832,
-        "top": 22,
-        "right": 959,
-        "bottom": 49,
-        "width": 127,
-        "height": 27
-      },
-      "center": {
-        "x": 896,
-        "y": 36
-      },
-      "normalized_center": {
-        "x": 0.8296296296296296,
-        "y": 0.01637852593266606
       }
     },
     {
@@ -1736,6 +1736,60 @@
       }
     },
     {
+      "text": "all",
+      "image_box": {
+        "left": 465,
+        "top": 11,
+        "right": 507,
+        "bottom": 28,
+        "width": 42,
+        "height": 17
+      },
+      "screen_box": {
+        "left": 785,
+        "top": 19,
+        "right": 856,
+        "bottom": 47,
+        "width": 71,
+        "height": 28
+      },
+      "center": {
+        "x": 821,
+        "y": 33
+      },
+      "normalized_center": {
+        "x": 0.7601851851851852,
+        "y": 0.015013648771610554
+      }
+    },
+    {
+      "text": "82%9",
+      "image_box": {
+        "left": 515,
+        "top": 11,
+        "right": 567,
+        "bottom": 28,
+        "width": 52,
+        "height": 17
+      },
+      "screen_box": {
+        "left": 869,
+        "top": 19,
+        "right": 957,
+        "bottom": 47,
+        "width": 88,
+        "height": 28
+      },
+      "center": {
+        "x": 913,
+        "y": 33
+      },
+      "normalized_center": {
+        "x": 0.8453703703703703,
+        "y": 0.015013648771610554
+      }
+    },
+    {
       "text": "Daily",
       "image_box": {
         "left": 245,
@@ -1787,33 +1841,6 @@
       "normalized_center": {
         "x": 0.537962962962963,
         "y": 0.9704276615104641
-      }
-    },
-    {
-      "text": "l81%9",
-      "image_box": {
-        "left": 493,
-        "top": 13,
-        "right": 568,
-        "bottom": 29,
-        "width": 75,
-        "height": 16
-      },
-      "screen_box": {
-        "left": 832,
-        "top": 22,
-        "right": 959,
-        "bottom": 49,
-        "width": 127,
-        "height": 27
-      },
-      "center": {
-        "x": 896,
-        "y": 36
-      },
-      "normalized_center": {
-        "x": 0.8296296296296296,
-        "y": 0.01637852593266606
       }
     },
     {
@@ -1904,6 +1931,6 @@
   ],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "0578e67520790c2fa2a75b20353e45610d6cb88d9a3b1d2881406e275738c2f6",
+  "jpeg_sha256": "8ac7e6b9ef00f58525bc5a54761e5367d6f571a9bcc583cbf18a554d6ff8d277",
   "redacted": false
 }
