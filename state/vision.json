@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 144,
-  "captured_at": "2026-08-03T08:22:09.919Z",
+  "frame_id": 145,
+  "captured_at": "2026-08-03T08:22:18.180Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -188,9 +188,9 @@
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 225,
-  "full_text": "12:22 ).\nStage\n1\n279\n4\n2\n8 9 8\n55 5\n213 9\nl 83%9\n6\n4 5 65 4 4 8 5 8 1\n5\nAll Time\n3 5 8 5 8\n7\n171 45\n17",
-  "block_count": 16,
+  "ocr_latency_ms": 226,
+  "full_text": "12:22 ).\nStage\n1\n279\n4\n2\n8 9 8\n55 5\n213 9\nll 83%\n6\n4 5 65 4 4 8 5 8 1\n5\nAll Time\n17\n3 5 8 5 8\n7\n171 45",
+  "block_count": 15,
   "line_count": 18,
   "element_count": 38,
   "number_count": 31,
@@ -385,30 +385,30 @@
       }
     },
     {
-      "text": "l 83%9",
+      "text": "ll 83%",
       "image_box": {
-        "left": 506,
-        "top": 10,
-        "right": 568,
-        "bottom": 30,
-        "width": 62,
+        "left": 499,
+        "top": 11,
+        "right": 559,
+        "bottom": 31,
+        "width": 60,
         "height": 20
       },
       "screen_box": {
-        "left": 854,
-        "top": 17,
-        "right": 959,
-        "bottom": 51,
-        "width": 105,
-        "height": 34
+        "left": 842,
+        "top": 19,
+        "right": 943,
+        "bottom": 52,
+        "width": 101,
+        "height": 33
       },
       "center": {
-        "x": 907,
-        "y": 34
+        "x": 893,
+        "y": 36
       },
       "normalized_center": {
-        "x": 0.8398148148148148,
-        "y": 0.015468607825295723
+        "x": 0.8268518518518518,
+        "y": 0.01637852593266606
       }
     },
     {
@@ -493,30 +493,30 @@
       }
     },
     {
-      "text": "All Time",
+      "text": "All Time\n17",
       "image_box": {
         "left": 532,
         "top": 204,
         "right": 595,
-        "bottom": 217,
+        "bottom": 245,
         "width": 63,
-        "height": 13
+        "height": 41
       },
       "screen_box": {
         "left": 898,
         "top": 344,
         "right": 1004,
-        "bottom": 366,
+        "bottom": 414,
         "width": 106,
-        "height": 22
+        "height": 70
       },
       "center": {
         "x": 951,
-        "y": 355
+        "y": 379
       },
       "normalized_center": {
         "x": 0.8805555555555555,
-        "y": 0.16151046405823477
+        "y": 0.1724294813466788
       }
     },
     {
@@ -598,33 +598,6 @@
       "normalized_center": {
         "x": 0.6944444444444444,
         "y": 0.31938125568698816
-      }
-    },
-    {
-      "text": "17",
-      "image_box": {
-        "left": 576,
-        "top": 231,
-        "right": 593,
-        "bottom": 245,
-        "width": 17,
-        "height": 14
-      },
-      "screen_box": {
-        "left": 972,
-        "top": 390,
-        "right": 1001,
-        "bottom": 414,
-        "width": 29,
-        "height": 24
-      },
-      "center": {
-        "x": 987,
-        "y": 402
-      },
-      "normalized_center": {
-        "x": 0.9138888888888889,
-        "y": 0.18289353958143767
       }
     }
   ],
@@ -873,30 +846,30 @@
       }
     },
     {
-      "text": "l 83%9",
+      "text": "ll 83%",
       "image_box": {
-        "left": 506,
-        "top": 10,
-        "right": 568,
-        "bottom": 30,
-        "width": 62,
+        "left": 499,
+        "top": 11,
+        "right": 559,
+        "bottom": 31,
+        "width": 60,
         "height": 20
       },
       "screen_box": {
-        "left": 854,
-        "top": 17,
-        "right": 959,
-        "bottom": 51,
-        "width": 105,
-        "height": 34
+        "left": 842,
+        "top": 19,
+        "right": 943,
+        "bottom": 52,
+        "width": 101,
+        "height": 33
       },
       "center": {
-        "x": 907,
-        "y": 34
+        "x": 893,
+        "y": 36
       },
       "normalized_center": {
-        "x": 0.8398148148148148,
-        "y": 0.015468607825295723
+        "x": 0.8268518518518518,
+        "y": 0.01637852593266606
       }
     },
     {
@@ -1008,6 +981,33 @@
       }
     },
     {
+      "text": "17",
+      "image_box": {
+        "left": 576,
+        "top": 231,
+        "right": 593,
+        "bottom": 245,
+        "width": 17,
+        "height": 14
+      },
+      "screen_box": {
+        "left": 972,
+        "top": 390,
+        "right": 1001,
+        "bottom": 414,
+        "width": 29,
+        "height": 24
+      },
+      "center": {
+        "x": 987,
+        "y": 402
+      },
+      "normalized_center": {
+        "x": 0.9138888888888889,
+        "y": 0.18289353958143767
+      }
+    },
+    {
       "text": "3 5 8 5 8",
       "image_box": {
         "left": 270,
@@ -1086,33 +1086,6 @@
       "normalized_center": {
         "x": 0.6944444444444444,
         "y": 0.31938125568698816
-      }
-    },
-    {
-      "text": "17",
-      "image_box": {
-        "left": 576,
-        "top": 231,
-        "right": 593,
-        "bottom": 245,
-        "width": 17,
-        "height": 14
-      },
-      "screen_box": {
-        "left": 972,
-        "top": 390,
-        "right": 1001,
-        "bottom": 414,
-        "width": 29,
-        "height": 24
-      },
-      "center": {
-        "x": 987,
-        "y": 402
-      },
-      "normalized_center": {
-        "x": 0.9138888888888889,
-        "y": 0.18289353958143767
       }
     }
   ],
@@ -1496,57 +1469,57 @@
       }
     },
     {
-      "text": "l",
+      "text": "ll",
       "image_box": {
-        "left": 506,
-        "top": 10,
+        "left": 499,
+        "top": 11,
         "right": 512,
-        "bottom": 30,
-        "width": 6,
+        "bottom": 31,
+        "width": 13,
         "height": 20
       },
       "screen_box": {
-        "left": 854,
-        "top": 17,
+        "left": 842,
+        "top": 19,
         "right": 864,
-        "bottom": 51,
-        "width": 10,
-        "height": 34
+        "bottom": 52,
+        "width": 22,
+        "height": 33
       },
       "center": {
-        "x": 859,
-        "y": 34
+        "x": 853,
+        "y": 36
       },
       "normalized_center": {
-        "x": 0.7953703703703704,
-        "y": 0.015468607825295723
+        "x": 0.7898148148148149,
+        "y": 0.01637852593266606
       }
     },
     {
-      "text": "83%9",
+      "text": "83%",
       "image_box": {
-        "left": 516,
-        "top": 10,
-        "right": 568,
-        "bottom": 30,
-        "width": 52,
+        "left": 522,
+        "top": 11,
+        "right": 559,
+        "bottom": 31,
+        "width": 37,
         "height": 20
       },
       "screen_box": {
-        "left": 871,
-        "top": 17,
-        "right": 959,
-        "bottom": 51,
-        "width": 88,
-        "height": 34
+        "left": 881,
+        "top": 19,
+        "right": 943,
+        "bottom": 52,
+        "width": 62,
+        "height": 33
       },
       "center": {
-        "x": 915,
-        "y": 34
+        "x": 912,
+        "y": 36
       },
       "normalized_center": {
-        "x": 0.8472222222222222,
-        "y": 0.015468607825295723
+        "x": 0.8444444444444444,
+        "y": 0.01637852593266606
       }
     },
     {
@@ -1901,6 +1874,33 @@
       }
     },
     {
+      "text": "17",
+      "image_box": {
+        "left": 576,
+        "top": 231,
+        "right": 593,
+        "bottom": 245,
+        "width": 17,
+        "height": 14
+      },
+      "screen_box": {
+        "left": 972,
+        "top": 390,
+        "right": 1001,
+        "bottom": 414,
+        "width": 29,
+        "height": 24
+      },
+      "center": {
+        "x": 987,
+        "y": 402
+      },
+      "normalized_center": {
+        "x": 0.9138888888888889,
+        "y": 0.18289353958143767
+      }
+    },
+    {
       "text": "3",
       "image_box": {
         "left": 270,
@@ -2114,33 +2114,6 @@
       "normalized_center": {
         "x": 0.8388888888888889,
         "y": 0.31938125568698816
-      }
-    },
-    {
-      "text": "17",
-      "image_box": {
-        "left": 576,
-        "top": 231,
-        "right": 593,
-        "bottom": 245,
-        "width": 17,
-        "height": 14
-      },
-      "screen_box": {
-        "left": 972,
-        "top": 390,
-        "right": 1001,
-        "bottom": 414,
-        "width": 29,
-        "height": 24
-      },
-      "center": {
-        "x": 987,
-        "y": 402
-      },
-      "normalized_center": {
-        "x": 0.9138888888888889,
-        "y": 0.18289353958143767
       }
     }
   ],
@@ -2762,6 +2735,34 @@
       "value": 5
     },
     {
+      "text": "17",
+      "image_box": {
+        "left": 576,
+        "top": 231,
+        "right": 593,
+        "bottom": 245,
+        "width": 17,
+        "height": 14
+      },
+      "screen_box": {
+        "left": 972,
+        "top": 390,
+        "right": 1001,
+        "bottom": 414,
+        "width": 29,
+        "height": 24
+      },
+      "center": {
+        "x": 987,
+        "y": 402
+      },
+      "normalized_center": {
+        "x": 0.9138888888888889,
+        "y": 0.18289353958143767
+      },
+      "value": 17
+    },
+    {
       "text": "3",
       "image_box": {
         "left": 270,
@@ -2984,38 +2985,10 @@
         "y": 0.31938125568698816
       },
       "value": 45
-    },
-    {
-      "text": "17",
-      "image_box": {
-        "left": 576,
-        "top": 231,
-        "right": 593,
-        "bottom": 245,
-        "width": 17,
-        "height": 14
-      },
-      "screen_box": {
-        "left": 972,
-        "top": 390,
-        "right": 1001,
-        "bottom": 414,
-        "width": 29,
-        "height": 24
-      },
-      "center": {
-        "x": 987,
-        "y": 402
-      },
-      "normalized_center": {
-        "x": 0.9138888888888889,
-        "y": 0.18289353958143767
-      },
-      "value": 17
     }
   ],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "00ce84800336940f6d9c3d887fa7947e939a809566ad047a547f70001b104a93",
+  "jpeg_sha256": "2ecf8e6e8e899a981950ee88f0f410f9400e8612b3fba75d7f5960d8d4de27bb",
   "redacted": false
 }
