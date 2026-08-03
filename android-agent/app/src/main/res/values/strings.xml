@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Device Lab Live v3</string>
+    <string name="accessibility_label">Device Lab Live game gestures</string>
+    <string name="notification_channel">Device Lab Live</string>
+    <string name="notification_title">Device Lab Live active</string>
+    <string name="notification_stop">STOP</string>
+</resources>

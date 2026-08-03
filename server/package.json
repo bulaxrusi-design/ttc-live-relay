@@ -1,0 +1,22 @@
+{
+  "name": "@ttclab/device-lab-live-server",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Low-latency Android relay, MCP tools, and OpenAI Computer Use controller",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --test",
+    "check": "node --check src/index.mjs && node --check src/autoplay.mjs && node --check src/research-store.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "express": "5.2.1",
+    "openai": "7.3.0",
+    "ws": "8.21.1",
+    "zod": "4.4.3"
+  }
+}

@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.DeviceLabLive" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
