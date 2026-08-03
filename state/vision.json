@@ -1,18 +1,394 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
-  "frame_id": 43,
-  "captured_at": "2026-08-03T08:11:00.786Z",
-  "foreground_package": "com.openai.chatgpt",
-  "allowed_package": "com.easybrain.number.puzzle.game",
-  "redacted": true,
-  "ocr_ok": false,
-  "ocr_error": null,
-  "numbers": [],
-  "elements": [],
+  "frame_id": 44,
+  "captured_at": "2026-08-03T08:11:08.271Z",
+  "foreground_package": "com.easybrain.number.puzzle.game",
+  "screen_width": 1080,
+  "screen_height": 2198,
+  "image_width": 640,
+  "image_height": 1302,
   "accessibility": {
-    "available": false,
-    "nodes": []
-  }
+    "available": true,
+    "package": "com.easybrain.number.puzzle.game",
+    "class": "android.widget.FrameLayout",
+    "visited_count": 7,
+    "node_count": 3,
+    "truncated": false,
+    "nodes": [
+      {
+        "depth": 3,
+        "class": "android.widget.LinearLayout",
+        "view_id": "com.easybrain.number.puzzle.game:id\/action_bar_root",
+        "text": "",
+        "content_description": "",
+        "clickable": false,
+        "checkable": false,
+        "checked": false,
+        "editable": false,
+        "enabled": true,
+        "focusable": false,
+        "focused": false,
+        "scrollable": false,
+        "selected": false,
+        "screen_box": {
+          "left": 0,
+          "top": 0,
+          "right": 810,
+          "bottom": 1800,
+          "width": 810,
+          "height": 1800
+        },
+        "normalized_center": {
+          "x": 0.375,
+          "y": 0.4094631483166515
+        }
+      },
+      {
+        "depth": 4,
+        "class": "android.widget.FrameLayout",
+        "view_id": "android:id\/content",
+        "text": "",
+        "content_description": "",
+        "clickable": false,
+        "checkable": false,
+        "checked": false,
+        "editable": false,
+        "enabled": true,
+        "focusable": false,
+        "focused": false,
+        "scrollable": false,
+        "selected": false,
+        "screen_box": {
+          "left": 0,
+          "top": 0,
+          "right": 810,
+          "bottom": 1800,
+          "width": 810,
+          "height": 1800
+        },
+        "normalized_center": {
+          "x": 0.375,
+          "y": 0.4094631483166515
+        }
+      },
+      {
+        "depth": 6,
+        "class": "android.widget.ImageView",
+        "view_id": "com.easybrain.number.puzzle.game:id\/easySplash",
+        "text": "",
+        "content_description": "",
+        "clickable": false,
+        "checkable": false,
+        "checked": false,
+        "editable": false,
+        "enabled": true,
+        "focusable": false,
+        "focused": false,
+        "scrollable": false,
+        "selected": false,
+        "screen_box": {
+          "left": 0,
+          "top": 0,
+          "right": 810,
+          "bottom": 1800,
+          "width": 810,
+          "height": 1800
+        },
+        "normalized_center": {
+          "x": 0.375,
+          "y": 0.4094631483166515
+        }
+      }
+    ]
+  },
+  "ocr_ok": true,
+  "ocr_error": null,
+  "ocr_latency_ms": 351,
+  "full_text": "12:11\nEasybrain\nal 78%",
+  "block_count": 3,
+  "line_count": 3,
+  "element_count": 4,
+  "number_count": 0,
+  "blocks": [
+    {
+      "text": "12:11",
+      "image_box": {
+        "left": 74,
+        "top": 12,
+        "right": 119,
+        "bottom": 29,
+        "width": 45,
+        "height": 17
+      },
+      "screen_box": {
+        "left": 125,
+        "top": 20,
+        "right": 201,
+        "bottom": 49,
+        "width": 76,
+        "height": 29
+      },
+      "center": {
+        "x": 163,
+        "y": 35
+      },
+      "normalized_center": {
+        "x": 0.15092592592592594,
+        "y": 0.01592356687898089
+      }
+    },
+    {
+      "text": "Easybrain",
+      "image_box": {
+        "left": 193,
+        "top": 634,
+        "right": 448,
+        "bottom": 694,
+        "width": 255,
+        "height": 60
+      },
+      "screen_box": {
+        "left": 326,
+        "top": 1070,
+        "right": 756,
+        "bottom": 1172,
+        "width": 430,
+        "height": 102
+      },
+      "center": {
+        "x": 541,
+        "y": 1121
+      },
+      "normalized_center": {
+        "x": 0.5009259259259259,
+        "y": 0.5100090991810737
+      }
+    },
+    {
+      "text": "al 78%",
+      "image_box": {
+        "left": 473,
+        "top": 12,
+        "right": 555,
+        "bottom": 33,
+        "width": 82,
+        "height": 21
+      },
+      "screen_box": {
+        "left": 798,
+        "top": 20,
+        "right": 937,
+        "bottom": 56,
+        "width": 139,
+        "height": 36
+      },
+      "center": {
+        "x": 868,
+        "y": 38
+      },
+      "normalized_center": {
+        "x": 0.8037037037037037,
+        "y": 0.017288444040036398
+      }
+    }
+  ],
+  "lines": [
+    {
+      "text": "12:11",
+      "image_box": {
+        "left": 74,
+        "top": 12,
+        "right": 119,
+        "bottom": 29,
+        "width": 45,
+        "height": 17
+      },
+      "screen_box": {
+        "left": 125,
+        "top": 20,
+        "right": 201,
+        "bottom": 49,
+        "width": 76,
+        "height": 29
+      },
+      "center": {
+        "x": 163,
+        "y": 35
+      },
+      "normalized_center": {
+        "x": 0.15092592592592594,
+        "y": 0.01592356687898089
+      }
+    },
+    {
+      "text": "Easybrain",
+      "image_box": {
+        "left": 193,
+        "top": 634,
+        "right": 448,
+        "bottom": 694,
+        "width": 255,
+        "height": 60
+      },
+      "screen_box": {
+        "left": 326,
+        "top": 1070,
+        "right": 756,
+        "bottom": 1172,
+        "width": 430,
+        "height": 102
+      },
+      "center": {
+        "x": 541,
+        "y": 1121
+      },
+      "normalized_center": {
+        "x": 0.5009259259259259,
+        "y": 0.5100090991810737
+      }
+    },
+    {
+      "text": "al 78%",
+      "image_box": {
+        "left": 473,
+        "top": 12,
+        "right": 555,
+        "bottom": 33,
+        "width": 82,
+        "height": 21
+      },
+      "screen_box": {
+        "left": 798,
+        "top": 20,
+        "right": 937,
+        "bottom": 56,
+        "width": 139,
+        "height": 36
+      },
+      "center": {
+        "x": 868,
+        "y": 38
+      },
+      "normalized_center": {
+        "x": 0.8037037037037037,
+        "y": 0.017288444040036398
+      }
+    }
+  ],
+  "elements": [
+    {
+      "text": "12:11",
+      "image_box": {
+        "left": 74,
+        "top": 12,
+        "right": 119,
+        "bottom": 29,
+        "width": 45,
+        "height": 17
+      },
+      "screen_box": {
+        "left": 125,
+        "top": 20,
+        "right": 201,
+        "bottom": 49,
+        "width": 76,
+        "height": 29
+      },
+      "center": {
+        "x": 163,
+        "y": 35
+      },
+      "normalized_center": {
+        "x": 0.15092592592592594,
+        "y": 0.01592356687898089
+      }
+    },
+    {
+      "text": "Easybrain",
+      "image_box": {
+        "left": 193,
+        "top": 634,
+        "right": 448,
+        "bottom": 694,
+        "width": 255,
+        "height": 60
+      },
+      "screen_box": {
+        "left": 326,
+        "top": 1070,
+        "right": 756,
+        "bottom": 1172,
+        "width": 430,
+        "height": 102
+      },
+      "center": {
+        "x": 541,
+        "y": 1121
+      },
+      "normalized_center": {
+        "x": 0.5009259259259259,
+        "y": 0.5100090991810737
+      }
+    },
+    {
+      "text": "al",
+      "image_box": {
+        "left": 473,
+        "top": 12,
+        "right": 507,
+        "bottom": 33,
+        "width": 34,
+        "height": 21
+      },
+      "screen_box": {
+        "left": 798,
+        "top": 20,
+        "right": 856,
+        "bottom": 56,
+        "width": 58,
+        "height": 36
+      },
+      "center": {
+        "x": 827,
+        "y": 38
+      },
+      "normalized_center": {
+        "x": 0.7657407407407407,
+        "y": 0.017288444040036398
+      }
+    },
+    {
+      "text": "78%",
+      "image_box": {
+        "left": 522,
+        "top": 12,
+        "right": 555,
+        "bottom": 33,
+        "width": 33,
+        "height": 21
+      },
+      "screen_box": {
+        "left": 881,
+        "top": 20,
+        "right": 937,
+        "bottom": 56,
+        "width": 56,
+        "height": 36
+      },
+      "center": {
+        "x": 909,
+        "y": 38
+      },
+      "normalized_center": {
+        "x": 0.8416666666666667,
+        "y": 0.017288444040036398
+      }
+    }
+  ],
+  "numbers": [],
+  "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
+  "allowed_package": "com.easybrain.number.puzzle.game",
+  "jpeg_sha256": "b59127448886142c71599212041bd25b6212f54786c4660634e9b2df81824a53",
+  "redacted": false
 }
