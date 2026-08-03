@@ -1,11 +1,11 @@
 {
-  "seq": 4,
+  "seq": 5,
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "action": "tap",
-  "x": 539,
-  "y": 1708,
+  "x": 405,
+  "y": 1397,
   "normalized": false,
-  "settle_ms": 1400,
-  "expires_at": "2026-08-03T08:14:33.832Z",
-  "note": "Tap the observed Continue Game button center from frame 54"
+  "settle_ms": 1800,
+  "expires_at": "2026-08-03T08:16:20.066Z",
+  "note": "Tap Continue Game using corrected 810x1800 accessibility viewport coordinates"
 }
