@@ -1,9 +1,9 @@
 {
-  "seq": 3,
-  "session_id": "7a52f321-edb0-42cb-bab5-870272d7fb91",
+  "seq": 1,
+  "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "action": "launch",
   "package": "com.easybrain.number.puzzle.game",
-  "settle_ms": 1500,
-  "expires_at": "2026-07-30T16:30:00Z",
-  "note": "Relaunch allowlisted game after launcher became foreground"
+  "settle_ms": 1800,
+  "expires_at": "2026-08-03T08:10:30.085Z",
+  "note": "Launch the exact allowlisted game for the user-authorized TTC play session"
 }
