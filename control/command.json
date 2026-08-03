@@ -1,11 +1,8 @@
 {
-  "seq": 6,
+  "seq": 7,
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
-  "action": "tap",
-  "x": 540,
-  "y": 1868,
-  "normalized": false,
-  "settle_ms": 2200,
-  "expires_at": "2026-08-03T08:17:00.466Z",
-  "note": "Tap Continue Game using reconstructed 1080x2400 physical display coordinates"
+  "action": "back",
+  "settle_ms": 1800,
+  "expires_at": "2026-08-03T08:17:58.171Z",
+  "note": "Dismiss the in-game interstitial without opening the store"
 }
