@@ -1,11 +1,11 @@
 {
-  "seq": 3,
+  "seq": 4,
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
-  "action": "tap_text",
-  "text": "Continue Game",
-  "match": "exact",
-  "occurrence": 0,
-  "settle_ms": 1200,
-  "expires_at": "2026-08-03T08:14:05.481Z",
-  "note": "Open the existing Sudoku puzzle for the authorized TTC session"
+  "action": "tap",
+  "x": 539,
+  "y": 1708,
+  "normalized": false,
+  "settle_ms": 1400,
+  "expires_at": "2026-08-03T08:14:33.832Z",
+  "note": "Tap the observed Continue Game button center from frame 54"
 }
