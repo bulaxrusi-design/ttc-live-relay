@@ -47,6 +47,9 @@ done
 cd "$SERVER_DIR"
 npm ci --omit=dev
 
+if [[ "${1:-}" == "--rotate-token" ]]; then
+  node -e 'process.stdout.write(require("node:crypto").randomBytes(32).toString("hex"))' > "$TOKEN_FILE"
+fi
 if [[ ! -s "$TOKEN_FILE" ]]; then
   node -e 'process.stdout.write(require("node:crypto").randomBytes(32).toString("hex"))' > "$TOKEN_FILE"
 fi

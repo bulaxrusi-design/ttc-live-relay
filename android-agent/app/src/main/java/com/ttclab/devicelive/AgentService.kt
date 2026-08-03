@@ -33,16 +33,28 @@ class AgentService : Service() {
     override fun onCreate() {
         super.onCreate()
         instance = this
-        val geometry = CaptureEngine.realGeometry(this)
-        realWidth = geometry.width
-        realHeight = geometry.height
         createNotificationChannel()
+        runCatching { CaptureEngine.realGeometry(this) }
+            .onSuccess { geometry ->
+                realWidth = geometry.width
+                realHeight = geometry.height
+            }
+            .onFailure {
+                // OEM window services can reject display queries from a background
+                // service. Resource metrics are safe until the first frame arrives.
+                realWidth = resources.displayMetrics.widthPixels.coerceAtLeast(1)
+                realHeight = resources.displayMetrics.heightPixels.coerceAtLeast(1)
+            }
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
-        when (intent?.action) {
-            ACTION_STOP -> shutdown("stopped by user or emergency tool")
-            ACTION_START -> startAgent(intent)
+        runCatching {
+            when (intent?.action) {
+                ACTION_STOP -> shutdown("stopped by user or emergency tool")
+                ACTION_START -> startAgent(intent)
+            }
+        }.onFailure {
+            failStart("service startup", it)
         }
         return START_NOT_STICKY
     }
@@ -59,10 +71,10 @@ class AgentService : Service() {
     private fun startAgent(intent: Intent) {
         if (capture != null) return
         startForegroundCompat("starting")
+        AgentDiagnostics.clear(this)
         val config = AgentConfigStore.load(this)
         runCatching { SafetyPolicy.validateAllowlist(config.allowedPackages) }.onFailure {
-            state = "invalid configuration"
-            stopSelf()
+            failStart("configuration", it)
             return
         }
         val resultCode = intent.getIntExtra(EXTRA_RESULT_CODE, Int.MIN_VALUE)
@@ -73,8 +85,7 @@ class AgentService : Service() {
             intent.getParcelableExtra<Intent>(EXTRA_RESULT_DATA)
         }
         if (resultCode == Int.MIN_VALUE || resultData == null) {
-            state = "missing screen-capture grant"
-            stopSelf()
+            failStart("screen capture", IllegalStateException("permission grant is missing"))
             return
         }
         detector = TtcDetector { report ->
@@ -98,7 +109,7 @@ class AgentService : Service() {
                 onStopped = { shutdown("screen capture ended") },
             )
         }.getOrElse {
-            shutdown("screen capture failed: ${it.message ?: "unknown error"}")
+            failStart("screen capture", it)
             return
         }
         val manager = getSystemService(PowerManager::class.java)
@@ -108,6 +119,12 @@ class AgentService : Service() {
         }
         state = "active"
         startForegroundCompat(state)
+    }
+
+    private fun failStart(phase: String, error: Throwable) {
+        val detail = AgentDiagnostics.record(this, phase, error)
+        runCatching { startForegroundCompat("start failed") }
+        shutdown("start failed · $detail")
     }
 
     private fun onFrame(frame: CapturedFrame) {

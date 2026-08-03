@@ -34,8 +34,15 @@ class MainActivity : AppCompatActivity() {
             .setAction(AgentService.ACTION_START)
             .putExtra(AgentService.EXTRA_RESULT_CODE, result.resultCode)
             .putExtra(AgentService.EXTRA_RESULT_DATA, data)
-        ContextCompat.startForegroundService(this, service)
-        toast("Live agent starting")
+        runCatching {
+            AgentDiagnostics.clear(this)
+            ContextCompat.startForegroundService(this, service)
+        }.onSuccess {
+            toast("Live agent starting")
+        }.onFailure {
+            toast(AgentDiagnostics.record(this, "service launch", it))
+            updateStatus()
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -109,13 +116,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
             return
         }
-        val manager = getSystemService(MediaProjectionManager::class.java)
-        val captureIntent = if (Build.VERSION.SDK_INT >= 34) {
-            manager.createScreenCaptureIntent(MediaProjectionConfig.createConfigForDefaultDisplay())
-        } else {
-            manager.createScreenCaptureIntent()
+        runCatching {
+            val manager = getSystemService(MediaProjectionManager::class.java)
+            if (Build.VERSION.SDK_INT >= 34) {
+                manager.createScreenCaptureIntent(MediaProjectionConfig.createConfigForDefaultDisplay())
+            } else {
+                manager.createScreenCaptureIntent()
+            }
+        }.onSuccess(captureLauncher::launch).onFailure {
+            toast(AgentDiagnostics.record(this, "capture request", it))
+            updateStatus()
         }
-        captureLauncher.launch(captureIntent)
     }
 
     private fun updateStatus() {
@@ -123,6 +134,7 @@ class MainActivity : AppCompatActivity() {
         status.text = buildString {
             appendLine("Accessibility: ${if (GameAccessibilityService.isConnected()) "connected" else "off"}")
             appendLine("Agent: ${AgentService.statusSummary()}")
+            AgentDiagnostics.last(this@MainActivity)?.let { appendLine("Last start error: $it") }
             appendLine("Allowed games: ${config.allowedPackages.size}")
             appendLine("Foreground: ${GameAccessibilityService.foregroundPackage() ?: "unknown"}")
             append("Safety: gestures are rejected outside the exact local allowlist.")

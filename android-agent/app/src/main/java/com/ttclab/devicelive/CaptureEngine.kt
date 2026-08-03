@@ -15,6 +15,7 @@ import android.os.Handler
 import android.os.HandlerThread
 import android.os.SystemClock
 import android.util.DisplayMetrics
+import android.view.Display
 import android.view.Surface
 import android.view.WindowManager
 import java.io.ByteArrayOutputStream
@@ -207,26 +208,33 @@ class CaptureEngine(
 
         fun realGeometry(context: Context): Geometry {
             val windowManager = context.getSystemService(WindowManager::class.java)
+            val displayManager = context.getSystemService(DisplayManager::class.java)
+            @Suppress("DEPRECATION")
+            val defaultDisplay = displayManager.getDisplay(Display.DEFAULT_DISPLAY)
             val metrics = DisplayMetrics()
-            val width: Int
-            val height: Int
+            var width = context.resources.displayMetrics.widthPixels.coerceAtLeast(1)
+            var height = context.resources.displayMetrics.heightPixels.coerceAtLeast(1)
             if (Build.VERSION.SDK_INT >= 30) {
-                val bounds = windowManager.maximumWindowMetrics.bounds
-                width = bounds.width()
-                height = bounds.height()
+                val bounds = runCatching { windowManager.maximumWindowMetrics.bounds }.getOrNull()
+                if (bounds != null && bounds.width() > 0 && bounds.height() > 0) {
+                    width = bounds.width()
+                    height = bounds.height()
+                } else if (defaultDisplay != null) {
+                    @Suppress("DEPRECATION")
+                    defaultDisplay.getRealMetrics(metrics)
+                    width = metrics.widthPixels.coerceAtLeast(1)
+                    height = metrics.heightPixels.coerceAtLeast(1)
+                }
             } else {
-                @Suppress("DEPRECATION")
-                windowManager.defaultDisplay.getRealMetrics(metrics)
-                width = metrics.widthPixels
-                height = metrics.heightPixels
+                if (defaultDisplay != null) {
+                    @Suppress("DEPRECATION")
+                    defaultDisplay.getRealMetrics(metrics)
+                    width = metrics.widthPixels.coerceAtLeast(1)
+                    height = metrics.heightPixels.coerceAtLeast(1)
+                }
             }
-            val density = context.resources.configuration.densityDpi
-            val rotation = if (Build.VERSION.SDK_INT >= 30) {
-                context.display?.rotation ?: Surface.ROTATION_0
-            } else {
-                @Suppress("DEPRECATION")
-                windowManager.defaultDisplay.rotation
-            }
+            val density = context.resources.configuration.densityDpi.coerceAtLeast(DisplayMetrics.DENSITY_DEFAULT)
+            val rotation = runCatching { defaultDisplay?.rotation }.getOrNull() ?: Surface.ROTATION_0
             return Geometry(width, height, density, rotation)
         }
     }
