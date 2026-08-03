@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Low-latency game agent. Only exact packages listed below can receive gestures."
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/deviceId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Device ID"
+            android:inputType="textNoSuggestions" />
+
+        <EditText
+            android:id="@+id/relayUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="wss://relay.example.com/device"
+            android:inputType="textUri" />
+
+        <EditText
+            android:id="@+id/enrollmentToken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Device enrollment token (32+ characters)"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/allowedPackages"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:gravity="top|start"
+            android:hint="One exact game package per line"
+            android:inputType="textMultiLine|textNoSuggestions" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save configuration" />
+
+        <Button
+            android:id="@+id/accessibilityButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enable accessibility service" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start live agent and screen capture" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOP" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textIsSelectable="true"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>

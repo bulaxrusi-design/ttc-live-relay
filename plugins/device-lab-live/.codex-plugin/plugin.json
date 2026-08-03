@@ -1,0 +1,18 @@
+{
+  "name": "device-lab-live",
+  "version": "3.0.0",
+  "description": "Control exact allowlisted Android games over a low-latency relay and measure TTC on-device.",
+  "author": {
+    "name": "TTC Lab"
+  },
+  "interface": {
+    "displayName": "Device Lab Live",
+    "shortDescription": "Observe and play allowlisted Android games with on-device TTC.",
+    "longDescription": "Device Lab Live exposes safe Android game observation, batched gestures, autonomous play, and monotonic TTC reports through MCP.",
+    "developerName": "TTC Lab",
+    "category": "Developer Tools",
+    "capabilities": ["mcp"],
+    "defaultPrompt": "List my connected Device Lab phones, observe the allowlisted game, arm TTC, and play only within the exact foreground package."
+  },
+  "mcpServers": "./.mcp.json"
+}

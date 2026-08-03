@@ -1,0 +1,14 @@
+services:
+  device-lab-live:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATA_DIR: /data
+    ports:
+      - "${BIND_ADDRESS:-127.0.0.1}:8787:8787"
+    volumes:
+      - device-lab-data:/data
+
+volumes:
+  device-lab-data:
