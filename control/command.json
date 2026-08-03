@@ -1,11 +1,11 @@
 {
-  "seq": 10,
+  "seq": 11,
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "action": "tap",
   "x": 540,
-  "y": 1476,
+  "y": 1868,
   "normalized": false,
-  "settle_ms": 1200,
-  "expires_at": "2026-08-03T08:20:14.943Z",
-  "note": "Cancel destructive New Game confirmation and preserve current puzzle"
+  "settle_ms": 2200,
+  "expires_at": "2026-08-03T08:21:51.614Z",
+  "note": "Resume preserved current Sudoku using corrected physical coordinates"
 }
