@@ -230,6 +230,9 @@ export function mountMcp(app, { registry, autoplay, researchStore, bearerToken =
         transport = new StreamableHTTPServerTransport({
           sessionIdGenerator: () => randomUUID(),
           onsessioninitialized: (id) => transports.set(id, transport),
+          // Quick development tunnels do not reliably proxy long-lived SSE.
+          // JSON responses keep request/response tools usable without a domain.
+          enableJsonResponse: true,
         });
         transport.onclose = () => {
           if (transport.sessionId) transports.delete(transport.sessionId);

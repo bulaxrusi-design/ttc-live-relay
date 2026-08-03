@@ -28,6 +28,18 @@ authentication layer is in front of it. `MCP_BEARER_TOKEN` is intended for clien
 that can send a fixed Authorization header; Secure MCP Tunnel can provide the
 outer account-bound boundary instead.
 
+### No-domain Termux test
+
+For a short lab test on the Android phone itself, run the public repository's
+`scripts/termux-install.sh` in Termux. It installs Node.js and `cloudflared`, starts
+the relay on localhost, creates a temporary `trycloudflare.com` development
+tunnel, and prints the exact Android and ChatGPT values. Keep Termux running.
+
+This is intentionally a development path: the random URL changes when the tunnel
+restarts, and the MCP endpoint uses ChatGPT's `No Authentication` mode. Treat the
+URL like a secret and replace this setup with a stable authenticated host for
+extended research.
+
 ## 2. Android
 
 Install the debug APK artifact from the `Device Lab Live v3` workflow. In the app:
