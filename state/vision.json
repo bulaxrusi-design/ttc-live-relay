@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 109,
-  "captured_at": "2026-08-03T08:18:11.319Z",
+  "frame_id": 110,
+  "captured_at": "2026-08-03T08:18:16.742Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -104,57 +104,57 @@
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 227,
-  "full_text": "12:18 )\nMain\n7\nDAILY CHALLENGE\nAugust 3\nAre You Sure?\nIf you start a newW game,\nthe current game will be lost\nStart New Game\nCancel\nContinue Game\nNew Game\nall 82%9\nDaily Challenges\nMe",
-  "block_count": 14,
-  "line_count": 15,
-  "element_count": 36,
-  "number_count": 2,
+  "ocr_latency_ms": 236,
+  "full_text": "12:18 ).\nMain\nDAILY CHALLENGE\nAugust 3\nJourney\nComplete 1 game to unlock\nO of 1\nContinue Game\nNew Game\nDaily Challenges\nl 82%9\nMe",
+  "block_count": 12,
+  "line_count": 12,
+  "element_count": 25,
+  "number_count": 4,
   "blocks": [
     {
-      "text": "12:18 )",
+      "text": "12:18 ).",
       "image_box": {
-        "left": 77,
-        "top": 11,
-        "right": 195,
-        "bottom": 30,
-        "width": 118,
+        "left": 73,
+        "top": 10,
+        "right": 202,
+        "bottom": 29,
+        "width": 129,
         "height": 19
       },
       "screen_box": {
-        "left": 130,
-        "top": 19,
-        "right": 329,
-        "bottom": 51,
-        "width": 199,
+        "left": 123,
+        "top": 17,
+        "right": 341,
+        "bottom": 49,
+        "width": 218,
         "height": 32
       },
       "center": {
-        "x": 230,
-        "y": 35
+        "x": 232,
+        "y": 33
       },
       "normalized_center": {
-        "x": 0.21296296296296297,
-        "y": 0.01592356687898089
+        "x": 0.21481481481481482,
+        "y": 0.015013648771610554
       }
     },
     {
       "text": "Main",
       "image_box": {
         "left": 104,
-        "top": 1256,
+        "top": 1255,
         "right": 145,
         "bottom": 1270,
         "width": 41,
-        "height": 14
+        "height": 15
       },
       "screen_box": {
         "left": 176,
-        "top": 2120,
+        "top": 2119,
         "right": 245,
         "bottom": 2144,
         "width": 69,
-        "height": 24
+        "height": 25
       },
       "center": {
         "x": 211,
@@ -163,33 +163,6 @@
       "normalized_center": {
         "x": 0.19537037037037036,
         "y": 0.9699727024567789
-      }
-    },
-    {
-      "text": "7",
-      "image_box": {
-        "left": 328,
-        "top": 81,
-        "right": 339,
-        "bottom": 94,
-        "width": 11,
-        "height": 13
-      },
-      "screen_box": {
-        "left": 554,
-        "top": 137,
-        "right": 572,
-        "bottom": 159,
-        "width": 18,
-        "height": 22
-      },
-      "center": {
-        "x": 563,
-        "y": 148
-      },
-      "normalized_center": {
-        "x": 0.5212962962962963,
-        "y": 0.06733393994540492
       }
     },
     {
@@ -223,135 +196,108 @@
       "text": "August 3",
       "image_box": {
         "left": 202,
-        "top": 211,
-        "right": 297,
-        "bottom": 233,
-        "width": 95,
-        "height": 22
+        "top": 209,
+        "right": 295,
+        "bottom": 232,
+        "width": 93,
+        "height": 23
       },
       "screen_box": {
         "left": 341,
-        "top": 356,
-        "right": 501,
-        "bottom": 393,
-        "width": 160,
-        "height": 37
+        "top": 353,
+        "right": 498,
+        "bottom": 392,
+        "width": 157,
+        "height": 39
       },
       "center": {
-        "x": 421,
-        "y": 375
+        "x": 420,
+        "y": 373
       },
       "normalized_center": {
-        "x": 0.38981481481481484,
-        "y": 0.17060964513193813
+        "x": 0.3888888888888889,
+        "y": 0.1696997270245678
       }
     },
     {
-      "text": "Are You Sure?",
+      "text": "Journey",
       "image_box": {
-        "left": 208,
-        "top": 498,
-        "right": 431,
-        "bottom": 523,
-        "width": 223,
-        "height": 25
+        "left": 235,
+        "top": 559,
+        "right": 402,
+        "bottom": 598,
+        "width": 167,
+        "height": 39
       },
       "screen_box": {
-        "left": 351,
-        "top": 841,
-        "right": 727,
-        "bottom": 883,
-        "width": 376,
-        "height": 42
-      },
-      "center": {
-        "x": 539,
-        "y": 862
-      },
-      "normalized_center": {
-        "x": 0.49907407407407406,
-        "y": 0.3921747042766151
-      }
-    },
-    {
-      "text": "If you start a newW game,\nthe current game will be lost",
-      "image_box": {
-        "left": 172,
-        "top": 561,
-        "right": 466,
-        "bottom": 617,
-        "width": 294,
-        "height": 56
-      },
-      "screen_box": {
-        "left": 290,
-        "top": 947,
-        "right": 786,
-        "bottom": 1042,
-        "width": 496,
-        "height": 95
+        "left": 397,
+        "top": 944,
+        "right": 678,
+        "bottom": 1010,
+        "width": 281,
+        "height": 66
       },
       "center": {
         "x": 538,
-        "y": 995
+        "y": 977
       },
       "normalized_center": {
         "x": 0.4981481481481482,
-        "y": 0.4526842584167425
+        "y": 0.44449499545040944
       }
     },
     {
-      "text": "Start New Game",
+      "text": "Complete 1 game to unlock",
       "image_box": {
-        "left": 220,
-        "top": 698,
-        "right": 421,
+        "left": 175,
+        "top": 694,
+        "right": 465,
         "bottom": 717,
-        "width": 201,
-        "height": 19
+        "width": 290,
+        "height": 23
       },
       "screen_box": {
-        "left": 371,
-        "top": 1178,
-        "right": 710,
+        "left": 295,
+        "top": 1172,
+        "right": 785,
         "bottom": 1210,
-        "width": 339,
-        "height": 32
-      },
-      "center": {
-        "x": 541,
-        "y": 1194
-      },
-      "normalized_center": {
-        "x": 0.5009259259259259,
-        "y": 0.543221110100091
-      }
-    },
-    {
-      "text": "Cancel",
-      "image_box": {
-        "left": 278,
-        "top": 791,
-        "right": 362,
-        "bottom": 811,
-        "width": 84,
-        "height": 20
-      },
-      "screen_box": {
-        "left": 469,
-        "top": 1335,
-        "right": 611,
-        "bottom": 1369,
-        "width": 142,
-        "height": 34
+        "width": 490,
+        "height": 38
       },
       "center": {
         "x": 540,
-        "y": 1352
+        "y": 1191
       },
       "normalized_center": {
         "x": 0.5,
-        "y": 0.6151046405823476
+        "y": 0.5418562329390355
+      }
+    },
+    {
+      "text": "O of 1",
+      "image_box": {
+        "left": 297,
+        "top": 764,
+        "right": 341,
+        "bottom": 778,
+        "width": 44,
+        "height": 14
+      },
+      "screen_box": {
+        "left": 501,
+        "top": 1290,
+        "right": 575,
+        "bottom": 1313,
+        "width": 74,
+        "height": 23
+      },
+      "center": {
+        "x": 538,
+        "y": 1302
+      },
+      "normalized_center": {
+        "x": 0.4981481481481482,
+        "y": 0.5923566878980892
       }
     },
     {
@@ -359,25 +305,25 @@
       "image_box": {
         "left": 224,
         "top": 1001,
-        "right": 413,
+        "right": 414,
         "bottom": 1022,
-        "width": 189,
+        "width": 190,
         "height": 21
       },
       "screen_box": {
         "left": 378,
         "top": 1690,
-        "right": 697,
+        "right": 699,
         "bottom": 1725,
-        "width": 319,
+        "width": 321,
         "height": 35
       },
       "center": {
-        "x": 538,
+        "x": 539,
         "y": 1708
       },
       "normalized_center": {
-        "x": 0.4981481481481482,
+        "x": 0.49907407407407406,
         "y": 0.7770700636942676
       }
     },
@@ -409,33 +355,6 @@
       }
     },
     {
-      "text": "all 82%9",
-      "image_box": {
-        "left": 465,
-        "top": 11,
-        "right": 567,
-        "bottom": 28,
-        "width": 102,
-        "height": 17
-      },
-      "screen_box": {
-        "left": 785,
-        "top": 19,
-        "right": 957,
-        "bottom": 47,
-        "width": 172,
-        "height": 28
-      },
-      "center": {
-        "x": 871,
-        "y": 33
-      },
-      "normalized_center": {
-        "x": 0.8064814814814815,
-        "y": 0.015013648771610554
-      }
-    },
-    {
       "text": "Daily Challenges",
       "image_box": {
         "left": 245,
@@ -460,6 +379,33 @@
       "normalized_center": {
         "x": 0.49907407407407406,
         "y": 0.9699727024567789
+      }
+    },
+    {
+      "text": "l 82%9",
+      "image_box": {
+        "left": 506,
+        "top": 10,
+        "right": 569,
+        "bottom": 31,
+        "width": 63,
+        "height": 21
+      },
+      "screen_box": {
+        "left": 854,
+        "top": 17,
+        "right": 960,
+        "bottom": 52,
+        "width": 106,
+        "height": 35
+      },
+      "center": {
+        "x": 907,
+        "y": 35
+      },
+      "normalized_center": {
+        "x": 0.8398148148148148,
+        "y": 0.01592356687898089
       }
     },
     {
@@ -492,49 +438,49 @@
   ],
   "lines": [
     {
-      "text": "12:18 )",
+      "text": "12:18 ).",
       "image_box": {
-        "left": 77,
-        "top": 11,
-        "right": 195,
-        "bottom": 30,
-        "width": 118,
+        "left": 73,
+        "top": 10,
+        "right": 202,
+        "bottom": 29,
+        "width": 129,
         "height": 19
       },
       "screen_box": {
-        "left": 130,
-        "top": 19,
-        "right": 329,
-        "bottom": 51,
-        "width": 199,
+        "left": 123,
+        "top": 17,
+        "right": 341,
+        "bottom": 49,
+        "width": 218,
         "height": 32
       },
       "center": {
-        "x": 230,
-        "y": 35
+        "x": 232,
+        "y": 33
       },
       "normalized_center": {
-        "x": 0.21296296296296297,
-        "y": 0.01592356687898089
+        "x": 0.21481481481481482,
+        "y": 0.015013648771610554
       }
     },
     {
       "text": "Main",
       "image_box": {
         "left": 104,
-        "top": 1256,
+        "top": 1255,
         "right": 145,
         "bottom": 1270,
         "width": 41,
-        "height": 14
+        "height": 15
       },
       "screen_box": {
         "left": 176,
-        "top": 2120,
+        "top": 2119,
         "right": 245,
         "bottom": 2144,
         "width": 69,
-        "height": 24
+        "height": 25
       },
       "center": {
         "x": 211,
@@ -543,33 +489,6 @@
       "normalized_center": {
         "x": 0.19537037037037036,
         "y": 0.9699727024567789
-      }
-    },
-    {
-      "text": "7",
-      "image_box": {
-        "left": 328,
-        "top": 81,
-        "right": 339,
-        "bottom": 94,
-        "width": 11,
-        "height": 13
-      },
-      "screen_box": {
-        "left": 554,
-        "top": 137,
-        "right": 572,
-        "bottom": 159,
-        "width": 18,
-        "height": 22
-      },
-      "center": {
-        "x": 563,
-        "y": 148
-      },
-      "normalized_center": {
-        "x": 0.5212962962962963,
-        "y": 0.06733393994540492
       }
     },
     {
@@ -603,162 +522,108 @@
       "text": "August 3",
       "image_box": {
         "left": 202,
-        "top": 211,
-        "right": 297,
-        "bottom": 233,
-        "width": 95,
-        "height": 22
+        "top": 209,
+        "right": 295,
+        "bottom": 232,
+        "width": 93,
+        "height": 23
       },
       "screen_box": {
         "left": 341,
-        "top": 356,
-        "right": 501,
-        "bottom": 393,
-        "width": 160,
-        "height": 37
+        "top": 353,
+        "right": 498,
+        "bottom": 392,
+        "width": 157,
+        "height": 39
       },
       "center": {
-        "x": 421,
-        "y": 375
+        "x": 420,
+        "y": 373
       },
       "normalized_center": {
-        "x": 0.38981481481481484,
-        "y": 0.17060964513193813
+        "x": 0.3888888888888889,
+        "y": 0.1696997270245678
       }
     },
     {
-      "text": "Are You Sure?",
+      "text": "Journey",
       "image_box": {
-        "left": 208,
-        "top": 498,
-        "right": 431,
-        "bottom": 523,
-        "width": 223,
-        "height": 25
+        "left": 235,
+        "top": 559,
+        "right": 402,
+        "bottom": 598,
+        "width": 167,
+        "height": 39
       },
       "screen_box": {
-        "left": 351,
-        "top": 841,
-        "right": 727,
-        "bottom": 883,
-        "width": 376,
-        "height": 42
+        "left": 397,
+        "top": 944,
+        "right": 678,
+        "bottom": 1010,
+        "width": 281,
+        "height": 66
       },
       "center": {
-        "x": 539,
-        "y": 862
+        "x": 538,
+        "y": 977
       },
       "normalized_center": {
-        "x": 0.49907407407407406,
-        "y": 0.3921747042766151
+        "x": 0.4981481481481482,
+        "y": 0.44449499545040944
       }
     },
     {
-      "text": "If you start a newW game,",
+      "text": "Complete 1 game to unlock",
       "image_box": {
-        "left": 197,
-        "top": 561,
-        "right": 442,
-        "bottom": 586,
-        "width": 245,
-        "height": 25
-      },
-      "screen_box": {
-        "left": 332,
-        "top": 947,
-        "right": 746,
-        "bottom": 989,
-        "width": 414,
-        "height": 42
-      },
-      "center": {
-        "x": 539,
-        "y": 968
-      },
-      "normalized_center": {
-        "x": 0.49907407407407406,
-        "y": 0.44040036396724297
-      }
-    },
-    {
-      "text": "the current game will be lost",
-      "image_box": {
-        "left": 173,
-        "top": 594,
-        "right": 467,
-        "bottom": 616,
-        "width": 294,
-        "height": 22
-      },
-      "screen_box": {
-        "left": 292,
-        "top": 1003,
-        "right": 788,
-        "bottom": 1040,
-        "width": 496,
-        "height": 37
-      },
-      "center": {
-        "x": 540,
-        "y": 1022
-      },
-      "normalized_center": {
-        "x": 0.5,
-        "y": 0.46496815286624205
-      }
-    },
-    {
-      "text": "Start New Game",
-      "image_box": {
-        "left": 220,
-        "top": 698,
-        "right": 421,
+        "left": 175,
+        "top": 694,
+        "right": 465,
         "bottom": 717,
-        "width": 201,
-        "height": 19
+        "width": 290,
+        "height": 23
       },
       "screen_box": {
-        "left": 371,
-        "top": 1178,
-        "right": 710,
+        "left": 295,
+        "top": 1172,
+        "right": 785,
         "bottom": 1210,
-        "width": 339,
-        "height": 32
-      },
-      "center": {
-        "x": 541,
-        "y": 1194
-      },
-      "normalized_center": {
-        "x": 0.5009259259259259,
-        "y": 0.543221110100091
-      }
-    },
-    {
-      "text": "Cancel",
-      "image_box": {
-        "left": 278,
-        "top": 791,
-        "right": 362,
-        "bottom": 811,
-        "width": 84,
-        "height": 20
-      },
-      "screen_box": {
-        "left": 469,
-        "top": 1335,
-        "right": 611,
-        "bottom": 1369,
-        "width": 142,
-        "height": 34
+        "width": 490,
+        "height": 38
       },
       "center": {
         "x": 540,
-        "y": 1352
+        "y": 1191
       },
       "normalized_center": {
         "x": 0.5,
-        "y": 0.6151046405823476
+        "y": 0.5418562329390355
+      }
+    },
+    {
+      "text": "O of 1",
+      "image_box": {
+        "left": 297,
+        "top": 764,
+        "right": 341,
+        "bottom": 778,
+        "width": 44,
+        "height": 14
+      },
+      "screen_box": {
+        "left": 501,
+        "top": 1290,
+        "right": 575,
+        "bottom": 1313,
+        "width": 74,
+        "height": 23
+      },
+      "center": {
+        "x": 538,
+        "y": 1302
+      },
+      "normalized_center": {
+        "x": 0.4981481481481482,
+        "y": 0.5923566878980892
       }
     },
     {
@@ -766,25 +631,25 @@
       "image_box": {
         "left": 224,
         "top": 1001,
-        "right": 413,
+        "right": 414,
         "bottom": 1022,
-        "width": 189,
+        "width": 190,
         "height": 21
       },
       "screen_box": {
         "left": 378,
         "top": 1690,
-        "right": 697,
+        "right": 699,
         "bottom": 1725,
-        "width": 319,
+        "width": 321,
         "height": 35
       },
       "center": {
-        "x": 538,
+        "x": 539,
         "y": 1708
       },
       "normalized_center": {
-        "x": 0.4981481481481482,
+        "x": 0.49907407407407406,
         "y": 0.7770700636942676
       }
     },
@@ -816,33 +681,6 @@
       }
     },
     {
-      "text": "all 82%9",
-      "image_box": {
-        "left": 465,
-        "top": 11,
-        "right": 567,
-        "bottom": 28,
-        "width": 102,
-        "height": 17
-      },
-      "screen_box": {
-        "left": 785,
-        "top": 19,
-        "right": 957,
-        "bottom": 47,
-        "width": 172,
-        "height": 28
-      },
-      "center": {
-        "x": 871,
-        "y": 33
-      },
-      "normalized_center": {
-        "x": 0.8064814814814815,
-        "y": 0.015013648771610554
-      }
-    },
-    {
       "text": "Daily Challenges",
       "image_box": {
         "left": 245,
@@ -867,6 +705,33 @@
       "normalized_center": {
         "x": 0.49907407407407406,
         "y": 0.9699727024567789
+      }
+    },
+    {
+      "text": "l 82%9",
+      "image_box": {
+        "left": 506,
+        "top": 10,
+        "right": 569,
+        "bottom": 31,
+        "width": 63,
+        "height": 21
+      },
+      "screen_box": {
+        "left": 854,
+        "top": 17,
+        "right": 960,
+        "bottom": 52,
+        "width": 106,
+        "height": 35
+      },
+      "center": {
+        "x": 907,
+        "y": 35
+      },
+      "normalized_center": {
+        "x": 0.8398148148148148,
+        "y": 0.01592356687898089
       }
     },
     {
@@ -901,74 +766,74 @@
     {
       "text": "12:18",
       "image_box": {
-        "left": 77,
-        "top": 11,
-        "right": 127,
-        "bottom": 30,
+        "left": 73,
+        "top": 10,
+        "right": 123,
+        "bottom": 29,
         "width": 50,
         "height": 19
       },
       "screen_box": {
-        "left": 130,
-        "top": 19,
-        "right": 214,
-        "bottom": 51,
-        "width": 84,
+        "left": 123,
+        "top": 17,
+        "right": 208,
+        "bottom": 49,
+        "width": 85,
         "height": 32
       },
       "center": {
-        "x": 172,
-        "y": 35
+        "x": 166,
+        "y": 33
       },
       "normalized_center": {
-        "x": 0.15925925925925927,
-        "y": 0.01592356687898089
+        "x": 0.1537037037037037,
+        "y": 0.015013648771610554
       }
     },
     {
-      "text": ")",
+      "text": ").",
       "image_box": {
-        "left": 190,
-        "top": 11,
-        "right": 195,
-        "bottom": 30,
-        "width": 5,
+        "left": 189,
+        "top": 10,
+        "right": 202,
+        "bottom": 29,
+        "width": 13,
         "height": 19
       },
       "screen_box": {
-        "left": 321,
-        "top": 19,
-        "right": 329,
-        "bottom": 51,
-        "width": 8,
+        "left": 319,
+        "top": 17,
+        "right": 341,
+        "bottom": 49,
+        "width": 22,
         "height": 32
       },
       "center": {
-        "x": 325,
-        "y": 35
+        "x": 330,
+        "y": 33
       },
       "normalized_center": {
-        "x": 0.30092592592592593,
-        "y": 0.01592356687898089
+        "x": 0.3055555555555556,
+        "y": 0.015013648771610554
       }
     },
     {
       "text": "Main",
       "image_box": {
         "left": 104,
-        "top": 1256,
+        "top": 1255,
         "right": 145,
         "bottom": 1270,
         "width": 41,
-        "height": 14
+        "height": 15
       },
       "screen_box": {
         "left": 176,
-        "top": 2120,
+        "top": 2119,
         "right": 245,
         "bottom": 2144,
         "width": 69,
-        "height": 24
+        "height": 25
       },
       "center": {
         "x": 211,
@@ -977,33 +842,6 @@
       "normalized_center": {
         "x": 0.19537037037037036,
         "y": 0.9699727024567789
-      }
-    },
-    {
-      "text": "7",
-      "image_box": {
-        "left": 328,
-        "top": 81,
-        "right": 339,
-        "bottom": 94,
-        "width": 11,
-        "height": 13
-      },
-      "screen_box": {
-        "left": 554,
-        "top": 137,
-        "right": 572,
-        "bottom": 159,
-        "width": 18,
-        "height": 22
-      },
-      "center": {
-        "x": 563,
-        "y": 148
-      },
-      "normalized_center": {
-        "x": 0.5212962962962963,
-        "y": 0.06733393994540492
       }
     },
     {
@@ -1064,567 +902,297 @@
       "text": "August",
       "image_box": {
         "left": 202,
-        "top": 211,
-        "right": 278,
-        "bottom": 233,
-        "width": 76,
-        "height": 22
+        "top": 209,
+        "right": 276,
+        "bottom": 232,
+        "width": 74,
+        "height": 23
       },
       "screen_box": {
         "left": 341,
-        "top": 356,
-        "right": 469,
-        "bottom": 393,
-        "width": 128,
-        "height": 37
+        "top": 353,
+        "right": 466,
+        "bottom": 392,
+        "width": 125,
+        "height": 39
       },
       "center": {
-        "x": 405,
-        "y": 375
+        "x": 404,
+        "y": 373
       },
       "normalized_center": {
-        "x": 0.375,
-        "y": 0.17060964513193813
+        "x": 0.37407407407407406,
+        "y": 0.1696997270245678
       }
     },
     {
       "text": "3",
       "image_box": {
-        "left": 285,
-        "top": 211,
-        "right": 297,
-        "bottom": 233,
-        "width": 12,
-        "height": 22
-      },
-      "screen_box": {
-        "left": 481,
-        "top": 356,
-        "right": 501,
-        "bottom": 393,
-        "width": 20,
-        "height": 37
-      },
-      "center": {
-        "x": 491,
-        "y": 375
-      },
-      "normalized_center": {
-        "x": 0.4546296296296296,
-        "y": 0.17060964513193813
-      }
-    },
-    {
-      "text": "Are",
-      "image_box": {
-        "left": 208,
-        "top": 498,
-        "right": 262,
-        "bottom": 523,
-        "width": 54,
-        "height": 25
-      },
-      "screen_box": {
-        "left": 351,
-        "top": 841,
-        "right": 442,
-        "bottom": 883,
-        "width": 91,
-        "height": 42
-      },
-      "center": {
-        "x": 397,
-        "y": 862
-      },
-      "normalized_center": {
-        "x": 0.3675925925925926,
-        "y": 0.3921747042766151
-      }
-    },
-    {
-      "text": "You",
-      "image_box": {
-        "left": 271,
-        "top": 498,
-        "right": 331,
-        "bottom": 523,
-        "width": 60,
-        "height": 25
-      },
-      "screen_box": {
-        "left": 457,
-        "top": 841,
-        "right": 559,
-        "bottom": 883,
-        "width": 102,
-        "height": 42
-      },
-      "center": {
-        "x": 508,
-        "y": 862
-      },
-      "normalized_center": {
-        "x": 0.4703703703703704,
-        "y": 0.3921747042766151
-      }
-    },
-    {
-      "text": "Sure?",
-      "image_box": {
-        "left": 341,
-        "top": 498,
-        "right": 431,
-        "bottom": 523,
-        "width": 90,
-        "height": 25
-      },
-      "screen_box": {
-        "left": 575,
-        "top": 841,
-        "right": 727,
-        "bottom": 883,
-        "width": 152,
-        "height": 42
-      },
-      "center": {
-        "x": 651,
-        "y": 862
-      },
-      "normalized_center": {
-        "x": 0.6027777777777777,
-        "y": 0.3921747042766151
-      }
-    },
-    {
-      "text": "If",
-      "image_box": {
-        "left": 197,
-        "top": 562,
-        "right": 207,
-        "bottom": 583,
-        "width": 10,
+        "left": 284,
+        "top": 209,
+        "right": 295,
+        "bottom": 230,
+        "width": 11,
         "height": 21
       },
       "screen_box": {
-        "left": 332,
-        "top": 949,
-        "right": 349,
-        "bottom": 984,
-        "width": 17,
+        "left": 479,
+        "top": 353,
+        "right": 498,
+        "bottom": 388,
+        "width": 19,
         "height": 35
       },
       "center": {
-        "x": 341,
-        "y": 967
+        "x": 489,
+        "y": 371
       },
       "normalized_center": {
-        "x": 0.31574074074074077,
-        "y": 0.43994540491355777
+        "x": 0.4527777777777778,
+        "y": 0.16878980891719744
       }
     },
     {
-      "text": "you",
+      "text": "Journey",
       "image_box": {
-        "left": 214,
-        "top": 562,
-        "right": 251,
-        "bottom": 583,
-        "width": 37,
-        "height": 21
+        "left": 235,
+        "top": 559,
+        "right": 402,
+        "bottom": 598,
+        "width": 167,
+        "height": 39
       },
       "screen_box": {
-        "left": 361,
-        "top": 949,
-        "right": 424,
-        "bottom": 984,
-        "width": 63,
-        "height": 35
+        "left": 397,
+        "top": 944,
+        "right": 678,
+        "bottom": 1010,
+        "width": 281,
+        "height": 66
       },
       "center": {
-        "x": 393,
-        "y": 967
+        "x": 538,
+        "y": 977
       },
       "normalized_center": {
-        "x": 0.3638888888888889,
-        "y": 0.43994540491355777
+        "x": 0.4981481481481482,
+        "y": 0.44449499545040944
       }
     },
     {
-      "text": "start",
+      "text": "Complete",
       "image_box": {
-        "left": 259,
-        "top": 562,
-        "right": 305,
-        "bottom": 584,
-        "width": 46,
-        "height": 22
-      },
-      "screen_box": {
-        "left": 437,
-        "top": 949,
-        "right": 515,
-        "bottom": 986,
-        "width": 78,
-        "height": 37
-      },
-      "center": {
-        "x": 476,
-        "y": 968
-      },
-      "normalized_center": {
-        "x": 0.44074074074074077,
-        "y": 0.44040036396724297
-      }
-    },
-    {
-      "text": "a",
-      "image_box": {
-        "left": 312,
-        "top": 563,
-        "right": 322,
-        "bottom": 584,
-        "width": 10,
-        "height": 21
-      },
-      "screen_box": {
-        "left": 527,
-        "top": 950,
-        "right": 543,
-        "bottom": 986,
-        "width": 16,
-        "height": 36
-      },
-      "center": {
-        "x": 535,
-        "y": 968
-      },
-      "normalized_center": {
-        "x": 0.49537037037037035,
-        "y": 0.44040036396724297
-      }
-    },
-    {
-      "text": "newW",
-      "image_box": {
-        "left": 330,
-        "top": 563,
-        "right": 372,
-        "bottom": 585,
-        "width": 42,
-        "height": 22
-      },
-      "screen_box": {
-        "left": 557,
-        "top": 950,
-        "right": 628,
-        "bottom": 988,
-        "width": 71,
-        "height": 38
-      },
-      "center": {
-        "x": 593,
-        "y": 969
-      },
-      "normalized_center": {
-        "x": 0.549074074074074,
-        "y": 0.4408553230209281
-      }
-    },
-    {
-      "text": "game,",
-      "image_box": {
-        "left": 378,
-        "top": 564,
-        "right": 442,
-        "bottom": 587,
-        "width": 64,
+        "left": 175,
+        "top": 694,
+        "right": 279,
+        "bottom": 717,
+        "width": 104,
         "height": 23
       },
       "screen_box": {
-        "left": 638,
-        "top": 952,
-        "right": 746,
-        "bottom": 991,
-        "width": 108,
-        "height": 39
+        "left": 295,
+        "top": 1172,
+        "right": 471,
+        "bottom": 1210,
+        "width": 176,
+        "height": 38
       },
       "center": {
-        "x": 692,
-        "y": 972
+        "x": 383,
+        "y": 1191
       },
       "normalized_center": {
-        "x": 0.6407407407407407,
-        "y": 0.4422202001819836
+        "x": 0.35462962962962963,
+        "y": 0.5418562329390355
       }
     },
     {
-      "text": "the",
+      "text": "1",
       "image_box": {
-        "left": 173,
-        "top": 594,
-        "right": 205,
-        "bottom": 616,
-        "width": 32,
-        "height": 22
+        "left": 286,
+        "top": 694,
+        "right": 293,
+        "bottom": 717,
+        "width": 7,
+        "height": 23
       },
       "screen_box": {
-        "left": 292,
-        "top": 1003,
-        "right": 346,
-        "bottom": 1040,
-        "width": 54,
-        "height": 37
+        "left": 483,
+        "top": 1172,
+        "right": 494,
+        "bottom": 1210,
+        "width": 11,
+        "height": 38
       },
       "center": {
-        "x": 319,
-        "y": 1022
+        "x": 489,
+        "y": 1191
       },
       "normalized_center": {
-        "x": 0.2953703703703704,
-        "y": 0.46496815286624205
-      }
-    },
-    {
-      "text": "current",
-      "image_box": {
-        "left": 212,
-        "top": 594,
-        "right": 287,
-        "bottom": 616,
-        "width": 75,
-        "height": 22
-      },
-      "screen_box": {
-        "left": 358,
-        "top": 1003,
-        "right": 484,
-        "bottom": 1040,
-        "width": 126,
-        "height": 37
-      },
-      "center": {
-        "x": 421,
-        "y": 1022
-      },
-      "normalized_center": {
-        "x": 0.38981481481481484,
-        "y": 0.46496815286624205
+        "x": 0.4527777777777778,
+        "y": 0.5418562329390355
       }
     },
     {
       "text": "game",
       "image_box": {
-        "left": 294,
-        "top": 594,
-        "right": 352,
-        "bottom": 616,
-        "width": 58,
-        "height": 22
-      },
-      "screen_box": {
-        "left": 496,
-        "top": 1003,
-        "right": 594,
-        "bottom": 1040,
-        "width": 98,
-        "height": 37
-      },
-      "center": {
-        "x": 545,
-        "y": 1022
-      },
-      "normalized_center": {
-        "x": 0.5046296296296297,
-        "y": 0.46496815286624205
-      }
-    },
-    {
-      "text": "will",
-      "image_box": {
-        "left": 359,
-        "top": 594,
-        "right": 391,
-        "bottom": 616,
-        "width": 32,
-        "height": 22
-      },
-      "screen_box": {
-        "left": 606,
-        "top": 1003,
-        "right": 660,
-        "bottom": 1040,
-        "width": 54,
-        "height": 37
-      },
-      "center": {
-        "x": 633,
-        "y": 1022
-      },
-      "normalized_center": {
-        "x": 0.5861111111111111,
-        "y": 0.46496815286624205
-      }
-    },
-    {
-      "text": "be",
-      "image_box": {
-        "left": 399,
-        "top": 594,
-        "right": 423,
-        "bottom": 616,
-        "width": 24,
-        "height": 22
-      },
-      "screen_box": {
-        "left": 673,
-        "top": 1003,
-        "right": 714,
-        "bottom": 1040,
-        "width": 41,
-        "height": 37
-      },
-      "center": {
-        "x": 694,
-        "y": 1022
-      },
-      "normalized_center": {
-        "x": 0.6425925925925926,
-        "y": 0.46496815286624205
-      }
-    },
-    {
-      "text": "lost",
-      "image_box": {
-        "left": 431,
-        "top": 594,
-        "right": 467,
-        "bottom": 616,
-        "width": 36,
-        "height": 22
-      },
-      "screen_box": {
-        "left": 727,
-        "top": 1003,
-        "right": 788,
-        "bottom": 1040,
-        "width": 61,
-        "height": 37
-      },
-      "center": {
-        "x": 758,
-        "y": 1022
-      },
-      "normalized_center": {
-        "x": 0.7018518518518518,
-        "y": 0.46496815286624205
-      }
-    },
-    {
-      "text": "Start",
-      "image_box": {
-        "left": 220,
-        "top": 698,
-        "right": 279,
+        "left": 301,
+        "top": 694,
+        "right": 360,
         "bottom": 717,
         "width": 59,
-        "height": 19
+        "height": 23
       },
       "screen_box": {
-        "left": 371,
-        "top": 1178,
-        "right": 471,
+        "left": 508,
+        "top": 1172,
+        "right": 608,
         "bottom": 1210,
         "width": 100,
-        "height": 32
+        "height": 38
       },
       "center": {
-        "x": 421,
-        "y": 1194
+        "x": 558,
+        "y": 1191
       },
       "normalized_center": {
-        "x": 0.38981481481481484,
-        "y": 0.543221110100091
+        "x": 0.5166666666666667,
+        "y": 0.5418562329390355
       }
     },
     {
-      "text": "New",
+      "text": "to",
       "image_box": {
-        "left": 288,
-        "top": 698,
-        "right": 342,
+        "left": 366,
+        "top": 694,
+        "right": 387,
         "bottom": 717,
-        "width": 54,
-        "height": 19
+        "width": 21,
+        "height": 23
       },
       "screen_box": {
-        "left": 486,
-        "top": 1178,
-        "right": 577,
+        "left": 618,
+        "top": 1172,
+        "right": 653,
         "bottom": 1210,
-        "width": 91,
-        "height": 32
+        "width": 35,
+        "height": 38
       },
       "center": {
-        "x": 532,
-        "y": 1194
+        "x": 636,
+        "y": 1191
       },
       "normalized_center": {
-        "x": 0.4925925925925926,
-        "y": 0.543221110100091
+        "x": 0.5888888888888889,
+        "y": 0.5418562329390355
       }
     },
     {
-      "text": "Game",
+      "text": "unlock",
       "image_box": {
-        "left": 349,
-        "top": 698,
-        "right": 421,
+        "left": 394,
+        "top": 694,
+        "right": 465,
         "bottom": 717,
-        "width": 72,
-        "height": 19
+        "width": 71,
+        "height": 23
       },
       "screen_box": {
-        "left": 589,
-        "top": 1178,
-        "right": 710,
+        "left": 665,
+        "top": 1172,
+        "right": 785,
         "bottom": 1210,
-        "width": 121,
-        "height": 32
+        "width": 120,
+        "height": 38
       },
       "center": {
-        "x": 650,
-        "y": 1194
+        "x": 725,
+        "y": 1191
       },
       "normalized_center": {
-        "x": 0.6018518518518519,
-        "y": 0.543221110100091
+        "x": 0.6712962962962963,
+        "y": 0.5418562329390355
       }
     },
     {
-      "text": "Cancel",
+      "text": "O",
       "image_box": {
-        "left": 278,
-        "top": 791,
-        "right": 362,
-        "bottom": 811,
-        "width": 84,
-        "height": 20
+        "left": 297,
+        "top": 764,
+        "right": 308,
+        "bottom": 778,
+        "width": 11,
+        "height": 14
       },
       "screen_box": {
-        "left": 469,
-        "top": 1335,
-        "right": 611,
-        "bottom": 1369,
-        "width": 142,
-        "height": 34
+        "left": 501,
+        "top": 1290,
+        "right": 520,
+        "bottom": 1313,
+        "width": 19,
+        "height": 23
       },
       "center": {
-        "x": 540,
-        "y": 1352
+        "x": 511,
+        "y": 1302
       },
       "normalized_center": {
-        "x": 0.5,
-        "y": 0.6151046405823476
+        "x": 0.47314814814814815,
+        "y": 0.5923566878980892
+      }
+    },
+    {
+      "text": "of",
+      "image_box": {
+        "left": 314,
+        "top": 764,
+        "right": 330,
+        "bottom": 778,
+        "width": 16,
+        "height": 14
+      },
+      "screen_box": {
+        "left": 530,
+        "top": 1290,
+        "right": 557,
+        "bottom": 1313,
+        "width": 27,
+        "height": 23
+      },
+      "center": {
+        "x": 544,
+        "y": 1302
+      },
+      "normalized_center": {
+        "x": 0.5037037037037037,
+        "y": 0.5923566878980892
+      }
+    },
+    {
+      "text": "1",
+      "image_box": {
+        "left": 336,
+        "top": 764,
+        "right": 341,
+        "bottom": 778,
+        "width": 5,
+        "height": 14
+      },
+      "screen_box": {
+        "left": 567,
+        "top": 1290,
+        "right": 575,
+        "bottom": 1313,
+        "width": 8,
+        "height": 23
+      },
+      "center": {
+        "x": 571,
+        "y": 1302
+      },
+      "normalized_center": {
+        "x": 0.5287037037037037,
+        "y": 0.5923566878980892
       }
     },
     {
@@ -1632,44 +1200,44 @@
       "image_box": {
         "left": 224,
         "top": 1001,
-        "right": 335,
+        "right": 336,
         "bottom": 1022,
-        "width": 111,
+        "width": 112,
         "height": 21
       },
       "screen_box": {
         "left": 378,
         "top": 1690,
-        "right": 565,
+        "right": 567,
         "bottom": 1725,
-        "width": 187,
+        "width": 189,
         "height": 35
       },
       "center": {
-        "x": 472,
+        "x": 473,
         "y": 1708
       },
       "normalized_center": {
-        "x": 0.43703703703703706,
+        "x": 0.43796296296296294,
         "y": 0.7770700636942676
       }
     },
     {
       "text": "Game",
       "image_box": {
-        "left": 343,
+        "left": 342,
         "top": 1002,
-        "right": 413,
+        "right": 414,
         "bottom": 1022,
-        "width": 70,
+        "width": 72,
         "height": 20
       },
       "screen_box": {
-        "left": 579,
+        "left": 577,
         "top": 1692,
-        "right": 697,
+        "right": 699,
         "bottom": 1725,
-        "width": 118,
+        "width": 122,
         "height": 33
       },
       "center": {
@@ -1736,83 +1304,29 @@
       }
     },
     {
-      "text": "all",
-      "image_box": {
-        "left": 465,
-        "top": 11,
-        "right": 507,
-        "bottom": 28,
-        "width": 42,
-        "height": 17
-      },
-      "screen_box": {
-        "left": 785,
-        "top": 19,
-        "right": 856,
-        "bottom": 47,
-        "width": 71,
-        "height": 28
-      },
-      "center": {
-        "x": 821,
-        "y": 33
-      },
-      "normalized_center": {
-        "x": 0.7601851851851852,
-        "y": 0.015013648771610554
-      }
-    },
-    {
-      "text": "82%9",
-      "image_box": {
-        "left": 515,
-        "top": 11,
-        "right": 567,
-        "bottom": 28,
-        "width": 52,
-        "height": 17
-      },
-      "screen_box": {
-        "left": 869,
-        "top": 19,
-        "right": 957,
-        "bottom": 47,
-        "width": 88,
-        "height": 28
-      },
-      "center": {
-        "x": 913,
-        "y": 33
-      },
-      "normalized_center": {
-        "x": 0.8453703703703703,
-        "y": 0.015013648771610554
-      }
-    },
-    {
       "text": "Daily",
       "image_box": {
         "left": 245,
         "top": 1253,
-        "right": 288,
+        "right": 289,
         "bottom": 1271,
-        "width": 43,
+        "width": 44,
         "height": 18
       },
       "screen_box": {
         "left": 413,
         "top": 2115,
-        "right": 486,
+        "right": 488,
         "bottom": 2146,
-        "width": 73,
+        "width": 75,
         "height": 31
       },
       "center": {
-        "x": 450,
+        "x": 451,
         "y": 2131
       },
       "normalized_center": {
-        "x": 0.4166666666666667,
+        "x": 0.41759259259259257,
         "y": 0.9695177434030937
       }
     },
@@ -1841,6 +1355,60 @@
       "normalized_center": {
         "x": 0.537962962962963,
         "y": 0.9704276615104641
+      }
+    },
+    {
+      "text": "l",
+      "image_box": {
+        "left": 506,
+        "top": 10,
+        "right": 512,
+        "bottom": 31,
+        "width": 6,
+        "height": 21
+      },
+      "screen_box": {
+        "left": 854,
+        "top": 17,
+        "right": 864,
+        "bottom": 52,
+        "width": 10,
+        "height": 35
+      },
+      "center": {
+        "x": 859,
+        "y": 35
+      },
+      "normalized_center": {
+        "x": 0.7953703703703704,
+        "y": 0.01592356687898089
+      }
+    },
+    {
+      "text": "82%9",
+      "image_box": {
+        "left": 516,
+        "top": 10,
+        "right": 569,
+        "bottom": 31,
+        "width": 53,
+        "height": 21
+      },
+      "screen_box": {
+        "left": 871,
+        "top": 17,
+        "right": 960,
+        "bottom": 52,
+        "width": 89,
+        "height": 35
+      },
+      "center": {
+        "x": 916,
+        "y": 35
+      },
+      "normalized_center": {
+        "x": 0.8481481481481481,
+        "y": 0.01592356687898089
       }
     },
     {
@@ -1873,64 +1441,120 @@
   ],
   "numbers": [
     {
-      "text": "7",
-      "image_box": {
-        "left": 328,
-        "top": 81,
-        "right": 339,
-        "bottom": 94,
-        "width": 11,
-        "height": 13
-      },
-      "screen_box": {
-        "left": 554,
-        "top": 137,
-        "right": 572,
-        "bottom": 159,
-        "width": 18,
-        "height": 22
-      },
-      "center": {
-        "x": 563,
-        "y": 148
-      },
-      "normalized_center": {
-        "x": 0.5212962962962963,
-        "y": 0.06733393994540492
-      },
-      "value": 7
-    },
-    {
       "text": "3",
       "image_box": {
-        "left": 285,
-        "top": 211,
-        "right": 297,
-        "bottom": 233,
-        "width": 12,
-        "height": 22
+        "left": 284,
+        "top": 209,
+        "right": 295,
+        "bottom": 230,
+        "width": 11,
+        "height": 21
       },
       "screen_box": {
-        "left": 481,
-        "top": 356,
-        "right": 501,
-        "bottom": 393,
-        "width": 20,
-        "height": 37
+        "left": 479,
+        "top": 353,
+        "right": 498,
+        "bottom": 388,
+        "width": 19,
+        "height": 35
       },
       "center": {
-        "x": 491,
-        "y": 375
+        "x": 489,
+        "y": 371
       },
       "normalized_center": {
-        "x": 0.4546296296296296,
-        "y": 0.17060964513193813
+        "x": 0.4527777777777778,
+        "y": 0.16878980891719744
       },
       "value": 3
+    },
+    {
+      "text": "1",
+      "image_box": {
+        "left": 286,
+        "top": 694,
+        "right": 293,
+        "bottom": 717,
+        "width": 7,
+        "height": 23
+      },
+      "screen_box": {
+        "left": 483,
+        "top": 1172,
+        "right": 494,
+        "bottom": 1210,
+        "width": 11,
+        "height": 38
+      },
+      "center": {
+        "x": 489,
+        "y": 1191
+      },
+      "normalized_center": {
+        "x": 0.4527777777777778,
+        "y": 0.5418562329390355
+      },
+      "value": 1
+    },
+    {
+      "text": "O",
+      "image_box": {
+        "left": 297,
+        "top": 764,
+        "right": 308,
+        "bottom": 778,
+        "width": 11,
+        "height": 14
+      },
+      "screen_box": {
+        "left": 501,
+        "top": 1290,
+        "right": 520,
+        "bottom": 1313,
+        "width": 19,
+        "height": 23
+      },
+      "center": {
+        "x": 511,
+        "y": 1302
+      },
+      "normalized_center": {
+        "x": 0.47314814814814815,
+        "y": 0.5923566878980892
+      },
+      "value": 0
+    },
+    {
+      "text": "1",
+      "image_box": {
+        "left": 336,
+        "top": 764,
+        "right": 341,
+        "bottom": 778,
+        "width": 5,
+        "height": 14
+      },
+      "screen_box": {
+        "left": 567,
+        "top": 1290,
+        "right": 575,
+        "bottom": 1313,
+        "width": 8,
+        "height": 23
+      },
+      "center": {
+        "x": 571,
+        "y": 1302
+      },
+      "normalized_center": {
+        "x": 0.5287037037037037,
+        "y": 0.5923566878980892
+      },
+      "value": 1
     }
   ],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "8adec92691360d7889283ab271a07a52816b88d8ec81843cae5404e18c858a92",
+  "jpeg_sha256": "b508097d41557a6882a91a487434f267d3f6a1dd25c7eb81af7746688ec72f37",
   "redacted": false
 }
