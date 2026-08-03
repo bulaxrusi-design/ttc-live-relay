@@ -1,8 +1,11 @@
 {
-  "seq": 7,
+  "seq": 8,
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
-  "action": "back",
+  "action": "tap",
+  "x": 540,
+  "y": 2057,
+  "normalized": false,
   "settle_ms": 1800,
-  "expires_at": "2026-08-03T08:17:58.171Z",
-  "note": "Dismiss the in-game interstitial without opening the store"
+  "expires_at": "2026-08-03T08:18:31.816Z",
+  "note": "Open New Game using corrected physical display coordinates"
 }
