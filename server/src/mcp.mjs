@@ -41,7 +41,7 @@ export function createDeviceMcpServer(registry, autoplay, researchStore) {
     description: "Use this to find connected Android lab devices and their exact locally allowed game packages.",
     inputSchema: {},
     annotations: { readOnlyHint: true, destructiveHint: false, openWorldHint: false },
-  }, async () => result(registry.list()));
+  }, async () => result({ devices: registry.list() }));
 
   server.registerTool("observe_game", {
     title: "Observe game screen",
