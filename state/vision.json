@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 181,
-  "captured_at": "2026-08-03T08:26:39.037Z",
+  "frame_id": 182,
+  "captured_at": "2026-08-03T08:26:42.874Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -188,7 +188,7 @@
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 365,
+  "ocr_latency_ms": 623,
   "full_text": "12:26\nStage\n1\nX1\n8 9 8\nX\n279 213 9 6\nll 85%\n4 5 6 5 4 8 5 8 1\n5\nAll Time\nP17\n515 5 35 8 5 8\n7\n171 45",
   "block_count": 14,
   "line_count": 15,
@@ -280,27 +280,27 @@
       "text": "X1",
       "image_box": {
         "left": 221,
-        "top": 125,
+        "top": 137,
         "right": 242,
-        "bottom": 141,
+        "bottom": 153,
         "width": 21,
         "height": 16
       },
       "screen_box": {
         "left": 373,
-        "top": 211,
+        "top": 231,
         "right": 408,
-        "bottom": 238,
+        "bottom": 258,
         "width": 35,
         "height": 27
       },
       "center": {
         "x": 391,
-        "y": 225
+        "y": 245
       },
       "normalized_center": {
         "x": 0.36203703703703705,
-        "y": 0.10236578707916287
+        "y": 0.11146496815286625
       }
     },
     {
@@ -660,27 +660,27 @@
       "text": "X1",
       "image_box": {
         "left": 221,
-        "top": 125,
+        "top": 137,
         "right": 242,
-        "bottom": 141,
+        "bottom": 153,
         "width": 21,
         "height": 16
       },
       "screen_box": {
         "left": 373,
-        "top": 211,
+        "top": 231,
         "right": 408,
-        "bottom": 238,
+        "bottom": 258,
         "width": 35,
         "height": 27
       },
       "center": {
         "x": 391,
-        "y": 225
+        "y": 245
       },
       "normalized_center": {
         "x": 0.36203703703703705,
-        "y": 0.10236578707916287
+        "y": 0.11146496815286625
       }
     },
     {
@@ -1067,27 +1067,27 @@
       "text": "X1",
       "image_box": {
         "left": 221,
-        "top": 125,
+        "top": 137,
         "right": 242,
-        "bottom": 141,
+        "bottom": 153,
         "width": 21,
         "height": 16
       },
       "screen_box": {
         "left": 373,
-        "top": 211,
+        "top": 231,
         "right": 408,
-        "bottom": 238,
+        "bottom": 258,
         "width": 35,
         "height": 27
       },
       "center": {
         "x": 391,
-        "y": 225
+        "y": 245
       },
       "normalized_center": {
         "x": 0.36203703703703705,
-        "y": 0.10236578707916287
+        "y": 0.11146496815286625
       }
     },
     {
@@ -2715,6 +2715,6 @@
   ],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "b0dfb2edc64a2e8b5068d95033e4f3124cdccbdf53cefa29e5dff5ae642327e3",
+  "jpeg_sha256": "3030b3f2e5a49471e67a8b32b28637ce2043e1a0aa98843620402b5cc66aee8e",
   "redacted": false
 }
