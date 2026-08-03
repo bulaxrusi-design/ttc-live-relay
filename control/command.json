@@ -1,11 +1,11 @@
 {
-  "seq": 9,
+  "seq": 10,
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "action": "tap",
   "x": 540,
-  "y": 2057,
+  "y": 1476,
   "normalized": false,
-  "settle_ms": 2000,
-  "expires_at": "2026-08-03T08:19:12.930Z",
-  "note": "Retry New Game after transient SystemUI foreground block"
+  "settle_ms": 1200,
+  "expires_at": "2026-08-03T08:20:14.943Z",
+  "note": "Cancel destructive New Game confirmation and preserve current puzzle"
 }
