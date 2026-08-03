@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 127,
-  "captured_at": "2026-08-03T08:19:54.852Z",
+  "frame_id": 128,
+  "captured_at": "2026-08-03T08:20:00.948Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -356,15 +356,15 @@
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 273,
-  "full_text": "12:19 ).\nStage\n1\n2 792 139 67\n8 987\nall 83%9\n4 5 65 4 85 81\n5\nAll Time\n5 5 5 3 5 8 5 8\n5\n|714 5\n17",
+  "ocr_latency_ms": 304,
+  "full_text": "12:20 ).\nStage\n1\n2 792 139 67\n8 987\nall 83%9\n4 5 65 4 85 81\n5\nAll Time\n5 5 5 3 5 8 5 8\n5\n|714 5\n17",
   "block_count": 13,
   "line_count": 13,
   "element_count": 33,
   "number_count": 25,
   "blocks": [
     {
-      "text": "12:19 ).",
+      "text": "12:20 ).",
       "image_box": {
         "left": 73,
         "top": 10,
@@ -717,7 +717,7 @@
   ],
   "lines": [
     {
-      "text": "12:19 ).",
+      "text": "12:20 ).",
       "image_box": {
         "left": 73,
         "top": 10,
@@ -1070,7 +1070,7 @@
   ],
   "elements": [
     {
-      "text": "12:19",
+      "text": "12:20",
       "image_box": {
         "left": 73,
         "top": 10,
@@ -2665,6 +2665,6 @@
   ],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "aff67e7fc9b864c2decbbebb5ad87a4644134e6a83ab2a579c613becb86de544",
+  "jpeg_sha256": "9d5bb34438b198cd9f7436f483439d98d6642240a0d54ab7654753966d470ae9",
   "redacted": false
 }
