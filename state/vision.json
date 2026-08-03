@@ -1,8 +1,8 @@
 {
   "protocol_version": 5,
   "app_version": "2.4.1",
-  "frame_id": 117,
-  "captured_at": "2026-08-03T08:18:49.524Z",
+  "frame_id": 118,
+  "captured_at": "2026-08-03T08:18:53.305Z",
   "foreground_package": "com.easybrain.number.puzzle.game",
   "screen_width": 1080,
   "screen_height": 2198,
@@ -12,12 +12,40 @@
     "available": true,
     "package": "com.easybrain.number.puzzle.game",
     "class": "android.widget.FrameLayout",
-    "visited_count": 32,
-    "node_count": 9,
+    "visited_count": 8,
+    "node_count": 3,
     "truncated": false,
     "nodes": [
       {
-        "depth": 2,
+        "depth": 3,
+        "class": "android.widget.LinearLayout",
+        "view_id": "com.easybrain.number.puzzle.game:id\/action_bar_root",
+        "text": "",
+        "content_description": "",
+        "clickable": false,
+        "checkable": false,
+        "checked": false,
+        "editable": false,
+        "enabled": true,
+        "focusable": false,
+        "focused": false,
+        "scrollable": false,
+        "selected": false,
+        "screen_box": {
+          "left": 0,
+          "top": 0,
+          "right": 810,
+          "bottom": 1800,
+          "width": 810,
+          "height": 1800
+        },
+        "normalized_center": {
+          "x": 0.375,
+          "y": 0.4094631483166515
+        }
+      },
+      {
+        "depth": 4,
         "class": "android.widget.FrameLayout",
         "view_id": "android:id\/content",
         "text": "",
@@ -33,910 +61,280 @@
         "selected": false,
         "screen_box": {
           "left": 0,
-          "top": 56,
+          "top": 0,
           "right": 810,
-          "bottom": 1799,
-          "width": 810,
-          "height": 1743
-        },
-        "normalized_center": {
-          "x": 0.375,
-          "y": 0.42174704276615105
-        }
-      },
-      {
-        "depth": 9,
-        "class": "android.view.View",
-        "view_id": "root",
-        "text": "",
-        "content_description": "",
-        "clickable": false,
-        "checkable": false,
-        "checked": false,
-        "editable": false,
-        "enabled": true,
-        "focusable": false,
-        "focused": false,
-        "scrollable": false,
-        "selected": false,
-        "screen_box": {
-          "left": 0,
-          "top": 57,
-          "right": 811,
-          "bottom": 1799,
-          "width": 811,
-          "height": 1742
-        },
-        "normalized_center": {
-          "x": 0.375,
-          "y": 0.4222020018198362
-        }
-      },
-      {
-        "depth": 14,
-        "class": "android.view.View",
-        "view_id": "playable",
-        "text": "",
-        "content_description": "",
-        "clickable": false,
-        "checkable": false,
-        "checked": false,
-        "editable": false,
-        "enabled": true,
-        "focusable": true,
-        "focused": false,
-        "scrollable": false,
-        "selected": false,
-        "screen_box": {
-          "left": 0,
-          "top": 57,
-          "right": 811,
-          "bottom": 1799,
-          "width": 811,
-          "height": 1742
-        },
-        "normalized_center": {
-          "x": 0.375,
-          "y": 0.4222020018198362
-        }
-      },
-      {
-        "depth": 16,
-        "class": "android.widget.TextView",
-        "view_id": null,
-        "text": ".",
-        "content_description": "",
-        "clickable": false,
-        "checkable": false,
-        "checked": false,
-        "editable": false,
-        "enabled": true,
-        "focusable": false,
-        "focused": false,
-        "scrollable": false,
-        "selected": false,
-        "screen_box": {
-          "left": 0,
-          "top": 57,
-          "right": 0,
-          "bottom": 92,
-          "width": 0,
-          "height": 35
-        },
-        "normalized_center": {
-          "x": 0,
-          "y": 0.03366696997270246
-        }
-      },
-      {
-        "depth": 16,
-        "class": "android.widget.TextView",
-        "view_id": null,
-        "text": ".",
-        "content_description": "",
-        "clickable": false,
-        "checkable": false,
-        "checked": false,
-        "editable": false,
-        "enabled": true,
-        "focusable": false,
-        "focused": false,
-        "scrollable": false,
-        "selected": false,
-        "screen_box": {
-          "left": 0,
-          "top": 57,
-          "right": 811,
-          "bottom": 98,
-          "width": 811,
-          "height": 41
-        },
-        "normalized_center": {
-          "x": 0.375,
-          "y": 0.03503184713375796
-        }
-      },
-      {
-        "depth": 16,
-        "class": "android.widget.TextView",
-        "view_id": null,
-        "text": ".",
-        "content_description": "",
-        "clickable": false,
-        "checkable": false,
-        "checked": false,
-        "editable": false,
-        "enabled": true,
-        "focusable": false,
-        "focused": false,
-        "scrollable": false,
-        "selected": false,
-        "screen_box": {
-          "left": 0,
-          "top": 96,
-          "right": 811,
-          "bottom": 137,
-          "width": 811,
-          "height": 41
-        },
-        "normalized_center": {
-          "x": 0.375,
-          "y": 0.052775250227479524
-        }
-      },
-      {
-        "depth": 16,
-        "class": "android.widget.Image",
-        "view_id": "game-canvas",
-        "text": "",
-        "content_description": "",
-        "clickable": false,
-        "checkable": false,
-        "checked": false,
-        "editable": false,
-        "enabled": true,
-        "focusable": false,
-        "focused": false,
-        "scrollable": false,
-        "selected": false,
-        "screen_box": {
-          "left": 0,
-          "top": 57,
-          "right": 811,
           "bottom": 1800,
-          "width": 811,
-          "height": 1743
+          "width": 810,
+          "height": 1800
         },
         "normalized_center": {
           "x": 0.375,
-          "y": 0.4222020018198362
+          "y": 0.4094631483166515
         }
       },
       {
-        "depth": 16,
-        "class": "android.widget.Button",
-        "view_id": null,
-        "text": "select to enable accessibility for this content",
-        "content_description": "",
-        "clickable": true,
-        "checkable": false,
-        "checked": false,
-        "editable": false,
-        "enabled": true,
-        "focusable": true,
-        "focused": false,
-        "scrollable": false,
-        "selected": false,
-        "screen_box": {
-          "left": 0,
-          "top": 57,
-          "right": 0,
-          "bottom": 57,
-          "width": 0,
-          "height": 0
-        },
-        "normalized_center": {
-          "x": 0,
-          "y": 0.025932666060054597
-        }
-      },
-      {
-        "depth": 17,
-        "class": "android.widget.TextView",
-        "view_id": null,
-        "text": "Next",
-        "content_description": "",
+        "depth": 7,
+        "class": "android.view.View",
+        "view_id": "com.easybrain.number.puzzle.game:id\/unitySurfaceView",
+        "text": "",
+        "content_description": "Game view",
         "clickable": false,
         "checkable": false,
         "checked": false,
         "editable": false,
         "enabled": true,
-        "focusable": false,
-        "focused": false,
+        "focusable": true,
+        "focused": true,
         "scrollable": false,
         "selected": false,
         "screen_box": {
-          "left": 74,
-          "top": 98,
-          "right": 135,
-          "bottom": 110,
-          "width": 61,
-          "height": 12
+          "left": 0,
+          "top": 0,
+          "right": 810,
+          "bottom": 1800,
+          "width": 810,
+          "height": 1800
         },
         "normalized_center": {
-          "x": 0.0962962962962963,
-          "y": 0.047315741583257506
+          "x": 0.375,
+          "y": 0.4094631483166515
         }
       }
     ]
   },
   "ocr_ok": true,
   "ocr_error": null,
-  "ocr_latency_ms": 305,
-  "full_text": "MASTER\n1083299\nCoinMaster\nJenny\n34,520,000\nSTARITOSN\nSPIN\n290",
-  "block_count": 7,
-  "line_count": 8,
-  "element_count": 8,
-  "number_count": 1,
+  "ocr_latency_ms": 92,
+  "full_text": "12:18 ).\nll 82%",
+  "block_count": 2,
+  "line_count": 2,
+  "element_count": 4,
+  "number_count": 0,
   "blocks": [
     {
-      "text": "MASTER",
+      "text": "12:18 ).",
       "image_box": {
-        "left": 58,
-        "top": 118,
-        "right": 149,
-        "bottom": 150,
-        "width": 91,
+        "left": 73,
+        "top": 10,
+        "right": 204,
+        "bottom": 29,
+        "width": 131,
+        "height": 19
+      },
+      "screen_box": {
+        "left": 123,
+        "top": 17,
+        "right": 344,
+        "bottom": 49,
+        "width": 221,
         "height": 32
       },
-      "screen_box": {
-        "left": 98,
-        "top": 199,
-        "right": 251,
-        "bottom": 253,
-        "width": 153,
-        "height": 54
-      },
       "center": {
-        "x": 175,
-        "y": 226
+        "x": 234,
+        "y": 33
       },
       "normalized_center": {
-        "x": 0.16203703703703703,
-        "y": 0.10282074613284804
+        "x": 0.21666666666666667,
+        "y": 0.015013648771610554
       }
     },
     {
-      "text": "1083299",
+      "text": "ll 82%",
       "image_box": {
-        "left": 217,
-        "top": 112,
-        "right": 308,
-        "bottom": 136,
-        "width": 91,
-        "height": 24
+        "left": 500,
+        "top": 10,
+        "right": 553,
+        "bottom": 30,
+        "width": 53,
+        "height": 20
       },
       "screen_box": {
-        "left": 366,
-        "top": 189,
-        "right": 520,
-        "bottom": 230,
-        "width": 154,
-        "height": 41
+        "left": 844,
+        "top": 17,
+        "right": 933,
+        "bottom": 51,
+        "width": 89,
+        "height": 34
       },
       "center": {
-        "x": 443,
-        "y": 210
+        "x": 889,
+        "y": 34
       },
       "normalized_center": {
-        "x": 0.4101851851851852,
-        "y": 0.09554140127388536
-      }
-    },
-    {
-      "text": "CoinMaster",
-      "image_box": {
-        "left": 192,
-        "top": 256,
-        "right": 431,
-        "bottom": 309,
-        "width": 239,
-        "height": 53
-      },
-      "screen_box": {
-        "left": 324,
-        "top": 432,
-        "right": 727,
-        "bottom": 522,
-        "width": 403,
-        "height": 90
-      },
-      "center": {
-        "x": 526,
-        "y": 477
-      },
-      "normalized_center": {
-        "x": 0.48703703703703705,
-        "y": 0.2170154686078253
-      }
-    },
-    {
-      "text": "Jenny\n34,520,000",
-      "image_box": {
-        "left": 290,
-        "top": 314,
-        "right": 404,
-        "bottom": 368,
-        "width": 114,
-        "height": 54
-      },
-      "screen_box": {
-        "left": 489,
-        "top": 530,
-        "right": 682,
-        "bottom": 621,
-        "width": 193,
-        "height": 91
-      },
-      "center": {
-        "x": 586,
-        "y": 576
-      },
-      "normalized_center": {
-        "x": 0.5425925925925926,
-        "y": 0.26205641492265697
-      }
-    },
-    {
-      "text": "STARITOSN",
-      "image_box": {
-        "left": 182,
-        "top": 444,
-        "right": 434,
-        "bottom": 484,
-        "width": 252,
-        "height": 40
-      },
-      "screen_box": {
-        "left": 307,
-        "top": 750,
-        "right": 732,
-        "bottom": 817,
-        "width": 425,
-        "height": 67
-      },
-      "center": {
-        "x": 520,
-        "y": 784
-      },
-      "normalized_center": {
-        "x": 0.48148148148148145,
-        "y": 0.35668789808917195
-      }
-    },
-    {
-      "text": "SPIN",
-      "image_box": {
-        "left": 236,
-        "top": 1067,
-        "right": 396,
-        "bottom": 1127,
-        "width": 160,
-        "height": 60
-      },
-      "screen_box": {
-        "left": 398,
-        "top": 1801,
-        "right": 668,
-        "bottom": 1903,
-        "width": 270,
-        "height": 102
-      },
-      "center": {
-        "x": 533,
-        "y": 1852
-      },
-      "normalized_center": {
-        "x": 0.4935185185185185,
-        "y": 0.8425841674249318
-      }
-    },
-    {
-      "text": "290",
-      "image_box": {
-        "left": 503,
-        "top": 127,
-        "right": 527,
-        "bottom": 144,
-        "width": 24,
-        "height": 17
-      },
-      "screen_box": {
-        "left": 849,
-        "top": 214,
-        "right": 889,
-        "bottom": 243,
-        "width": 40,
-        "height": 29
-      },
-      "center": {
-        "x": 869,
-        "y": 229
-      },
-      "normalized_center": {
-        "x": 0.8046296296296296,
-        "y": 0.10418562329390355
+        "x": 0.8231481481481482,
+        "y": 0.015468607825295723
       }
     }
   ],
   "lines": [
     {
-      "text": "MASTER",
+      "text": "12:18 ).",
       "image_box": {
-        "left": 58,
-        "top": 118,
-        "right": 149,
-        "bottom": 150,
-        "width": 91,
-        "height": 32
-      },
-      "screen_box": {
-        "left": 98,
-        "top": 199,
-        "right": 251,
-        "bottom": 253,
-        "width": 153,
-        "height": 54
-      },
-      "center": {
-        "x": 175,
-        "y": 226
-      },
-      "normalized_center": {
-        "x": 0.16203703703703703,
-        "y": 0.10282074613284804
-      }
-    },
-    {
-      "text": "1083299",
-      "image_box": {
-        "left": 217,
-        "top": 112,
-        "right": 308,
-        "bottom": 136,
-        "width": 91,
-        "height": 24
-      },
-      "screen_box": {
-        "left": 366,
-        "top": 189,
-        "right": 520,
-        "bottom": 230,
-        "width": 154,
-        "height": 41
-      },
-      "center": {
-        "x": 443,
-        "y": 210
-      },
-      "normalized_center": {
-        "x": 0.4101851851851852,
-        "y": 0.09554140127388536
-      }
-    },
-    {
-      "text": "CoinMaster",
-      "image_box": {
-        "left": 192,
-        "top": 256,
-        "right": 431,
-        "bottom": 309,
-        "width": 239,
-        "height": 53
-      },
-      "screen_box": {
-        "left": 324,
-        "top": 432,
-        "right": 727,
-        "bottom": 522,
-        "width": 403,
-        "height": 90
-      },
-      "center": {
-        "x": 526,
-        "y": 477
-      },
-      "normalized_center": {
-        "x": 0.48703703703703705,
-        "y": 0.2170154686078253
-      }
-    },
-    {
-      "text": "Jenny",
-      "image_box": {
-        "left": 291,
-        "top": 314,
-        "right": 368,
-        "bottom": 342,
-        "width": 77,
-        "height": 28
-      },
-      "screen_box": {
-        "left": 491,
-        "top": 530,
-        "right": 621,
-        "bottom": 577,
-        "width": 130,
-        "height": 47
-      },
-      "center": {
-        "x": 556,
-        "y": 554
-      },
-      "normalized_center": {
-        "x": 0.5148148148148148,
-        "y": 0.25204731574158323
-      }
-    },
-    {
-      "text": "34,520,000",
-      "image_box": {
-        "left": 292,
-        "top": 348,
-        "right": 404,
-        "bottom": 367,
-        "width": 112,
+        "left": 73,
+        "top": 10,
+        "right": 204,
+        "bottom": 29,
+        "width": 131,
         "height": 19
       },
       "screen_box": {
-        "left": 493,
-        "top": 587,
-        "right": 682,
-        "bottom": 620,
-        "width": 189,
-        "height": 33
+        "left": 123,
+        "top": 17,
+        "right": 344,
+        "bottom": 49,
+        "width": 221,
+        "height": 32
       },
       "center": {
-        "x": 588,
-        "y": 604
+        "x": 234,
+        "y": 33
       },
       "normalized_center": {
-        "x": 0.5444444444444444,
-        "y": 0.2747952684258417
+        "x": 0.21666666666666667,
+        "y": 0.015013648771610554
       }
     },
     {
-      "text": "STARITOSN",
+      "text": "ll 82%",
       "image_box": {
-        "left": 182,
-        "top": 444,
-        "right": 434,
-        "bottom": 484,
-        "width": 252,
-        "height": 40
+        "left": 500,
+        "top": 10,
+        "right": 553,
+        "bottom": 30,
+        "width": 53,
+        "height": 20
       },
       "screen_box": {
-        "left": 307,
-        "top": 750,
-        "right": 732,
-        "bottom": 817,
-        "width": 425,
-        "height": 67
+        "left": 844,
+        "top": 17,
+        "right": 933,
+        "bottom": 51,
+        "width": 89,
+        "height": 34
       },
       "center": {
-        "x": 520,
-        "y": 784
+        "x": 889,
+        "y": 34
       },
       "normalized_center": {
-        "x": 0.48148148148148145,
-        "y": 0.35668789808917195
-      }
-    },
-    {
-      "text": "SPIN",
-      "image_box": {
-        "left": 236,
-        "top": 1067,
-        "right": 396,
-        "bottom": 1127,
-        "width": 160,
-        "height": 60
-      },
-      "screen_box": {
-        "left": 398,
-        "top": 1801,
-        "right": 668,
-        "bottom": 1903,
-        "width": 270,
-        "height": 102
-      },
-      "center": {
-        "x": 533,
-        "y": 1852
-      },
-      "normalized_center": {
-        "x": 0.4935185185185185,
-        "y": 0.8425841674249318
-      }
-    },
-    {
-      "text": "290",
-      "image_box": {
-        "left": 503,
-        "top": 127,
-        "right": 527,
-        "bottom": 144,
-        "width": 24,
-        "height": 17
-      },
-      "screen_box": {
-        "left": 849,
-        "top": 214,
-        "right": 889,
-        "bottom": 243,
-        "width": 40,
-        "height": 29
-      },
-      "center": {
-        "x": 869,
-        "y": 229
-      },
-      "normalized_center": {
-        "x": 0.8046296296296296,
-        "y": 0.10418562329390355
+        "x": 0.8231481481481482,
+        "y": 0.015468607825295723
       }
     }
   ],
   "elements": [
     {
-      "text": "MASTER",
+      "text": "12:18",
       "image_box": {
-        "left": 58,
-        "top": 118,
-        "right": 149,
-        "bottom": 150,
-        "width": 91,
-        "height": 32
-      },
-      "screen_box": {
-        "left": 98,
-        "top": 199,
-        "right": 251,
-        "bottom": 253,
-        "width": 153,
-        "height": 54
-      },
-      "center": {
-        "x": 175,
-        "y": 226
-      },
-      "normalized_center": {
-        "x": 0.16203703703703703,
-        "y": 0.10282074613284804
-      }
-    },
-    {
-      "text": "1083299",
-      "image_box": {
-        "left": 217,
-        "top": 112,
-        "right": 308,
-        "bottom": 136,
-        "width": 91,
-        "height": 24
-      },
-      "screen_box": {
-        "left": 366,
-        "top": 189,
-        "right": 520,
-        "bottom": 230,
-        "width": 154,
-        "height": 41
-      },
-      "center": {
-        "x": 443,
-        "y": 210
-      },
-      "normalized_center": {
-        "x": 0.4101851851851852,
-        "y": 0.09554140127388536
-      }
-    },
-    {
-      "text": "CoinMaster",
-      "image_box": {
-        "left": 192,
-        "top": 256,
-        "right": 431,
-        "bottom": 309,
-        "width": 239,
-        "height": 53
-      },
-      "screen_box": {
-        "left": 324,
-        "top": 432,
-        "right": 727,
-        "bottom": 522,
-        "width": 403,
-        "height": 90
-      },
-      "center": {
-        "x": 526,
-        "y": 477
-      },
-      "normalized_center": {
-        "x": 0.48703703703703705,
-        "y": 0.2170154686078253
-      }
-    },
-    {
-      "text": "Jenny",
-      "image_box": {
-        "left": 291,
-        "top": 314,
-        "right": 368,
-        "bottom": 342,
-        "width": 77,
-        "height": 28
-      },
-      "screen_box": {
-        "left": 491,
-        "top": 530,
-        "right": 621,
-        "bottom": 577,
-        "width": 130,
-        "height": 47
-      },
-      "center": {
-        "x": 556,
-        "y": 554
-      },
-      "normalized_center": {
-        "x": 0.5148148148148148,
-        "y": 0.25204731574158323
-      }
-    },
-    {
-      "text": "34,520,000",
-      "image_box": {
-        "left": 292,
-        "top": 348,
-        "right": 404,
-        "bottom": 367,
-        "width": 112,
+        "left": 73,
+        "top": 10,
+        "right": 123,
+        "bottom": 29,
+        "width": 50,
         "height": 19
       },
       "screen_box": {
-        "left": 493,
-        "top": 587,
-        "right": 682,
-        "bottom": 620,
-        "width": 189,
-        "height": 33
+        "left": 123,
+        "top": 17,
+        "right": 208,
+        "bottom": 49,
+        "width": 85,
+        "height": 32
       },
       "center": {
-        "x": 588,
-        "y": 604
+        "x": 166,
+        "y": 33
       },
       "normalized_center": {
-        "x": 0.5444444444444444,
-        "y": 0.2747952684258417
+        "x": 0.1537037037037037,
+        "y": 0.015013648771610554
       }
     },
     {
-      "text": "STARITOSN",
+      "text": ").",
       "image_box": {
-        "left": 182,
-        "top": 444,
-        "right": 434,
-        "bottom": 484,
-        "width": 252,
-        "height": 40
+        "left": 186,
+        "top": 10,
+        "right": 204,
+        "bottom": 29,
+        "width": 18,
+        "height": 19
       },
       "screen_box": {
-        "left": 307,
-        "top": 750,
-        "right": 732,
-        "bottom": 817,
-        "width": 425,
-        "height": 67
+        "left": 314,
+        "top": 17,
+        "right": 344,
+        "bottom": 49,
+        "width": 30,
+        "height": 32
       },
       "center": {
-        "x": 520,
-        "y": 784
+        "x": 329,
+        "y": 33
       },
       "normalized_center": {
-        "x": 0.48148148148148145,
-        "y": 0.35668789808917195
+        "x": 0.30462962962962964,
+        "y": 0.015013648771610554
       }
     },
     {
-      "text": "SPIN",
+      "text": "ll",
       "image_box": {
-        "left": 236,
-        "top": 1067,
-        "right": 396,
-        "bottom": 1127,
-        "width": 160,
-        "height": 60
+        "left": 500,
+        "top": 10,
+        "right": 513,
+        "bottom": 30,
+        "width": 13,
+        "height": 20
       },
       "screen_box": {
-        "left": 398,
-        "top": 1801,
-        "right": 668,
-        "bottom": 1903,
-        "width": 270,
-        "height": 102
+        "left": 844,
+        "top": 17,
+        "right": 866,
+        "bottom": 51,
+        "width": 22,
+        "height": 34
       },
       "center": {
-        "x": 533,
-        "y": 1852
+        "x": 855,
+        "y": 34
       },
       "normalized_center": {
-        "x": 0.4935185185185185,
-        "y": 0.8425841674249318
+        "x": 0.7916666666666666,
+        "y": 0.015468607825295723
       }
     },
     {
-      "text": "290",
+      "text": "82%",
       "image_box": {
-        "left": 503,
-        "top": 127,
-        "right": 527,
-        "bottom": 144,
-        "width": 24,
-        "height": 17
+        "left": 522,
+        "top": 10,
+        "right": 553,
+        "bottom": 30,
+        "width": 31,
+        "height": 20
       },
       "screen_box": {
-        "left": 849,
-        "top": 214,
-        "right": 889,
-        "bottom": 243,
-        "width": 40,
-        "height": 29
+        "left": 881,
+        "top": 17,
+        "right": 933,
+        "bottom": 51,
+        "width": 52,
+        "height": 34
       },
       "center": {
-        "x": 869,
-        "y": 229
+        "x": 907,
+        "y": 34
       },
       "normalized_center": {
-        "x": 0.8046296296296296,
-        "y": 0.10418562329390355
+        "x": 0.8398148148148148,
+        "y": 0.015468607825295723
       }
     }
   ],
-  "numbers": [
-    {
-      "text": "290",
-      "image_box": {
-        "left": 503,
-        "top": 127,
-        "right": 527,
-        "bottom": 144,
-        "width": 24,
-        "height": 17
-      },
-      "screen_box": {
-        "left": 849,
-        "top": 214,
-        "right": 889,
-        "bottom": 243,
-        "width": 40,
-        "height": 29
-      },
-      "center": {
-        "x": 869,
-        "y": 229
-      },
-      "normalized_center": {
-        "x": 0.8046296296296296,
-        "y": 0.10418562329390355
-      },
-      "value": 290
-    }
-  ],
+  "numbers": [],
   "session_id": "ecbc817e-415a-4fb2-8815-a62668cdf348",
   "allowed_package": "com.easybrain.number.puzzle.game",
-  "jpeg_sha256": "e75ea254f1c03243a899083affa28039bbaa1f5d2b7a05ce564893fed40c8f66",
+  "jpeg_sha256": "c981b0c49f74bbebc766d6a3797b28f20f3d4223593aa1d3a0208a6d52b1a381",
   "redacted": false
 }
