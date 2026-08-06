@@ -1,0 +1,8 @@
+{
+  "kind": "command_ack",
+  "commandId": "tap-20260806T224712-06",
+  "success": true,
+  "reason": "ok",
+  "resultingFrameId": 1786042899538,
+  "createdAtEpochMs": 1786042899598
+}
