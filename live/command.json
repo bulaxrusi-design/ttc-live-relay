@@ -1,0 +1,5 @@
+{
+  "id": "idle-0001",
+  "type": "wait",
+  "durationMs": 500
+}
