@@ -1,5 +1,4 @@
 {
-  "id": "idle-0001",
-  "type": "wait",
-  "durationMs": 500
+  "id": "launch-1786040430000",
+  "type": "launch"
 }
