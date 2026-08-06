@@ -1,4 +1,7 @@
 {
-  "id": "launch-20260806T224200-06",
-  "type": "launch"
+  "id": "tap-20260806T224300-01",
+  "type": "tap",
+  "x": 0.5,
+  "y": 0.5,
+  "durationMs": 80
 }
