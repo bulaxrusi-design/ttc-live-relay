@@ -1,10 +1,10 @@
 {
-  "frameId": "1786041821324",
-  "capturedAtEpochMs": 1786041821324,
-  "receivedAtEpochMs": 1786041822326,
-  "uploadLatencyMs": 1002,
-  "bytes": 103824,
+  "frameId": "1786041830459",
+  "capturedAtEpochMs": 1786041830459,
+  "receivedAtEpochMs": 1786041831480,
+  "uploadLatencyMs": 1021,
+  "bytes": 104096,
   "contentType": "image/jpeg",
   "githubPath": "live/latest.jpg",
-  "relayedAtEpochMs": 1786041822032
+  "relayedAtEpochMs": 1786041831351
 }
