@@ -1,7 +1,12 @@
 {
-  "id": "tap-20260806T224712-06",
-  "type": "tap",
-  "x": 0.5,
-  "y": 0.4,
-  "durationMs": 90
+  "id": "sequence-20260806T230300-start",
+  "type": "sequence",
+  "steps": [
+    {"type":"tap","x":0.50,"y":0.82,"durationMs":55,"afterMs":220},
+    {"type":"tap","x":0.50,"y":0.72,"durationMs":55,"afterMs":220},
+    {"type":"tap","x":0.50,"y":0.62,"durationMs":55,"afterMs":220},
+    {"type":"tap","x":0.50,"y":0.52,"durationMs":55,"afterMs":220},
+    {"type":"tap","x":0.28,"y":0.80,"durationMs":55,"afterMs":180},
+    {"type":"tap","x":0.72,"y":0.80,"durationMs":55,"afterMs":180}
+  ]
 }
